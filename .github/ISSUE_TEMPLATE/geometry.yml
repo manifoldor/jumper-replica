@@ -1,0 +1,35 @@
+name: Geometry or reproduction problem
+description: Report a source mapping, model, assembly, rendering or script problem.
+title: "[Geometry] "
+body:
+  - type: markdown
+    attributes:
+      value: "Include source IDs and reproducible evidence. Do not upload credentials, private machine paths or vendor CAD with unknown terms. English and Chinese reports are welcome."
+  - type: input
+    id: revision
+    attributes:
+      label: Repository commit
+      description: The Jumper Replica commit you tested.
+    validations:
+      required: true
+  - type: input
+    id: components
+    attributes:
+      label: Affected source IDs or files
+      placeholder: LF_shoulder_link__C001
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps and expected result
+      description: Include commands, application versions and operating system where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result and evidence
+      description: Attach screenshots or sanitized output; distinguish source geometry from local edits.
+    validations:
+      required: true

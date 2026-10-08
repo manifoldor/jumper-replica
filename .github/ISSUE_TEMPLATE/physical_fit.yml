@@ -1,0 +1,31 @@
+name: Physical-fit measurement
+description: Share a print or assembly measurement tied to identified source geometry.
+title: "[Fit] "
+body:
+  - type: input
+    id: components
+    attributes:
+      label: Source IDs and repository commit
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Matching hardware and printing setup
+      description: Printer, nozzle, material, profile and relevant hardware revision; use no serial numbers or private identifiers.
+    validations:
+      required: true
+  - type: textarea
+    id: measurements
+    attributes:
+      label: Measurements and photos
+      description: Give nominal and measured dimensions in mm, measuring method, mating interfaces and photos.
+    validations:
+      required: true
+  - type: textarea
+    id: changes
+    attributes:
+      label: Local changes and observed fit
+      description: Identify edited geometry and distinguish print, fit, load and motion checks.
+    validations:
+      required: true

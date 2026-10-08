@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Known information and unresolved interfaces
+    url: https://github.com/manifoldor/jumper-replica/blob/main/docs/KNOWN_INFORMATION.md
+    about: Check the current engineering status before reporting missing manufacturing information.
+  - name: Chinese documentation
+    url: https://github.com/manifoldor/jumper-replica/blob/main/README.zh.md
+    about: Read the Chinese project and assembly guides.

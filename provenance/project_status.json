@@ -18,6 +18,8 @@
   "load_and_motion": "not_tested",
   "hardware_integration": "not_verified",
   "complete_manufacturing_bom": "not_available",
-  "public_remote": "not_created",
-  "third_party_vendor_cad_binary": "excluded_pending_redistribution_permission"
+  "public_remote": "https://github.com/manifoldor/jumper-replica",
+  "third_party_vendor_cad_binary": "excluded_pending_redistribution_permission",
+  "publication_status": "published",
+  "initial_public_commit": "e9d2df64116b45f8b442e78962ebdbd8ed17aaab"
 }

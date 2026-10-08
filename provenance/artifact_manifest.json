@@ -13,9 +13,51 @@
       "provenance": "project_contribution_or_evidence"
     },
     {
+      "path": ".github/CODEOWNERS",
+      "bytes": 54,
+      "sha256": "29e5de71cac362fea6181e937e8e9d930dc84a7c71d130aa81ae6010f1c8df83",
+      "provenance": "project_contribution_or_evidence"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "bytes": 452,
+      "sha256": "7cb33030e481b8d922b6a0f3965a5b463233606f81c3471d6e5108a1511d9d50",
+      "provenance": "project_contribution_or_evidence"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/geometry.yml",
+      "bytes": 1179,
+      "sha256": "b655d2f8664c63df3ea6b5bc4b61e7051eaa367c6d8743e1682a25b18f3c31d6",
+      "provenance": "project_contribution_or_evidence"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/physical_fit.yml",
+      "bytes": 1018,
+      "sha256": "806a06b3ebd3c85036ab06eb938ccf41240206d5745201d584421449af8b7fb5",
+      "provenance": "project_contribution_or_evidence"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/proposal.yml",
+      "bytes": 609,
+      "sha256": "20f688c41f886963dd9fbeeecedd3f891f26e0b2b7b27b097d8047d7004aa76d",
+      "provenance": "project_contribution_or_evidence"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "bytes": 768,
+      "sha256": "d759ff959cfc3c373b750dfc043fb61dca2bef14e734ce05005084051e0b1427",
+      "provenance": "project_contribution_or_evidence"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "bytes": 164,
+      "sha256": "31929ec38429c6e5ef7d2160cc04b5916930002371c804e7b1ee5fece0f70d92",
+      "provenance": "project_contribution_or_evidence"
+    },
+    {
       "path": ".github/workflows/validate.yml",
-      "bytes": 329,
-      "sha256": "5c849842cc497940f827f3fe42289453d10f6302045cfc3a7ffbbaffbb4016c0",
+      "bytes": 801,
+      "sha256": "0c11ae6c910101b0fc55723fbcdc17f685fd1b9c20d0fed8775cbf754bc33b65",
       "provenance": "project_contribution_or_evidence"
     },
     {
@@ -26,14 +68,14 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 916,
-      "sha256": "dd76e449688b7b3d97a43a89bd1ef9aefbd7b8a82a6cd42a8b358d6b3b630da5",
+      "bytes": 1059,
+      "sha256": "cc1184d0b791e0d9e59fce76e8935bdc0483ea6bb88d44e87f10ca2327f75186",
       "provenance": "project_contribution_or_evidence"
     },
     {
       "path": "CHANGELOG.zh.md",
-      "bytes": 862,
-      "sha256": "932fadf747d21d2ae21f0473abb831e60028ebc6a06e010ea44d5ab38c6b46ee",
+      "bytes": 994,
+      "sha256": "63a34cd96c3e41c4901d78bd51f443dc1c595af7162d5811826d5b2913e4b698",
       "provenance": "project_contribution_or_evidence"
     },
     {
@@ -62,14 +104,26 @@
     },
     {
       "path": "README.md",
-      "bytes": 4589,
-      "sha256": "2e2b52f6b3a30da4c2fb62d9ed0640519bba5cfd4ecb483628d0f8301a1cea32",
+      "bytes": 5329,
+      "sha256": "2c2aca71bda5b9f4348b9fbf2f0f7cf063075342aa12440bdb2b0a3dabaa1427",
       "provenance": "project_contribution_or_evidence"
     },
     {
       "path": "README.zh.md",
-      "bytes": 4166,
-      "sha256": "19a4419204e0dc250185cf136155ec8b4a32e9afac4cffc7f3545e24a4ee1375",
+      "bytes": 4890,
+      "sha256": "6cfd49da9bd6b32c0d0a3c67b1c6e9791ba8692702b6a10731636ad870b12916",
+      "provenance": "project_contribution_or_evidence"
+    },
+    {
+      "path": "SUPPORT.md",
+      "bytes": 1086,
+      "sha256": "0bd8168878022a534bc981b0dc8294481682ee18e3355bf1695fb827e99a88b7",
+      "provenance": "project_contribution_or_evidence"
+    },
+    {
+      "path": "SUPPORT.zh.md",
+      "bytes": 1039,
+      "sha256": "509d753d44b4b22ee7ecd28b04b3414d20da9c04c09c83612e3de50af7f1e504",
       "provenance": "project_contribution_or_evidence"
     },
     {
@@ -10004,8 +10058,8 @@
     },
     {
       "path": "provenance/project_status.json",
-      "bytes": 776,
-      "sha256": "e2ff8bcc24eb770e4b53dabee0da30e4778f47750def2303c66f745276af25c0",
+      "bytes": 918,
+      "sha256": "79fecddee8e2cc85437e5520b09f629493e4742c8ab2782383cbc4aa7fc46e6b",
       "provenance": "project_contribution_or_evidence"
     },
     {
@@ -10064,8 +10118,8 @@
     },
     {
       "path": "tools/refresh_manifest.py",
-      "bytes": 1618,
-      "sha256": "97d6c11c22c4762cd745f5538fcdd2fefc6630e83bb93ca65f69980ddc551563",
+      "bytes": 1630,
+      "sha256": "ff679b6995f9626d53984a87b780b251ecb9ace0f12171ddab8430c932bcb000",
       "provenance": "project_contribution_or_evidence"
     },
     {
@@ -10112,8 +10166,8 @@
     },
     {
       "path": "tools/validate_release.py",
-      "bytes": 8533,
-      "sha256": "0df9bd5f4810975131e4d85a128d6908378fa67ace15ae0ed1f40aca93e9ef31",
+      "bytes": 8539,
+      "sha256": "6de20bdbbc8ec18d5c1a56784a5339f93de0fec6fb371a73801f7d9b754c3c96",
       "provenance": "project_contribution_or_evidence"
     },
     {

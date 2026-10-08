@@ -1,9 +1,10 @@
-<!-- tracks: CHANGELOG.md @ sha256:dd76e449688b7b3d97a43a89bd1ef9aefbd7b8a82a6cd42a8b358d6b3b630da5 -->
+<!-- tracks: CHANGELOG.md @ sha256:cc1184d0b791e0d9e59fce76e8935bdc0483ea6bb88d44e87f10ca2327f75186 -->
 
 # 变更日志
 
 ## 未发布 — 2026-10-08
 
+- 补充项目信息、支持 / 问题 / PR 入口、维护者归属与固定版本的跨平台 CI，修正已发布远程状态。
 - 从固定 Jumper 提交整理独立机械几何 / 试装参考目录。
 - 包含精选未修改源、原坐标 STL、13 个接缝恢复和 46 个分面 STEP。
 - 包含六件 STL / 3MF / 配置、试装记录表及切片证据；保留摘要与哈希，排除原始 G-code 与日志。

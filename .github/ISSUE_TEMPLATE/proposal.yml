@@ -1,0 +1,18 @@
+name: Improvement or missing information
+description: Propose a focused improvement or contribute a verifiable engineering reference.
+title: "[Proposal] "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or missing information
+      description: Include affected parts or documentation sections.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change and evidence
+      description: Link sources and describe how the result could be verified. Distinguish facts from hypotheses.
+    validations:
+      required: true

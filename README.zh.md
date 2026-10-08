@@ -1,6 +1,9 @@
-<!-- tracks: README.md @ sha256:2e2b52f6b3a30da4c2fb62d9ed0640519bba5cfd4ecb483628d0f8301a1cea32 -->
+<!-- tracks: README.md @ sha256:2c2aca71bda5b9f4348b9fbf2f0f7cf063075342aa12440bdb2b0a3dabaa1427 -->
 
 # Jumper Replica
+
+[![Integrity checks](https://github.com/manifoldor/jumper-replica/actions/workflows/validate.yml/badge.svg)](https://github.com/manifoldor/jumper-replica/actions/workflows/validate.yml)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
 
 [English](README.md) | **简体中文**
 
@@ -17,6 +20,16 @@
 - 固定版本的上游源码快照、来源与哈希、复现脚本及离线完整性验证。目录可整体移出原仓库独立使用。
 
 这些数量描述模型表示或渲染分组，不是已确认的制造 BOM。66 组标注包含三个模块参考和一组未识别内部组件；扣除后剩余的 62 组也不代表已核实的独立制造件数量。封闭网格与切片成功不能证明配合或强度。
+
+## 获取项目
+
+```sh
+git clone https://github.com/manifoldor/jumper-replica.git
+cd jumper-replica
+python3 tools/validate_release.py
+```
+
+也可通过 GitHub **Code → Download ZIP** 获取源码归档；克隆可保留版本历史。参考几何二进制直接存于 Git，无需 Git LFS。测量反馈与问题请参阅[支持说明](SUPPORT.zh.md)或使用[问题模板](https://github.com/manifoldor/jumper-replica/issues/new/choose)。
 
 ## 从这里开始
 

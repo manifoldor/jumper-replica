@@ -19,7 +19,7 @@ def triangles(path):
     return count
 
 def main():
-    manifest=read('provenance/artifact_manifest.json');rows=manifest['files'];known={r['path'] for r in rows};current={str(p.relative_to(ROOT)) for p in files()}
+    manifest=read('provenance/artifact_manifest.json');rows=manifest['files'];known={r['path'] for r in rows};current={p.relative_to(ROOT).as_posix() for p in files()}
     require(known==current,'File inventory differs from reviewed artifact manifest; review changes before refreshing')
     for r in rows:
         p=ROOT/r['path'];require(p.stat().st_size==r['bytes'] and sha(p)==r['sha256'],f'Artifact checksum mismatch: {r["path"]}')

@@ -1,5 +1,8 @@
 # Jumper Replica
 
+[![Integrity checks](https://github.com/manifoldor/jumper-replica/actions/workflows/validate.yml/badge.svg)](https://github.com/manifoldor/jumper-replica/actions/workflows/validate.yml)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)
+
 **English** | [简体中文](README.zh.md)
 
 An independent geometry-recovery and physical-fit reference project for [KingKong Robotics Jumper](https://github.com/KingKongRobotics/jumper), pinned to `61d065219fca767f3142c8f10aff59eae5a5a004`. Current stage: **digital geometry and reference slicing complete; no physical replica built or validated**. Updated 2026-10-08 (Asia/Shanghai).
@@ -15,6 +18,16 @@ An independent geometry-recovery and physical-fit reference project for [KingKon
 - A pinned upstream source snapshot, provenance/hashes, reusable scripts and offline integrity validation. The project can be moved away from the original checkout.
 
 Counts describe model representations and rendering groups, not a confirmed manufacturing BOM. The 66 annotations include three module references and an unidentified internal group. Even the remaining 62 groups are not a verified quantity of independent manufactured parts. Geometry closure and successful slicing do not prove physical fit or strength.
+
+## Get the project
+
+```sh
+git clone https://github.com/manifoldor/jumper-replica.git
+cd jumper-replica
+python3 tools/validate_release.py
+```
+
+Use GitHub **Code → Download ZIP** for a source archive, or clone to retain revision history. Binary reference geometry is stored directly in Git; Git LFS is not required. For measurements and questions use [support](SUPPORT.md) or [issue templates](https://github.com/manifoldor/jumper-replica/issues/new/choose).
 
 ## Start here
 
