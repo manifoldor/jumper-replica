@@ -10118,8 +10118,8 @@
     },
     {
       "path": "tools/refresh_manifest.py",
-      "bytes": 1630,
-      "sha256": "ff679b6995f9626d53984a87b780b251ecb9ace0f12171ddab8430c932bcb000",
+      "bytes": 1647,
+      "sha256": "96a74db8789d54eddf7d740b20f7c6a48395163d85aa3031547713f5e90566c4",
       "provenance": "project_contribution_or_evidence"
     },
     {
@@ -10166,8 +10166,8 @@
     },
     {
       "path": "tools/validate_release.py",
-      "bytes": 8539,
-      "sha256": "6de20bdbbc8ec18d5c1a56784a5339f93de0fec6fb371a73801f7d9b754c3c96",
+      "bytes": 8604,
+      "sha256": "86db4c929db6e44923cd6fc26d5511ae3603111ade135862ce57658960a05a07",
       "provenance": "project_contribution_or_evidence"
     },
     {

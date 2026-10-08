@@ -1,7 +1,7 @@
 {
   "status": "passed_integrity_and_provenance",
   "artifact_files": 1746,
-  "artifact_bytes": 292405711,
+  "artifact_bytes": 292405793,
   "source_files": 51,
   "source_commit": "61d065219fca767f3142c8f10aff59eae5a5a004",
   "links": 41,

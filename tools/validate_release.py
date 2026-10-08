@@ -6,7 +6,7 @@ from urllib.parse import unquote
 from refresh_manifest import ROOT,files,sha
 
 
-def read(path):return json.loads((ROOT/path).read_text())
+def read(path):return json.loads((ROOT/path).read_text(encoding='utf-8'))
 def csv_rows(path):return list(csv.DictReader((ROOT/path).open(encoding='utf-8-sig')))
 def require(condition,message):
     if not condition:raise ValueError(message)
@@ -64,11 +64,11 @@ def main():
     require(len(scene['items'])==88 and sum(triangles(ROOT/'assembly'/i['mesh']) for i in scene['items'])==430915,'Exploded geometry differs')
     for r in catalog:require((ROOT/r['geometry_path']).exists(),f'Catalog source missing: {r["source_id"]}')
     require(read('assembly/render_geometry_checks.json')['blender_faces']==430915 and read('assembly/blend_readback_validation.json')['faces']==430915,'Blender evidence incomplete')
-    for p in (ROOT/'tools').glob('*.py'):ast.parse(p.read_text())
+    for p in (ROOT/'tools').glob('*.py'):ast.parse(p.read_text(encoding='utf-8'))
     translations=0;link_count=0
     for p in ROOT.rglob('*.md'):
         if 'upstream_snapshot' in p.parts:continue
-        text=p.read_text()
+        text=p.read_text(encoding='utf-8')
         if p.name.endswith('.zh.md'):
             source_path=p.with_name(p.name.replace('.zh.md','.md'));require(source_path.exists() and f'tracks: {source_path.name} @ sha256:{sha(source_path)}' in text,f'Stale translation: {p.relative_to(ROOT)}');translations+=1
         text=re.sub(r'```.*?```','',text,flags=re.S)
@@ -87,7 +87,7 @@ def main():
     largest=max(rows,key=lambda r:r['bytes']);require(largest['bytes']<100*1024*1024,'Single file exceeds ordinary GitHub file limit; review hosting strategy')
     status=read('provenance/project_status.json');require(status['physical_fit']=='not_tested' and status['complete_manufacturing_bom']=='not_available','Unexpected manufacturing readiness claim')
     report=dict(status='passed_integrity_and_provenance',artifact_files=len(rows),artifact_bytes=sum(r['bytes'] for r in rows),source_files=len(source['files']),source_commit=source['commit'],links=41,components=1364,source_triangles=430915,validated_step_records=46,configured_3mf=6,annotation_groups=66,translation_pairs=translations,local_links_checked=link_count,largest_file=largest,physical_validation='not_performed',note='STEP validity evidence is hash-verified from earlier CAD-kernel runs; raw reference toolpaths are excluded, with slicing results and digests retained')
-    (ROOT/'provenance/release_validation.json').write_text(json.dumps(report,indent=2)+'\n')
+    (ROOT/'provenance/release_validation.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(report,indent=2))
 
 if __name__=='__main__':

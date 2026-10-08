@@ -22,5 +22,5 @@ if __name__=='__main__':
         provenance='unmodified_upstream_snapshot' if rel.startswith('upstream_snapshot/') and rel!='upstream_snapshot/source_manifest.json' else 'upstream_derived_geometry' if rel.startswith('geometry/') and p.suffix in {'.stl','.step','.glb'} else 'project_contribution_or_evidence'
         rows.append(dict(path=rel,bytes=p.stat().st_size,sha256=sha(p),provenance=provenance))
     target=ROOT/'provenance/artifact_manifest.json'
-    target.write_text(json.dumps(dict(schema_version=1,license='Apache-2.0; upstream notices and external-reference distinctions apply',excluded_volatile_files=sorted(EXCLUDED),files=rows),indent=2)+'\n')
+    target.write_text(json.dumps(dict(schema_version=1,license='Apache-2.0; upstream notices and external-reference distinctions apply',excluded_volatile_files=sorted(EXCLUDED),files=rows),indent=2)+'\n',encoding='utf-8')
     print(f'Manifest refreshed: {len(rows)} files / {sum(r["bytes"] for r in rows)} bytes')
