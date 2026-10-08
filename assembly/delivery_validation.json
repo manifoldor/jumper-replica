@@ -1,0 +1,13 @@
+{
+  "poster_pixels": [
+    6000,
+    4800
+  ],
+  "svg_xml_valid": true,
+  "unique_annotated_groups": 66,
+  "source_links": 41,
+  "source_and_blender_faces": 430915,
+  "blend_readback_passed": true,
+  "translation_hashes_valid": true,
+  "tracked_source_unchanged": true
+}

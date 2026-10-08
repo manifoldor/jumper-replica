@@ -1,0 +1,392 @@
+[
+  {
+    "id": "base_link__C003",
+    "original_role": "internal_component_identity_review",
+    "status": "closed_after_vertex_only_weld",
+    "original_faces": 5990,
+    "original_sha256": "45c04d35d521b92d6454007b9b65932713520b04ab3753b006b438b0cd62f7e9",
+    "grid_decimal_digits_mm": 4,
+    "max_vertex_displacement_mm": 7.152557373046875e-06,
+    "faces_unchanged": true,
+    "bounds_max_error_mm": 0.0,
+    "output": "seam_recovered_mm/base_link__C003.stl",
+    "output_sha256": "803989fb4b42e0fc6bbf5c31081f45f78ec984a4efa5bbfbc946264fab3042d9",
+    "hole_filling": false,
+    "face_deletion": false,
+    "physical_fit": "not_tested"
+  },
+  {
+    "id": "base_link__C004",
+    "original_role": "internal_component_identity_review",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 2832,
+    "original_sha256": "97531e5d551d9ce8006560bd8d754b2d18d7a90c37523a7267ec4d83ee2c941d"
+  },
+  {
+    "id": "base_link__C013",
+    "original_role": "internal_component_identity_review",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 856,
+    "original_sha256": "778fd5373bebca6243791e57f6fde61bceca9b475393065b32d312063834a58f"
+  },
+  {
+    "id": "base_link__C015",
+    "original_role": "internal_component_identity_review",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 462,
+    "original_sha256": "2f2037b856b4efdc9c3bc45fda40975eea5e26fe8c6c4957c27ae97481b5f02b"
+  },
+  {
+    "id": "base_link__C016",
+    "original_role": "internal_component_identity_review",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 462,
+    "original_sha256": "6860c4bd97363f393576472c6fd9ae788b95f081ce2026ae19c44709c7180d45"
+  },
+  {
+    "id": "base_link__C017",
+    "original_role": "internal_component_identity_review",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 462,
+    "original_sha256": "43cc293b15818400e04a9b30cd177fac6af44815ff680c9a09f65daa3b3dcbbc"
+  },
+  {
+    "id": "base_link__C018",
+    "original_role": "internal_component_identity_review",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 462,
+    "original_sha256": "b6b5a61426357ef4213bfdd6d9b3d8f87dcea96f93a33a0102a2cefb8218f002"
+  },
+  {
+    "id": "base_link__C019",
+    "original_role": "internal_component_identity_review",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 462,
+    "original_sha256": "94b353e2ce40c4d29893d575fe00779f432226de57595ee23250f4bb91b88be6"
+  },
+  {
+    "id": "base_link__C020",
+    "original_role": "internal_component_identity_review",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 462,
+    "original_sha256": "10f8b48c5d3667002d45d6c46e1bcba69482f81228d0462409f256c25243c503"
+  },
+  {
+    "id": "LF_upper_arm_link__C001",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 5814,
+    "original_sha256": "6f321a2059aacc79ae8bb7ad8b764a24c262659d06f837b39195fc54ad8289bc"
+  },
+  {
+    "id": "LF_upper_arm_link__C002",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 4918,
+    "original_sha256": "408d4bd325696d9ab31c7d5f0985c06d9e9476df13f9c60eae8ab42f23d6bb02"
+  },
+  {
+    "id": "LF_forearm_link__C001",
+    "original_role": "metal_connector_or_cover_review",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 4962,
+    "original_sha256": "930203e161b1dcb0e79a8f8f8b2905d6bcf0910e43acc60f82266d14cbf2a055"
+  },
+  {
+    "id": "LF_forearm_link__C002",
+    "original_role": "metal_connector_or_cover_review",
+    "status": "closed_after_vertex_only_weld",
+    "original_faces": 3076,
+    "original_sha256": "a90f40c4dc68a099cf673845247a4f54294fc650eb99866ad86ca6cfa9b1d426",
+    "grid_decimal_digits_mm": 4,
+    "max_vertex_displacement_mm": 2.6973983046972182e-06,
+    "faces_unchanged": true,
+    "bounds_max_error_mm": 0.0,
+    "output": "seam_recovered_mm/LF_forearm_link__C002.stl",
+    "output_sha256": "5af35a7b89f54f2e20f816860173ac6e9e08b641710143b25925fab7e49fb110",
+    "hole_filling": false,
+    "face_deletion": false,
+    "physical_fit": "not_tested"
+  },
+  {
+    "id": "LF_palm_link__C002",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "closed_after_vertex_only_weld",
+    "original_faces": 6700,
+    "original_sha256": "405e70c7dbb178ae1c39b623a47334564c2aaf10789f756a67ec26c69725f574",
+    "grid_decimal_digits_mm": 4,
+    "max_vertex_displacement_mm": 9.725607897935456e-06,
+    "faces_unchanged": true,
+    "bounds_max_error_mm": 0.0,
+    "output": "seam_recovered_mm/LF_palm_link__C002.stl",
+    "output_sha256": "d74938f51ce17e67de2d478d2ef8b68986dd4bd6b8bd42090f1af48c2e130b3f",
+    "hole_filling": false,
+    "face_deletion": false,
+    "physical_fit": "not_tested"
+  },
+  {
+    "id": "LF_finger_link__C001",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "closed_after_vertex_only_weld",
+    "original_faces": 3750,
+    "original_sha256": "5cf963e211e5c22cbd49ac63db28505ebf5a4c935e394daf1fc22eff621389c0",
+    "grid_decimal_digits_mm": 3,
+    "max_vertex_displacement_mm": 1.7993891014207083e-05,
+    "faces_unchanged": true,
+    "bounds_max_error_mm": 0.0,
+    "output": "seam_recovered_mm/LF_finger_link__C001.stl",
+    "output_sha256": "fc12a051d0486537f8091dd16314c3072b02365c0a18c941216e4a0bc10aec2b",
+    "hole_filling": false,
+    "face_deletion": false,
+    "physical_fit": "not_tested"
+  },
+  {
+    "id": "LF_finger_grip_insert_link__C001",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "closed_after_vertex_only_weld",
+    "original_faces": 2304,
+    "original_sha256": "cdfe8c7b8f604a5e72ceb784d7226f21542c31ebfe865845f2f4c7e97082c4f4",
+    "grid_decimal_digits_mm": 4,
+    "max_vertex_displacement_mm": 8.533253749930039e-06,
+    "faces_unchanged": true,
+    "bounds_max_error_mm": 0.0,
+    "output": "seam_recovered_mm/LF_finger_grip_insert_link__C001.stl",
+    "output_sha256": "8967141b4e487351244411b50a98fc4f0d98ec9f420840285d76af673deaa862",
+    "hole_filling": false,
+    "face_deletion": false,
+    "physical_fit": "not_tested"
+  },
+  {
+    "id": "RF_upper_arm_link__C001",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 5814,
+    "original_sha256": "3b6b5d4b97e767288f3d1ff7918787b7156054152ae4716cf74d08ec7c85b6b9"
+  },
+  {
+    "id": "RF_upper_arm_link__C002",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 4918,
+    "original_sha256": "0ad2b03cc4fa2e37728ad9039929ee11c65af72624217b69ffe0793cfa063a8e"
+  },
+  {
+    "id": "RF_forearm_link__C001",
+    "original_role": "metal_connector_or_cover_review",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 4962,
+    "original_sha256": "b0a0537d415a8e220aca02dcb6e1dac80908d149d691e14e1b3834a04a8bb11d"
+  },
+  {
+    "id": "RF_forearm_link__C002",
+    "original_role": "metal_connector_or_cover_review",
+    "status": "closed_after_vertex_only_weld",
+    "original_faces": 3076,
+    "original_sha256": "1d3e0d3eaa238280bdef35b4394c3a416ea72561941fed081c7714f1495d29d8",
+    "grid_decimal_digits_mm": 4,
+    "max_vertex_displacement_mm": 2.6973983046972182e-06,
+    "faces_unchanged": true,
+    "bounds_max_error_mm": 0.0,
+    "output": "seam_recovered_mm/RF_forearm_link__C002.stl",
+    "output_sha256": "9efb5991276043cb1fbebbb451ea07110a5173ba9fb49c15604e142661b656f5",
+    "hole_filling": false,
+    "face_deletion": false,
+    "physical_fit": "not_tested"
+  },
+  {
+    "id": "RF_palm_link__C002",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "closed_after_vertex_only_weld",
+    "original_faces": 6700,
+    "original_sha256": "ed54ac38245fd175bd5d497949d8c03a01546e070864ac06fd40e8fe254ae9e9",
+    "grid_decimal_digits_mm": 4,
+    "max_vertex_displacement_mm": 9.725607897935456e-06,
+    "faces_unchanged": true,
+    "bounds_max_error_mm": 0.0,
+    "output": "seam_recovered_mm/RF_palm_link__C002.stl",
+    "output_sha256": "5c226a280d9b8b49bba019a1a5346c12e8ad7c6da0b2cb04c7b609659b64e952",
+    "hole_filling": false,
+    "face_deletion": false,
+    "physical_fit": "not_tested"
+  },
+  {
+    "id": "RF_finger_link__C001",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "closed_after_vertex_only_weld",
+    "original_faces": 3750,
+    "original_sha256": "7b42a415df407d531724859c932147259414693a8616d509316f18f11b127629",
+    "grid_decimal_digits_mm": 3,
+    "max_vertex_displacement_mm": 1.7993891014207083e-05,
+    "faces_unchanged": true,
+    "bounds_max_error_mm": 0.0,
+    "output": "seam_recovered_mm/RF_finger_link__C001.stl",
+    "output_sha256": "263c22339e8a89a982de2efb8bf58134a3888c5ee447126c0d8388f55a00884c",
+    "hole_filling": false,
+    "face_deletion": false,
+    "physical_fit": "not_tested"
+  },
+  {
+    "id": "RF_finger_grip_insert_link__C001",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "closed_after_vertex_only_weld",
+    "original_faces": 2304,
+    "original_sha256": "42d223d7de7e67b5a620ea51d3d8ffc99d5aa386c71e33dd87e5b5584a500b10",
+    "grid_decimal_digits_mm": 4,
+    "max_vertex_displacement_mm": 8.533253749930039e-06,
+    "faces_unchanged": true,
+    "bounds_max_error_mm": 0.0,
+    "output": "seam_recovered_mm/RF_finger_grip_insert_link__C001.stl",
+    "output_sha256": "3538b4f9a91e952d8c8291fbddf2df355fe368a47effdaa5bc67a8a208f98cc3",
+    "hole_filling": false,
+    "face_deletion": false,
+    "physical_fit": "not_tested"
+  },
+  {
+    "id": "LM_hip_link__C001",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 6148,
+    "original_sha256": "3c5dd8d53def0f7261dd0dcee5384a20d9b7276bf6c09d0bb508dccf108f2646"
+  },
+  {
+    "id": "LM_hip_link__C002",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 6042,
+    "original_sha256": "693f86e68e371567faec69c310eda3e3536c67ede105b362711c6e150a218171"
+  },
+  {
+    "id": "LM_thigh_link__C001",
+    "original_role": "metal_connector_or_cover_review",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 4962,
+    "original_sha256": "6d87ac0c1ae1de5fffe7cd17b2f0af99e6a48d694541a98a054ac31ba8eabf9b"
+  },
+  {
+    "id": "LM_thigh_link__C002",
+    "original_role": "metal_connector_or_cover_review",
+    "status": "closed_after_vertex_only_weld",
+    "original_faces": 3076,
+    "original_sha256": "eaca8b578a0be6d4be7c08fcfb997486bd4b894292105f05bd95267dec9f0c42",
+    "grid_decimal_digits_mm": 4,
+    "max_vertex_displacement_mm": 3.844384073399806e-06,
+    "faces_unchanged": true,
+    "bounds_max_error_mm": 0.0,
+    "output": "seam_recovered_mm/LM_thigh_link__C002.stl",
+    "output_sha256": "168a6f625ffcd5eaf066262008c03a2898075ae8f9570d2d375467011209b6f2",
+    "hole_filling": false,
+    "face_deletion": false,
+    "physical_fit": "not_tested"
+  },
+  {
+    "id": "RM_hip_link__C001",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 6148,
+    "original_sha256": "32e515de73ceadff3b6ffd9a0fd07cd560c9d29ad5bb70657ccee19431a44af3"
+  },
+  {
+    "id": "RM_hip_link__C002",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 6042,
+    "original_sha256": "7f9c6944ce341fbf19fe3568b183aac508aa34c7b9ae2d0630f4fb208855f665"
+  },
+  {
+    "id": "RM_thigh_link__C001",
+    "original_role": "metal_connector_or_cover_review",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 4962,
+    "original_sha256": "7cccd24f3f27cda648590fe01070582835f19ee71f7015802383eaf8007de4e3"
+  },
+  {
+    "id": "RM_thigh_link__C002",
+    "original_role": "metal_connector_or_cover_review",
+    "status": "closed_after_vertex_only_weld",
+    "original_faces": 3076,
+    "original_sha256": "c74da86f957295ac0467e2749485b1abc6f4209d457a6f487f14b968e06082b6",
+    "grid_decimal_digits_mm": 4,
+    "max_vertex_displacement_mm": 2.6973983046972182e-06,
+    "faces_unchanged": true,
+    "bounds_max_error_mm": 0.0,
+    "output": "seam_recovered_mm/RM_thigh_link__C002.stl",
+    "output_sha256": "a01d3c2cfced5ca4408848bd0a911d8df97fc4dea1cfab0802fe2371f0d2b1b2",
+    "hole_filling": false,
+    "face_deletion": false,
+    "physical_fit": "not_tested"
+  },
+  {
+    "id": "LR_hip_link__C001",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 6148,
+    "original_sha256": "cc42c48bc251f5433b718df7955e5f0970a0e2352d17cdc3bbd13ac28659c165"
+  },
+  {
+    "id": "LR_hip_link__C002",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 6042,
+    "original_sha256": "9eb2040017afbdf72e29611e358014172c9b89c2cca7d32309563f312c576e87"
+  },
+  {
+    "id": "LR_thigh_link__C001",
+    "original_role": "metal_connector_or_cover_review",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 4962,
+    "original_sha256": "bab1c51d96d4537767fb147bd3a21af349d813d00c870476b6cf6864b6e45ef1"
+  },
+  {
+    "id": "LR_thigh_link__C002",
+    "original_role": "metal_connector_or_cover_review",
+    "status": "closed_after_vertex_only_weld",
+    "original_faces": 3076,
+    "original_sha256": "eaca8b578a0be6d4be7c08fcfb997486bd4b894292105f05bd95267dec9f0c42",
+    "grid_decimal_digits_mm": 4,
+    "max_vertex_displacement_mm": 3.844384073399806e-06,
+    "faces_unchanged": true,
+    "bounds_max_error_mm": 0.0,
+    "output": "seam_recovered_mm/LR_thigh_link__C002.stl",
+    "output_sha256": "168a6f625ffcd5eaf066262008c03a2898075ae8f9570d2d375467011209b6f2",
+    "hole_filling": false,
+    "face_deletion": false,
+    "physical_fit": "not_tested"
+  },
+  {
+    "id": "RR_hip_link__C001",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 6148,
+    "original_sha256": "97374863794a5ba302816cfabb547df59b64e9128b2e8444bf8f9feeb3525395"
+  },
+  {
+    "id": "RR_hip_link__C002",
+    "original_role": "open_geometry_repair_or_reconstruction_needed",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 6042,
+    "original_sha256": "c411c2389312b84811e00ba74ce413f17769024c1f884ded2ea57c50604122f6"
+  },
+  {
+    "id": "RR_thigh_link__C001",
+    "original_role": "metal_connector_or_cover_review",
+    "status": "still_open_no_reconstruction",
+    "original_faces": 4962,
+    "original_sha256": "600ec46ac4fd4bc30145649fc18a523fcb1ffde6bcd5da6b182d3986f5f28383"
+  },
+  {
+    "id": "RR_thigh_link__C002",
+    "original_role": "metal_connector_or_cover_review",
+    "status": "closed_after_vertex_only_weld",
+    "original_faces": 3076,
+    "original_sha256": "c74da86f957295ac0467e2749485b1abc6f4209d457a6f487f14b968e06082b6",
+    "grid_decimal_digits_mm": 4,
+    "max_vertex_displacement_mm": 2.6973983046972182e-06,
+    "faces_unchanged": true,
+    "bounds_max_error_mm": 0.0,
+    "output": "seam_recovered_mm/RR_thigh_link__C002.stl",
+    "output_sha256": "a01d3c2cfced5ca4408848bd0a911d8df97fc4dea1cfab0802fe2371f0d2b1b2",
+    "hole_filling": false,
+    "face_deletion": false,
+    "physical_fit": "not_tested"
+  }
+]

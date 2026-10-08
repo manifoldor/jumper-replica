@@ -1,0 +1,23 @@
+{
+  "status": "passed_integrity_and_provenance",
+  "artifact_files": 1737,
+  "artifact_bytes": 292396971,
+  "source_files": 51,
+  "source_commit": "61d065219fca767f3142c8f10aff59eae5a5a004",
+  "links": 41,
+  "components": 1364,
+  "source_triangles": 430915,
+  "validated_step_records": 46,
+  "configured_3mf": 6,
+  "annotation_groups": 66,
+  "translation_pairs": 18,
+  "local_links_checked": 58,
+  "largest_file": {
+    "path": "assembly/Jumper_Exploded.blend",
+    "bytes": 22682837,
+    "sha256": "d397275d4562035588356894f5510a70e7995a5eeeb7f04dcda0c6f86ecff10b",
+    "provenance": "project_contribution_or_evidence"
+  },
+  "physical_validation": "not_performed",
+  "note": "STEP validity evidence is hash-verified from earlier CAD-kernel runs; raw reference toolpaths are excluded, with slicing results and digests retained"
+}

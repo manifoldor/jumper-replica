@@ -1,0 +1,90 @@
+[
+  {
+    "id": "SHELL-M01",
+    "x_mm_REF": 34.98976491376615,
+    "y_mm_REF": 67.49999895699594,
+    "rim_diameters_mm_REF": [
+      1.8018,
+      2.5,
+      3.1
+    ],
+    "z_levels_mm_REF": [
+      0.0,
+      0.3,
+      21.8
+    ],
+    "note": "Source upper-shell local coordinates; nominal size, screw specification and fit unverified."
+  },
+  {
+    "id": "SHELL-M02",
+    "x_mm_REF": -34.99410177299845,
+    "y_mm_REF": -67.50836347548295,
+    "rim_diameters_mm_REF": [
+      2.5,
+      3.1
+    ],
+    "z_levels_mm_REF": [
+      0.0,
+      0.3
+    ],
+    "note": "Source upper-shell local coordinates; nominal size, screw specification and fit unverified."
+  },
+  {
+    "id": "SHELL-M03",
+    "x_mm_REF": 35.00589635252632,
+    "y_mm_REF": -67.49163443835512,
+    "rim_diameters_mm_REF": [
+      2.5,
+      3.1
+    ],
+    "z_levels_mm_REF": [
+      0.0,
+      0.3
+    ],
+    "note": "Source upper-shell local coordinates; nominal size, screw specification and fit unverified."
+  },
+  {
+    "id": "SHELL-M04",
+    "x_mm_REF": -35.010236004986645,
+    "y_mm_REF": 67.49999895684606,
+    "rim_diameters_mm_REF": [
+      1.8018,
+      2.5,
+      3.1
+    ],
+    "z_levels_mm_REF": [
+      0.0,
+      0.3,
+      21.8
+    ],
+    "note": "Source upper-shell local coordinates; nominal size, screw specification and fit unverified."
+  },
+  {
+    "id": "SHELL-M05",
+    "x_mm_REF": -93.01322326063932,
+    "y_mm_REF": 24.988884572088523,
+    "rim_diameters_mm_REF": [
+      1.5,
+      1.89
+    ],
+    "z_levels_mm_REF": [
+      4.747,
+      4.947
+    ],
+    "note": "Source upper-shell local coordinates; nominal size, screw specification and fit unverified."
+  },
+  {
+    "id": "SHELL-M06",
+    "x_mm_REF": -93.00724789500268,
+    "y_mm_REF": -25.011115241652327,
+    "rim_diameters_mm_REF": [
+      1.5,
+      1.89
+    ],
+    "z_levels_mm_REF": [
+      4.747,
+      4.947
+    ],
+    "note": "Source upper-shell local coordinates; nominal size, screw specification and fit unverified."
+  }
+]

@@ -1,0 +1,128 @@
+{
+  "slicer_version": "PrusaSlicer 2.9.6",
+  "dmg_sha256": "94fd7b8a9f87c9631e1c71739b15b184fc5f4c0ceabd69072f1c78f229a4fe40",
+  "status": "Reference only; actual hardware and start/end code unspecified",
+  "results": [
+    {
+      "part": "LF_shoulder_link__C001",
+      "returncode": 0,
+      "project_returncode": 0,
+      "layer_changes": 220,
+      "extruding_moves": 54762,
+      "support_sections": 501,
+      "estimates": [
+        "filament used [mm] = 2338.69",
+        "filament used [cm3] = 5.63",
+        "filament used [g] = 6.98",
+        "total filament used [g] = 6.98",
+        "total filament cost = 0.00",
+        "total filament used for wipe tower [g] = 0.00",
+        "estimated printing time (normal mode) = 45m 15s",
+        "estimated printing time (silent mode) = 46m 34s"
+      ],
+      "bytes": 1932767,
+      "gcode_sha256": "023e22677f1c22619a3eb0a54cd221f0e8e97b511a68613f37a346e7e9422deb"
+    },
+    {
+      "part": "LF_shoulder_link__C002",
+      "returncode": 0,
+      "project_returncode": 0,
+      "layer_changes": 209,
+      "extruding_moves": 65024,
+      "support_sections": 460,
+      "estimates": [
+        "filament used [mm] = 3091.91",
+        "filament used [cm3] = 7.44",
+        "filament used [g] = 9.22",
+        "total filament used [g] = 9.22",
+        "total filament cost = 0.00",
+        "total filament used for wipe tower [g] = 0.00",
+        "estimated printing time (normal mode) = 57m 37s",
+        "estimated printing time (silent mode) = 59m 21s"
+      ],
+      "bytes": 2257553,
+      "gcode_sha256": "37f92a68d88fae60498418169c60655bd7683c65aa3f612bfffa33c81acd8e7d"
+    },
+    {
+      "part": "LM_calf_link__C001",
+      "returncode": 0,
+      "project_returncode": 0,
+      "layer_changes": 123,
+      "extruding_moves": 199199,
+      "support_sections": 1330,
+      "estimates": [
+        "filament used [mm] = 10462.48",
+        "filament used [cm3] = 25.17",
+        "filament used [g] = 31.20",
+        "total filament used [g] = 31.20",
+        "total filament cost = 0.00",
+        "total filament used for wipe tower [g] = 0.00",
+        "estimated printing time (normal mode) = 3h 32m 43s",
+        "estimated printing time (silent mode) = 3h 38m 53s"
+      ],
+      "bytes": 6889168,
+      "gcode_sha256": "c69bd9e23c6e488601d56029aabb086cb27943a51d4190e6a63dc1f999bb5b3e"
+    },
+    {
+      "part": "LM_calf_link__C002",
+      "returncode": 0,
+      "project_returncode": 0,
+      "layer_changes": 271,
+      "extruding_moves": 184910,
+      "support_sections": 1150,
+      "estimates": [
+        "filament used [mm] = 11414.89",
+        "filament used [cm3] = 27.46",
+        "filament used [g] = 34.05",
+        "total filament used [g] = 34.05",
+        "total filament cost = 0.00",
+        "total filament used for wipe tower [g] = 0.00",
+        "estimated printing time (normal mode) = 3h 30m 2s",
+        "estimated printing time (silent mode) = 3h 36m 31s"
+      ],
+      "bytes": 6254039,
+      "gcode_sha256": "51ae15fe815a4ce52d32ca3ed14dad398af3ab4c67fdd9c96112da2f435637d5"
+    },
+    {
+      "part": "LM_foot_tip_link__C001",
+      "returncode": 0,
+      "project_returncode": 0,
+      "layer_changes": 105,
+      "extruding_moves": 54870,
+      "support_sections": 97,
+      "estimates": [
+        "filament used [mm] = 1948.14",
+        "filament used [cm3] = 4.69",
+        "filament used [g] = 5.81",
+        "total filament used [g] = 5.81",
+        "total filament cost = 0.00",
+        "total filament used for wipe tower [g] = 0.00",
+        "estimated printing time (normal mode) = 42m 37s",
+        "estimated printing time (silent mode) = 43m 28s"
+      ],
+      "bytes": 1786505,
+      "gcode_sha256": "cf12f58d65944829641922a4879f3c83bf85fdecbb877ef0af00867acb8a995e"
+    },
+    {
+      "part": "upper_shell_link__C001",
+      "returncode": 0,
+      "project_returncode": 0,
+      "layer_changes": 323,
+      "extruding_moves": 800721,
+      "support_sections": 801,
+      "estimates": [
+        "filament used [mm] = 64031.44",
+        "filament used [cm3] = 154.01",
+        "filament used [g] = 190.98",
+        "total filament used [g] = 190.98",
+        "total filament cost = 0.00",
+        "total filament used for wipe tower [g] = 0.00",
+        "estimated printing time (normal mode) = 18h 37m 34s",
+        "estimated printing time (silent mode) = 18h 54m 54s"
+      ],
+      "bytes": 26723267,
+      "gcode_sha256": "296bdb4c954dc0dd46e3e27dc1a5732021aa56a1f1328b8cb621378562f2c4b1"
+    }
+  ],
+  "raw_toolpaths_in_public_package": false
+}

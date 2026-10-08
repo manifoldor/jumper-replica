@@ -1,0 +1,22 @@
+{
+  "source_url": "https://kingkong.tech/files/servo/TS20-50-TS20-100.step",
+  "sha256": "0dae0856425a08bab4114a06f9a4fa27e2054db27f684227ecf6050575c9300d",
+  "bounds_mm": [
+    [
+      -4.10226080382907,
+      13.09602815086083,
+      -10.842353441673614
+    ],
+    [
+      30.434602073670376,
+      34.74934748929272,
+      10.842353441673614
+    ]
+  ],
+  "extents_mm": [
+    34.536862877499445,
+    21.653319338431885,
+    21.68470688334723
+  ],
+  "note": "Vendor reference CAD; exact servo-to-link mounting and product revision not established."
+}

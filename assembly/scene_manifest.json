@@ -1,0 +1,4586 @@
+{
+  "source_commit": "61d065219fca767f3142c8f10aff59eae5a5a004",
+  "source_links": 41,
+  "source_triangles": 430915,
+  "render_objects": 88,
+  "labeled_groups": 66,
+  "method": "Source HOME matrices plus translations only. Tiny source details remain grouped; no face deletion.",
+  "items": [
+    {
+      "id": "01A",
+      "source_id": "base_link__C001",
+      "link": "base_link",
+      "name_en": "Lower shell / frame",
+      "mesh": "scene_meshes/01A.stl",
+      "triangles": 35242,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -8.948554992675781,
+        0.00383758544921875,
+        21.301663134247065
+      ],
+      "exploded_center_mm": [
+        -8.948554992675781,
+        0.00383758544921875,
+        21.301663134247065
+      ],
+      "explosion_translation_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "01B",
+      "source_id": "base_link__C002",
+      "link": "base_link",
+      "name_en": "Internal mounting plate",
+      "mesh": "scene_meshes/01B.stl",
+      "triangles": 12908,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "plate",
+      "assembled_center_mm": [
+        -11.073936462402344,
+        0.00089263916015625,
+        5.9999997026638425
+      ],
+      "exploded_center_mm": [
+        -11.073936462402344,
+        0.00089263916015625,
+        80.99999970266384
+      ],
+      "explosion_translation_mm": [
+        0.0,
+        0.0,
+        75.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "01C",
+      "source_id": "base_link__C003",
+      "link": "base_link",
+      "name_en": "Internal cradle (identity pending)",
+      "mesh": "scene_meshes/01C.stl",
+      "triangles": 5990,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "plate",
+      "assembled_center_mm": [
+        32.866063594818115,
+        0.0008945465087890625,
+        -3.5000033378601074
+      ],
+      "exploded_center_mm": [
+        32.866063594818115,
+        0.0008945465087890625,
+        141.4999966621399
+      ],
+      "explosion_translation_mm": [
+        0.0,
+        0.0,
+        145.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "01R",
+      "source_id": "base_link__remaining",
+      "link": "base_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/01R.stl",
+      "triangles": 21898,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "hardware",
+      "assembled_center_mm": [
+        -16.399696350097656,
+        0.29858970642089844,
+        17.410844564437866
+      ],
+      "exploded_center_mm": [
+        -16.399696350097656,
+        0.29858970642089844,
+        57.410844564437866
+      ],
+      "explosion_translation_mm": [
+        0.0,
+        0.0,
+        40.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "02",
+      "source_id": "upper_shell_link",
+      "link": "upper_shell_link",
+      "name_en": "Upper shell",
+      "mesh": "scene_meshes/02.stl",
+      "triangles": 18144,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -8.950466803928805,
+        -0.00225830078125,
+        47.94752907752891
+      ],
+      "exploded_center_mm": [
+        -188.9504668039288,
+        -160.00225830078125,
+        412.9475290775289
+      ],
+      "explosion_translation_mm": [
+        -180.0,
+        -160.0,
+        365.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -7.313702277561619
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          31.499999999999
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "03",
+      "source_id": "display_module_link",
+      "link": "display_module_link",
+      "name_en": "Display module",
+      "mesh": "scene_meshes/03.stl",
+      "triangles": 849,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "module",
+      "assembled_center_mm": [
+        78.44085361225699,
+        0.009798594563143581,
+        48.305005336129085
+      ],
+      "exploded_center_mm": [
+        -101.55914638774301,
+        -159.99020140543686,
+        503.30500533612906
+      ],
+      "explosion_translation_mm": [
+        -180.0,
+        -160.0,
+        455.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          80.27182819111441
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0101590834547417
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          49.523780131661304
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "04",
+      "source_id": "tof_sensor_link",
+      "link": "tof_sensor_link",
+      "name_en": "ToF module",
+      "mesh": "scene_meshes/04.stl",
+      "triangles": 2088,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "module",
+      "assembled_center_mm": [
+        89.827977092517,
+        -4.198513031005859,
+        16.845537678382918
+      ],
+      "exploded_center_mm": [
+        204.82797709251702,
+        60.80148696899414,
+        111.84553767838293
+      ],
+      "explosion_translation_mm": [
+        115.0,
+        65.0,
+        95.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          90.677981288684
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          16.8455481688004
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "05",
+      "source_id": "camera_link",
+      "link": "camera_link",
+      "name_en": "Camera module",
+      "mesh": "scene_meshes/05.stl",
+      "triangles": 648,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "module",
+      "assembled_center_mm": [
+        88.30798035166173,
+        6.99689968885766,
+        16.84632922795724
+      ],
+      "exploded_center_mm": [
+        203.30798035166174,
+        -58.00310031114233,
+        111.84632922795724
+      ],
+      "explosion_translation_mm": [
+        115.0,
+        -65.0,
+        95.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          91.677981288684
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          14.1808968430935
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          16.847582356009
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "06A",
+      "source_id": "LF_shoulder_link__C001",
+      "link": "LF_shoulder_link",
+      "name_en": "LF Shoulder casing A",
+      "mesh": "scene_meshes/06A.stl",
+      "triangles": 7508,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        45.14401583153992,
+        65.17345595239289,
+        -19.10797433853149
+      ],
+      "exploded_center_mm": [
+        72.09437788213984,
+        133.39629929319415,
+        -19.017431888836313
+      ],
+      "explosion_translation_mm": [
+        26.950362050599924,
+        68.22284334080126,
+        0.09054244969517983
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8521584321606352,
+          0.523283867988999,
+          0.0,
+          50.676062237814
+        ],
+        [
+          -0.523283867988999,
+          0.8521584321606352,
+          0.0,
+          61.000896834653496
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.7
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "06B",
+      "source_id": "LF_shoulder_link__C002",
+      "link": "LF_shoulder_link",
+      "name_en": "LF Shoulder casing B",
+      "mesh": "scene_meshes/06B.stl",
+      "triangles": 6594,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        56.37590807857407,
+        58.74275503041926,
+        -19.15683727264404
+      ],
+      "exploded_center_mm": [
+        134.42554602797415,
+        95.519911689618,
+        -19.247379722339222
+      ],
+      "explosion_translation_mm": [
+        78.04963794940008,
+        36.77715665919874,
+        -0.09054244969517983
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8521584321606352,
+          0.523283867988999,
+          0.0,
+          50.676062237814
+        ],
+        [
+          -0.523283867988999,
+          0.8521584321606352,
+          0.0,
+          61.000896834653496
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.7
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "06R",
+      "source_id": "LF_shoulder_link__remaining",
+      "link": "LF_shoulder_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/06R.stl",
+      "triangles": 972,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        50.676062237814,
+        61.000896834653496,
+        12.87499828338623
+      ],
+      "exploded_center_mm": [
+        103.176062237814,
+        113.5008968346535,
+        12.87499828338623
+      ],
+      "explosion_translation_mm": [
+        52.5,
+        52.5,
+        0.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8521584321606352,
+          0.523283867988999,
+          0.0,
+          50.676062237814
+        ],
+        [
+          -0.523283867988999,
+          0.8521584321606352,
+          0.0,
+          61.000896834653496
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.7
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "07A",
+      "source_id": "LF_upper_arm_link__C001",
+      "link": "LF_upper_arm_link",
+      "name_en": "LF Upper-arm casing A",
+      "mesh": "scene_meshes/07A.stl",
+      "triangles": 5814,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        70.79329687135339,
+        99.73607359986516,
+        -18.152471551521316
+      ],
+      "exploded_center_mm": [
+        149.92013030662224,
+        214.97811098858446,
+        -21.64048249854043
+      ],
+      "explosion_translation_mm": [
+        79.12683343526885,
+        115.2420373887193,
+        -3.488010947019113
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.523283867988999,
+          -0.745788822380175,
+          54.025078992943584
+        ],
+        [
+          -0.2531669465346557,
+          0.8521584321606352,
+          0.45796561408019143,
+          66.45471080048155
+        ],
+        [
+          0.875176251544256,
+          0.0,
+          0.48380422562535036,
+          -20.459999999999198
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "07B",
+      "source_id": "LF_upper_arm_link__C002",
+      "link": "LF_upper_arm_link",
+      "name_en": "LF Upper-arm casing B",
+      "mesh": "scene_meshes/07B.stl",
+      "triangles": 4918,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        77.19057458642595,
+        96.66959010656105,
+        -22.764085174379012
+      ],
+      "exploded_center_mm": [
+        201.0637411511571,
+        184.42755271784176,
+        -55.27607422735989
+      ],
+      "explosion_translation_mm": [
+        123.87316656473115,
+        87.7579626112807,
+        -32.51198905298089
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.523283867988999,
+          -0.745788822380175,
+          54.025078992943584
+        ],
+        [
+          -0.2531669465346557,
+          0.8521584321606352,
+          0.45796561408019143,
+          66.45471080048155
+        ],
+        [
+          0.875176251544256,
+          0.0,
+          0.48380422562535036,
+          -20.459999999999198
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "07R",
+      "source_id": "LF_upper_arm_link__remaining",
+      "link": "LF_upper_arm_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/07R.stl",
+      "triangles": 1378,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        68.36331664702257,
+        85.96543071771029,
+        -25.22813023215552
+      ],
+      "exploded_center_mm": [
+        169.86331664702254,
+        187.4654307177103,
+        -43.22813023215552
+      ],
+      "explosion_translation_mm": [
+        101.5,
+        101.5,
+        -18.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.523283867988999,
+          -0.745788822380175,
+          54.025078992943584
+        ],
+        [
+          -0.2531669465346557,
+          0.8521584321606352,
+          0.45796561408019143,
+          66.45471080048155
+        ],
+        [
+          0.875176251544256,
+          0.0,
+          0.48380422562535036,
+          -20.459999999999198
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "08A",
+      "source_id": "LF_forearm_link__C001",
+      "link": "LF_forearm_link",
+      "name_en": "LF Forearm connector A",
+      "mesh": "scene_meshes/08A.stl",
+      "triangles": 4962,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "connector",
+      "assembled_center_mm": [
+        99.82658587570583,
+        118.51444595692521,
+        -27.15955107797678
+      ],
+      "exploded_center_mm": [
+        263.743661548009,
+        245.58682227493526,
+        -76.24116141534552
+      ],
+      "explosion_translation_mm": [
+        163.91707567230318,
+        127.07237631801004,
+        -49.081610337368744
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.7914640819059012,
+          -0.45123339984711364,
+          79.36270660721303
+        ],
+        [
+          -0.2531669465346557,
+          0.5753040954680653,
+          0.7777735498973914,
+          107.07066542828939
+        ],
+        [
+          0.875176251544256,
+          -0.20642142522160883,
+          0.4375576807032699,
+          -19.618484287212752
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "08B",
+      "source_id": "LF_forearm_link__C002",
+      "link": "LF_forearm_link",
+      "name_en": "LF Forearm connector B",
+      "mesh": "scene_meshes/08B.stl",
+      "triangles": 3076,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "connector",
+      "assembled_center_mm": [
+        98.0760604423554,
+        124.61891453571238,
+        -23.256558058432063
+      ],
+      "exploded_center_mm": [
+        235.1589847700522,
+        298.54653821770233,
+        -46.17494772106332
+      ],
+      "explosion_translation_mm": [
+        137.08292432769682,
+        173.92762368198996,
+        -22.918389662631252
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.7914640819059012,
+          -0.45123339984711364,
+          79.36270660721303
+        ],
+        [
+          -0.2531669465346557,
+          0.5753040954680653,
+          0.7777735498973914,
+          107.07066542828939
+        ],
+        [
+          0.875176251544256,
+          -0.20642142522160883,
+          0.4375576807032699,
+          -19.618484287212752
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "08R",
+      "source_id": "LF_forearm_link__remaining",
+      "link": "LF_forearm_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/08R.stl",
+      "triangles": 972,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        79.03288503462959,
+        106.49817133698322,
+        -20.318623786108553
+      ],
+      "exploded_center_mm": [
+        229.5328850346296,
+        256.9981713369832,
+        -56.31862378610855
+      ],
+      "explosion_translation_mm": [
+        150.5,
+        150.5,
+        -36.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.7914640819059012,
+          -0.45123339984711364,
+          79.36270660721303
+        ],
+        [
+          -0.2531669465346557,
+          0.5753040954680653,
+          0.7777735498973914,
+          107.07066542828939
+        ],
+        [
+          0.875176251544256,
+          -0.20642142522160883,
+          0.4375576807032699,
+          -19.618484287212752
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "09A",
+      "source_id": "LF_palm_link__C001",
+      "link": "LF_palm_link",
+      "name_en": "LF Palm casing A",
+      "mesh": "scene_meshes/09A.stl",
+      "triangles": 7406,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        152.8828851218125,
+        94.36408731535835,
+        -55.52730170228278
+      ],
+      "exploded_center_mm": [
+        331.7269521825731,
+        272.39420862878467,
+        -106.00924206756147
+      ],
+      "explosion_translation_mm": [
+        178.8440670607606,
+        178.03012131342635,
+        -50.481940365278696
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.5972774888871544,
+          0.6879582657061339,
+          118.44117728205019
+        ],
+        [
+          -0.2531669465346557,
+          -0.6502726306312333,
+          0.7162764850490727,
+          136.13967053753424
+        ],
+        [
+          0.875176251544256,
+          -0.46947322300701116,
+          -0.1168820842231782,
+          -30.9897670501463
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "09B",
+      "source_id": "LF_palm_link__C002",
+      "link": "LF_palm_link",
+      "name_en": "LF Palm casing B",
+      "mesh": "scene_meshes/09B.stl",
+      "triangles": 6700,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        156.181386873525,
+        97.16667025987313,
+        -56.015528312097516
+      ],
+      "exploded_center_mm": [
+        376.33731981276446,
+        318.1365489464468,
+        -113.53358794681881
+      ],
+      "explosion_translation_mm": [
+        220.1559329392394,
+        220.96987868657365,
+        -57.518059634721304
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.5972774888871544,
+          0.6879582657061339,
+          118.44117728205019
+        ],
+        [
+          -0.2531669465346557,
+          -0.6502726306312333,
+          0.7162764850490727,
+          136.13967053753424
+        ],
+        [
+          0.875176251544256,
+          -0.46947322300701116,
+          -0.1168820842231782,
+          -30.9897670501463
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "09R",
+      "source_id": "LF_palm_link__remaining",
+      "link": "LF_palm_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/09R.stl",
+      "triangles": 974,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        118.75132640159589,
+        122.33130121443216,
+        -36.89024990673149
+      ],
+      "exploded_center_mm": [
+        318.25132640159586,
+        321.83130121443213,
+        -90.8902499067315
+      ],
+      "explosion_translation_mm": [
+        199.5,
+        199.5,
+        -54.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.5972774888871544,
+          0.6879582657061339,
+          118.44117728205019
+        ],
+        [
+          -0.2531669465346557,
+          -0.6502726306312333,
+          0.7162764850490727,
+          136.13967053753424
+        ],
+        [
+          0.875176251544256,
+          -0.46947322300701116,
+          -0.1168820842231782,
+          -30.9897670501463
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "10",
+      "source_id": "LF_palm_pad_f_link",
+      "link": "LF_palm_pad_f_link",
+      "name_en": "LF Palm pad f",
+      "mesh": "scene_meshes/10.stl",
+      "triangles": 5934,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "pad",
+      "assembled_center_mm": [
+        197.6463875263267,
+        65.15053068339901,
+        -71.81763225752587
+      ],
+      "exploded_center_mm": [
+        446.14638752632663,
+        313.650530683399,
+        -119.8156315976222
+      ],
+      "explosion_translation_mm": [
+        248.49999999999997,
+        248.49999999999997,
+        -47.99799934009633
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.5972774888871544,
+          0.6879582657061339,
+          206.2080714460444
+        ],
+        [
+          -0.2531669465346557,
+          -0.6502726306312333,
+          0.7162764850490727,
+          41.446032138320945
+        ],
+        [
+          0.875176251544256,
+          -0.46947322300701116,
+          -0.1168820842231782,
+          -89.66892765059937
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "11",
+      "source_id": "LF_palm_pad_b_link",
+      "link": "LF_palm_pad_b_link",
+      "name_en": "LF Palm pad b",
+      "mesh": "scene_meshes/11.stl",
+      "triangles": 5746,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "pad",
+      "assembled_center_mm": [
+        186.03025258027668,
+        72.04067019793399,
+        -97.02548916565553
+      ],
+      "exploded_center_mm": [
+        434.5302525802767,
+        320.54067019793393,
+        -169.506476141704
+      ],
+      "explosion_translation_mm": [
+        248.49999999999997,
+        248.49999999999997,
+        -72.4809869760485
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.5972774888871544,
+          0.6879582657061339,
+          199.5268061915739
+        ],
+        [
+          -0.2531669465346557,
+          -0.6502726306312333,
+          0.7162764850490727,
+          45.549148531980414
+        ],
+        [
+          0.875176251544256,
+          -0.46947322300701116,
+          -0.1168820842231782,
+          -103.85091216312561
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "12A",
+      "source_id": "LF_finger_link__C001",
+      "link": "LF_finger_link",
+      "name_en": "LF Moving-finger structure A",
+      "mesh": "scene_meshes/12A.stl",
+      "triangles": 3750,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        152.4891261337006,
+        77.59264397044248,
+        -65.08447985318348
+      ],
+      "exploded_center_mm": [
+        339.4507270149535,
+        301.1240224171856,
+        -106.22829855824156
+      ],
+      "explosion_translation_mm": [
+        186.96160088125288,
+        223.53137844674308,
+        -41.143818705058074
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.5972774888871544,
+          0.6879582657061339,
+          133.67822194193946
+        ],
+        [
+          -0.2531669465346557,
+          -0.6502726306312333,
+          0.7162764850490727,
+          103.15198380654928
+        ],
+        [
+          0.875176251544256,
+          -0.46947322300701116,
+          -0.1168820842231782,
+          -45.31064003928141
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "12B",
+      "source_id": "LF_finger_link__C002",
+      "link": "LF_finger_link",
+      "name_en": "LF Moving-finger structure B",
+      "mesh": "scene_meshes/12B.stl",
+      "triangles": 2672,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        163.11038322380153,
+        63.70452229774737,
+        -70.93364035674905
+      ],
+      "exploded_center_mm": [
+        375.14878234254866,
+        239.17314385100428,
+        -137.78982165169097
+      ],
+      "explosion_translation_mm": [
+        212.03839911874712,
+        175.46862155325692,
+        -66.85618129494192
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.5972774888871544,
+          0.6879582657061339,
+          133.67822194193946
+        ],
+        [
+          -0.2531669465346557,
+          -0.6502726306312333,
+          0.7162764850490727,
+          103.15198380654928
+        ],
+        [
+          0.875176251544256,
+          -0.46947322300701116,
+          -0.1168820842231782,
+          -45.31064003928141
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "12R",
+      "source_id": "LF_finger_link__remaining",
+      "link": "LF_finger_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/12R.stl",
+      "triangles": 1740,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        133.372103525783,
+        99.92263108207632,
+        -46.011325938765445
+      ],
+      "exploded_center_mm": [
+        332.872103525783,
+        299.42263108207635,
+        -100.01132593876545
+      ],
+      "explosion_translation_mm": [
+        199.5,
+        199.5,
+        -54.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.5972774888871544,
+          0.6879582657061339,
+          133.67822194193946
+        ],
+        [
+          -0.2531669465346557,
+          -0.6502726306312333,
+          0.7162764850490727,
+          103.15198380654928
+        ],
+        [
+          0.875176251544256,
+          -0.46947322300701116,
+          -0.1168820842231782,
+          -45.31064003928141
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "13",
+      "source_id": "LF_finger_tip_link",
+      "link": "LF_finger_tip_link",
+      "name_en": "LF Finger tip",
+      "mesh": "scene_meshes/13.stl",
+      "triangles": 14134,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "pad",
+      "assembled_center_mm": [
+        185.03442113327344,
+        35.3566023495101,
+        -89.31328759846451
+      ],
+      "exploded_center_mm": [
+        433.53442113327344,
+        283.85660234951007,
+        -318.3036576622201
+      ],
+      "explosion_translation_mm": [
+        248.49999999999997,
+        248.49999999999997,
+        -228.99037006375556
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.5972774888871544,
+          0.6879582657061339,
+          193.9590794275642
+        ],
+        [
+          -0.2531669465346557,
+          -0.6502726306312333,
+          0.7162764850490727,
+          32.29020242586555
+        ],
+        [
+          0.875176251544256,
+          -0.46947322300701116,
+          -0.1168820842231782,
+          -96.72008253273464
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "14",
+      "source_id": "LF_finger_grip_insert_link",
+      "link": "LF_finger_grip_insert_link",
+      "name_en": "LF Finger grip insert",
+      "mesh": "scene_meshes/14.stl",
+      "triangles": 2304,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "pad",
+      "assembled_center_mm": [
+        167.45068029769567,
+        63.08505607629952,
+        -73.17997056292913
+      ],
+      "exploded_center_mm": [
+        415.95068029769567,
+        311.5850560762995,
+        -267.0418827255259
+      ],
+      "explosion_translation_mm": [
+        248.49999999999997,
+        248.49999999999997,
+        -193.86191216259678
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.5972774888871544,
+          0.6879582657061339,
+          170.90862095136077
+        ],
+        [
+          -0.2531669465346557,
+          -0.6502726306312333,
+          0.7162764850490727,
+          58.20107770544239
+        ],
+        [
+          0.875176251544256,
+          -0.46947322300701116,
+          -0.1168820842231782,
+          -77.86212022035126
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "15",
+      "source_id": "LF_palm_grip_insert_link",
+      "link": "LF_palm_grip_insert_link",
+      "name_en": "LF Palm grip insert",
+      "mesh": "scene_meshes/15.stl",
+      "triangles": 2566,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "pad",
+      "assembled_center_mm": [
+        178.25133282951083,
+        71.83985910432152,
+        -75.59907304207759
+      ],
+      "exploded_center_mm": [
+        426.75133282951083,
+        320.3398591043215,
+        -216.8203302254301
+      ],
+      "explosion_translation_mm": [
+        248.49999999999997,
+        248.49999999999997,
+        -141.2212571833525
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4122778503815888,
+          0.5972774888871544,
+          0.6879582657061339,
+          182.82480321409037
+        ],
+        [
+          -0.2531669465346557,
+          -0.6502726306312333,
+          0.7162764850490727,
+          70.04709298160851
+        ],
+        [
+          0.875176251544256,
+          -0.46947322300701116,
+          -0.1168820842231782,
+          -79.9742760239991
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "16A",
+      "source_id": "RF_shoulder_link__C001",
+      "link": "RF_shoulder_link",
+      "name_en": "RF Shoulder casing A",
+      "mesh": "scene_meshes/16A.stl",
+      "triangles": 7508,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        58.06474871159907,
+        -57.84577566135978,
+        -19.10797433853149
+      ],
+      "exploded_center_mm": [
+        136.11767772372724,
+        -94.6282815555571,
+        -19.017431888836313
+      ],
+      "explosion_translation_mm": [
+        78.05292901212816,
+        -36.78250589419731,
+        0.09054244969517983
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8512676186448982,
+          -0.5247317804808893,
+          0.0,
+          50.676
+        ],
+        [
+          0.5247317804808893,
+          0.8512676186448982,
+          0.0,
+          -60.998999999999995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.7
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "16B",
+      "source_id": "RF_shoulder_link__C002",
+      "link": "RF_shoulder_link",
+      "name_en": "RF Shoulder casing B",
+      "mesh": "scene_meshes/16B.stl",
+      "triangles": 6594,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        46.605809013125516,
+        -63.965545060692165,
+        -19.15683727264404
+      ],
+      "exploded_center_mm": [
+        73.55288000099736,
+        -132.18303916649484,
+        -19.247379722339222
+      ],
+      "explosion_translation_mm": [
+        26.947070987871843,
+        -68.21749410580269,
+        -0.09054244969517983
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8512676186448982,
+          -0.5247317804808893,
+          0.0,
+          50.676
+        ],
+        [
+          0.5247317804808893,
+          0.8512676186448982,
+          0.0,
+          -60.998999999999995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.7
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "16R",
+      "source_id": "RF_shoulder_link__remaining",
+      "link": "RF_shoulder_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/16R.stl",
+      "triangles": 972,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        50.676,
+        -60.998999999999995,
+        12.87499828338623
+      ],
+      "exploded_center_mm": [
+        103.176,
+        -113.499,
+        12.87499828338623
+      ],
+      "explosion_translation_mm": [
+        52.5,
+        -52.5,
+        0.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8512676186448982,
+          -0.5247317804808893,
+          0.0,
+          50.676
+        ],
+        [
+          0.5247317804808893,
+          0.8512676186448982,
+          0.0,
+          -60.998999999999995
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          10.7
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "17A",
+      "source_id": "RF_upper_arm_link__C001",
+      "link": "RF_upper_arm_link",
+      "name_en": "RF Upper-arm casing A",
+      "mesh": "scene_meshes/17A.stl",
+      "triangles": 5814,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        70.81966454700807,
+        -99.71541771839786,
+        -18.214072955615038
+      ],
+      "exploded_center_mm": [
+        149.96943262162054,
+        -214.9957526355798,
+        -21.703059812085613
+      ],
+      "explosion_translation_mm": [
+        79.14976807461247,
+        -115.28033491718195,
+        -3.488986856470575
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4116978609617778,
+          -0.5247317804808893,
+          -0.7450915580201217,
+          54.034283395077686
+        ],
+        [
+          0.2537756010812898,
+          0.8512676186448982,
+          -0.4592835570129571,
+          -66.44711275932734
+        ],
+        [
+          0.875272994885211,
+          0.0,
+          0.48362918070012406,
+          -20.459999999999198
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "17B",
+      "source_id": "RF_upper_arm_link__C002",
+      "link": "RF_upper_arm_link",
+      "name_en": "RF Upper-arm casing B",
+      "mesh": "scene_meshes/17B.stl",
+      "triangles": 4918,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        77.21584941299781,
+        -96.65092411547855,
+        -22.84069959894063
+      ],
+      "exploded_center_mm": [
+        201.06608133838535,
+        -184.3705891982966,
+        -55.351712742470056
+      ],
+      "explosion_translation_mm": [
+        123.85023192538753,
+        -87.71966508281805,
+        -32.511013143529425
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4116978609617778,
+          -0.5247317804808893,
+          -0.7450915580201217,
+          54.034283395077686
+        ],
+        [
+          0.2537756010812898,
+          0.8512676186448982,
+          -0.4592835570129571,
+          -66.44711275932734
+        ],
+        [
+          0.875272994885211,
+          0.0,
+          0.48362918070012406,
+          -20.459999999999198
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "17R",
+      "source_id": "RF_upper_arm_link__remaining",
+      "link": "RF_upper_arm_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/17R.stl",
+      "triangles": 1378,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        68.38264915035191,
+        -81.56127250388674,
+        -20.543699984171734
+      ],
+      "exploded_center_mm": [
+        169.8826491503519,
+        -183.06127250388676,
+        -38.54369998417174
+      ],
+      "explosion_translation_mm": [
+        101.5,
+        -101.5,
+        -18.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.4116978609617778,
+          -0.5247317804808893,
+          -0.7450915580201217,
+          54.034283395077686
+        ],
+        [
+          0.2537756010812898,
+          0.8512676186448982,
+          -0.4592835570129571,
+          -66.44711275932734
+        ],
+        [
+          0.875272994885211,
+          0.0,
+          0.48362918070012406,
+          -20.459999999999198
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "18A",
+      "source_id": "RF_forearm_link__C001",
+      "link": "RF_forearm_link",
+      "name_en": "RF Forearm connector A",
+      "mesh": "scene_meshes/18A.stl",
+      "triangles": 4962,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "connector",
+      "assembled_center_mm": [
+        99.59665843678678,
+        -118.61078791127353,
+        -27.870417030704076
+      ],
+      "exploded_center_mm": [
+        263.4503199571211,
+        -245.65584354085476,
+        -76.9679476598304
+      ],
+      "explosion_translation_mm": [
+        163.85366152033438,
+        -127.04505562958124,
+        -49.097530629126325
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.41169786096177774,
+          -0.7927459406967343,
+          -0.44950944905346124,
+          78.69972091316856
+        ],
+        [
+          0.25377560108128977,
+          0.5734688620641955,
+          -0.7789296557062304,
+          -107.47682426808987
+        ],
+        [
+          0.8752729948852109,
+          0.2066091424686875,
+          0.4372754814450803,
+          -21.193906071943093
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "18B",
+      "source_id": "RF_forearm_link__C002",
+      "link": "RF_forearm_link",
+      "name_en": "RF Forearm connector B",
+      "mesh": "scene_meshes/18B.stl",
+      "triangles": 3076,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "connector",
+      "assembled_center_mm": [
+        97.86426063541711,
+        -124.73753948522543,
+        -23.963964069943188
+      ],
+      "exploded_center_mm": [
+        235.0105991150827,
+        -298.6924838556442,
+        -46.86643344081686
+      ],
+      "explosion_translation_mm": [
+        137.14633847966562,
+        -173.95494437041876,
+        -22.902469370873675
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.41169786096177774,
+          -0.7927459406967343,
+          -0.44950944905346124,
+          78.69972091316856
+        ],
+        [
+          0.25377560108128977,
+          0.5734688620641955,
+          -0.7789296557062304,
+          -107.47682426808987
+        ],
+        [
+          0.8752729948852109,
+          0.2066091424686875,
+          0.4372754814450803,
+          -21.193906071943093
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "18R",
+      "source_id": "RF_forearm_link__remaining",
+      "link": "RF_forearm_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/18R.stl",
+      "triangles": 972,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        79.02907849521176,
+        -108.04465134630553,
+        -20.4936891785406
+      ],
+      "exploded_center_mm": [
+        229.52907849521176,
+        -258.5446513463055,
+        -56.4936891785406
+      ],
+      "explosion_translation_mm": [
+        150.5,
+        -150.5,
+        -36.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.41169786096177774,
+          -0.7927459406967343,
+          -0.44950944905346124,
+          78.69972091316856
+        ],
+        [
+          0.25377560108128977,
+          0.5734688620641955,
+          -0.7789296557062304,
+          -107.47682426808987
+        ],
+        [
+          0.8752729948852109,
+          0.2066091424686875,
+          0.4372754814450803,
+          -21.193906071943093
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "19A",
+      "source_id": "RF_palm_link__C001",
+      "link": "RF_palm_link",
+      "name_en": "RF Palm casing A",
+      "mesh": "scene_meshes/19A.stl",
+      "triangles": 7406,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        150.39547276181048,
+        -92.42268405207398,
+        -55.84939905181797
+      ],
+      "exploded_center_mm": [
+        328.43955086886365,
+        -271.3665638528082,
+        -105.71547378917712
+      ],
+      "explosion_translation_mm": [
+        178.0440781070531,
+        -178.94387980073424,
+        -49.866074737359156
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.41169786096177774,
+          -0.5654306835245857,
+          0.7146978476310225,
+          118.83105537794225
+        ],
+        [
+          0.25377560108128977,
+          -0.6820913218476965,
+          -0.6858202191215217,
+          -135.8457366519852
+        ],
+        [
+          0.8752729948852109,
+          0.463723593090735,
+          -0.13732302660403184,
+          -30.474035608354903
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "19B",
+      "source_id": "RF_palm_link__C002",
+      "link": "RF_palm_link",
+      "name_en": "RF Palm casing B",
+      "mesh": "scene_meshes/19B.stl",
+      "triangles": 6700,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        154.05714206401967,
+        -94.94391554933034,
+        -56.35505552599143
+      ],
+      "exploded_center_mm": [
+        375.01306395696656,
+        -315.0000357485961,
+        -114.48898078863228
+      ],
+      "explosion_translation_mm": [
+        220.9559218929469,
+        -220.05612019926576,
+        -58.133925262640844
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.41169786096177774,
+          -0.5654306835245857,
+          0.7146978476310225,
+          118.83105537794225
+        ],
+        [
+          0.25377560108128977,
+          -0.6820913218476965,
+          -0.6858202191215217,
+          -135.8457366519852
+        ],
+        [
+          0.8752729948852109,
+          0.463723593090735,
+          -0.13732302660403184,
+          -30.474035608354903
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "19R",
+      "source_id": "RF_palm_link__remaining",
+      "link": "RF_palm_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/19R.stl",
+      "triangles": 974,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        118.50169779589905,
+        -117.14063645148835,
+        -31.174252501757394
+      ],
+      "exploded_center_mm": [
+        318.0016977958991,
+        -316.6406364514883,
+        -85.1742525017574
+      ],
+      "explosion_translation_mm": [
+        199.5,
+        -199.5,
+        -54.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.41169786096177774,
+          -0.5654306835245857,
+          0.7146978476310225,
+          118.83105537794225
+        ],
+        [
+          0.25377560108128977,
+          -0.6820913218476965,
+          -0.6858202191215217,
+          -135.8457366519852
+        ],
+        [
+          0.8752729948852109,
+          0.463723593090735,
+          -0.13732302660403184,
+          -30.474035608354903
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "20",
+      "source_id": "RF_palm_pad_f_link",
+      "link": "RF_palm_pad_f_link",
+      "name_en": "RF Palm pad f",
+      "mesh": "scene_meshes/20.stl",
+      "triangles": 5746,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "pad",
+      "assembled_center_mm": [
+        194.1259179827406,
+        -61.26976543453112,
+        -72.03068181314308
+      ],
+      "exploded_center_mm": [
+        442.6259179827406,
+        -309.7697654345311,
+        -119.77464923866627
+      ],
+      "explosion_translation_mm": [
+        248.49999999999997,
+        -248.49999999999997,
+        -47.74396742552318
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.41169786096177774,
+          -0.5654306835245857,
+          0.7146978476310225,
+          201.4922602570626
+        ],
+        [
+          0.25377560108128977,
+          -0.6820913218476965,
+          -0.6858202191215217,
+          -37.016941654598796
+        ],
+        [
+          0.8752729948852109,
+          0.463723593090735,
+          -0.13732302660403184,
+          -89.55248216344822
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "21",
+      "source_id": "RF_palm_pad_b_link",
+      "link": "RF_palm_pad_b_link",
+      "name_en": "RF Palm pad b",
+      "mesh": "scene_meshes/21.stl",
+      "triangles": 5934,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "pad",
+      "assembled_center_mm": [
+        182.50318754185326,
+        -68.20724023697414,
+        -97.22516366103663
+      ],
+      "exploded_center_mm": [
+        431.0031875418532,
+        -316.70724023697414,
+        -169.44870179785087
+      ],
+      "explosion_translation_mm": [
+        248.49999999999997,
+        -248.49999999999997,
+        -72.22353813681423
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.41169786096177774,
+          -0.5654306835245857,
+          0.7146978476310225,
+          194.82093536985147
+        ],
+        [
+          0.25377560108128977,
+          -0.6820913218476965,
+          -0.6858202191215217,
+          -41.12883711480787
+        ],
+        [
+          0.8752729948852109,
+          0.463723593090735,
+          -0.13732302660403184,
+          -103.73660336384816
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "22",
+      "source_id": "RF_palm_grip_insert_link",
+      "link": "RF_palm_grip_insert_link",
+      "name_en": "RF Palm grip insert",
+      "mesh": "scene_meshes/22.stl",
+      "triangles": 2566,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "pad",
+      "assembled_center_mm": [
+        175.10203858869292,
+        -68.48700771084265,
+        -75.3088124892734
+      ],
+      "exploded_center_mm": [
+        423.6020385886929,
+        -316.9870077108426,
+        -216.80618471346392
+      ],
+      "explosion_translation_mm": [
+        248.49999999999997,
+        -248.49999999999997,
+        -141.49737222419054
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.41169786096177774,
+          -0.5654306835245857,
+          0.7146978476310225,
+          179.62391477164883
+        ],
+        [
+          0.25377560108128977,
+          -0.6820913218476965,
+          -0.6858202191215217,
+          -66.55694445066464
+        ],
+        [
+          0.8752729948852109,
+          0.463723593090735,
+          -0.13732302660403184,
+          -79.62260050690392
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "23A",
+      "source_id": "RF_finger_link__C001",
+      "link": "RF_finger_link",
+      "name_en": "RF Moving-finger structure A",
+      "mesh": "scene_meshes/23A.stl",
+      "triangles": 3750,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        149.2089406459915,
+        -75.5795987759054,
+        -65.15732198258169
+      ],
+      "exploded_center_mm": [
+        337.2898694964699,
+        -299.82184219017137,
+        -106.61036199574119
+      ],
+      "explosion_translation_mm": [
+        188.08092885047844,
+        -224.24224341426597,
+        -41.453040013159494
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.41169786096177774,
+          -0.5654306835245857,
+          0.7146978476310225,
+          130.8438890473859
+        ],
+        [
+          0.25377560108128977,
+          -0.6820913218476965,
+          -0.6858202191215217,
+          -103.08633815045548
+        ],
+        [
+          0.8752729948852109,
+          0.463723593090735,
+          -0.13732302660403184,
+          -48.02192529935203
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "23B",
+      "source_id": "RF_finger_link__C002",
+      "link": "RF_finger_link",
+      "name_en": "RF Moving-finger structure B",
+      "mesh": "scene_meshes/23B.stl",
+      "triangles": 2672,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        159.30779411136925,
+        -61.41186845760352,
+        -70.99886281486705
+      ],
+      "exploded_center_mm": [
+        370.2268652608908,
+        -236.16962504333756,
+        -137.54582280170757
+      ],
+      "explosion_translation_mm": [
+        210.91907114952156,
+        -174.75775658573403,
+        -66.5469599868405
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.41169786096177774,
+          -0.5654306835245857,
+          0.7146978476310225,
+          130.8438890473859
+        ],
+        [
+          0.25377560108128977,
+          -0.6820913218476965,
+          -0.6858202191215217,
+          -103.08633815045548
+        ],
+        [
+          0.8752729948852109,
+          0.463723593090735,
+          -0.13732302660403184,
+          -48.02192529935203
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "23R",
+      "source_id": "RF_finger_link__remaining",
+      "link": "RF_finger_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/23R.stl",
+      "triangles": 1740,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        131.15958772246202,
+        -97.95690994052985,
+        -47.321708405949536
+      ],
+      "exploded_center_mm": [
+        330.65958772246205,
+        -297.45690994052984,
+        -101.32170840594952
+      ],
+      "explosion_translation_mm": [
+        199.5,
+        -199.5,
+        -54.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.41169786096177774,
+          -0.5654306835245857,
+          0.7146978476310225,
+          130.8438890473859
+        ],
+        [
+          0.25377560108128977,
+          -0.6820913218476965,
+          -0.6858202191215217,
+          -103.08633815045548
+        ],
+        [
+          0.8752729948852109,
+          0.463723593090735,
+          -0.13732302660403184,
+          -48.02192529935203
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "24",
+      "source_id": "RF_finger_grip_insert_link",
+      "link": "RF_finger_grip_insert_link",
+      "name_en": "RF Finger grip insert",
+      "mesh": "scene_meshes/24.stl",
+      "triangles": 2304,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "pad",
+      "assembled_center_mm": [
+        164.05368501173967,
+        -60.196172810159084,
+        -72.37420002136884
+      ],
+      "exploded_center_mm": [
+        412.5536850117397,
+        -308.69617281015906,
+        -267.1944809918325
+      ],
+      "explosion_translation_mm": [
+        248.49999999999997,
+        -248.49999999999997,
+        -194.82028097046367
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.41169786096177774,
+          -0.5654306835245857,
+          0.7146978476310225,
+          167.32352632633663
+        ],
+        [
+          0.25377560108128977,
+          -0.6820913218476965,
+          -0.6858202191215217,
+          -55.20453838367046
+        ],
+        [
+          0.8752729948852109,
+          0.463723593090735,
+          -0.13732302660403184,
+          -77.0538860801801
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "25",
+      "source_id": "RF_finger_tip_link",
+      "link": "RF_finger_tip_link",
+      "name_en": "RF Finger tip",
+      "mesh": "scene_meshes/25.stl",
+      "triangles": 14134,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "pad",
+      "assembled_center_mm": [
+        179.9759357369922,
+        -31.75958469408541,
+        -89.14154769317393
+      ],
+      "exploded_center_mm": [
+        428.47593573699214,
+        -280.2595846940854,
+        -318.31485925534594
+      ],
+      "explosion_translation_mm": [
+        248.49999999999997,
+        -248.49999999999997,
+        -229.17331156217196
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.41169786096177774,
+          -0.5654306835245857,
+          0.7146978476310225,
+          189.13780566649874
+        ],
+        [
+          0.25377560108128977,
+          -0.6820913218476965,
+          -0.6858202191215217,
+          -28.03239392476812
+        ],
+        [
+          0.8752729948852109,
+          0.463723593090735,
+          -0.13732302660403184,
+          -95.60289814546759
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "26A",
+      "source_id": "LM_hip_link__C001",
+      "link": "LM_hip_link",
+      "name_en": "LM Hip casing A",
+      "mesh": "scene_meshes/26A.stl",
+      "triangles": 6148,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -6.884152919235933,
+        94.67749210051609,
+        -11.00000457763672
+      ],
+      "exploded_center_mm": [
+        -6.9040187992989654,
+        169.68744590221382,
+        18.99998719350617
+      ],
+      "explosion_translation_mm": [
+        -0.019865880063031752,
+        75.00995380169775,
+        29.999991771142888
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          -0.0011999997120000208,
+          0.0,
+          -7.3239
+        ],
+        [
+          0.0011999997120000208,
+          0.9999992800000864,
+          0.0,
+          66.501
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "26B",
+      "source_id": "LM_hip_link__C002",
+      "link": "LM_hip_link",
+      "name_en": "LM Hip casing B",
+      "mesh": "scene_meshes/26B.stl",
+      "triangles": 6042,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -6.874969763190383,
+        94.67347888807129,
+        -22.5744083404541
+      ],
+      "exploded_center_mm": [
+        -6.8551038831273505,
+        169.66352508637354,
+        -52.57440011159699
+      ],
+      "explosion_translation_mm": [
+        0.019865880063031752,
+        74.99004619830225,
+        -29.999991771142888
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          -0.0011999997120000208,
+          0.0,
+          -7.3239
+        ],
+        [
+          0.0011999997120000208,
+          0.9999992800000864,
+          0.0,
+          66.501
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "26R",
+      "source_id": "LM_hip_link__remaining",
+      "link": "LM_hip_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/26R.stl",
+      "triangles": 978,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        -11.356258584806302,
+        91.1637252284645,
+        -0.8876197814941413
+      ],
+      "exploded_center_mm": [
+        -11.356258584806302,
+        166.1637252284645,
+        -0.8876197814941413
+      ],
+      "explosion_translation_mm": [
+        0.0,
+        75.0,
+        0.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          -0.0011999997120000208,
+          0.0,
+          -7.3239
+        ],
+        [
+          0.0011999997120000208,
+          0.9999992800000864,
+          0.0,
+          66.501
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "27A",
+      "source_id": "LM_thigh_link__C001",
+      "link": "LM_thigh_link",
+      "name_en": "LM Thigh connector A",
+      "mesh": "scene_meshes/27A.stl",
+      "triangles": 4962,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "connector",
+      "assembled_center_mm": [
+        -6.813156000608546,
+        145.18204955182168,
+        -8.577870508933353
+      ],
+      "exploded_center_mm": [
+        -6.817408363653636,
+        305.35620633061217,
+        -52.45730149128099
+      ],
+      "explosion_translation_mm": [
+        -0.004252363045089011,
+        160.17415677879052,
+        -43.87943098234763
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          -0.0010319548361166747,
+          0.000612428383580921,
+          -6.291153825998549
+        ],
+        [
+          0.0011999997120000208,
+          0.859961950648588,
+          -0.5103567413460572,
+          122.63227769147676
+        ],
+        [
+          0.0,
+          0.5103571088031315,
+          0.859962569821564,
+          -17.4800000007529
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "27B",
+      "source_id": "LM_thigh_link__C002",
+      "link": "LM_thigh_link",
+      "name_en": "LM Thigh connector B",
+      "mesh": "scene_meshes/27B.stl",
+      "triangles": 3076,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "connector",
+      "assembled_center_mm": [
+        -6.815848206283806,
+        143.11257362605323,
+        -0.9907402971012562
+      ],
+      "exploded_center_mm": [
+        -6.811595843238717,
+        272.9384168472627,
+        6.888690685246376
+      ],
+      "explosion_translation_mm": [
+        0.004252363045089011,
+        129.82584322120948,
+        7.879430982347632
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          -0.0010319548361166747,
+          0.000612428383580921,
+          -6.291153825998549
+        ],
+        [
+          0.0011999997120000208,
+          0.859961950648588,
+          -0.5103567413460572,
+          122.63227769147676
+        ],
+        [
+          0.0,
+          0.5103571088031315,
+          0.859962569821564,
+          -17.4800000007529
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "27R",
+      "source_id": "LM_thigh_link__remaining",
+      "link": "LM_thigh_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/27R.stl",
+      "triangles": 972,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        -8.462580915681347,
+        122.63940825897089,
+        -17.480005597969267
+      ],
+      "exploded_center_mm": [
+        -8.462580915681347,
+        267.6394082589709,
+        -35.48000559796927
+      ],
+      "explosion_translation_mm": [
+        0.0,
+        145.0,
+        -18.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          -0.0010319548361166747,
+          0.000612428383580921,
+          -6.291153825998549
+        ],
+        [
+          0.0011999997120000208,
+          0.859961950648588,
+          -0.5103567413460572,
+          122.63227769147676
+        ],
+        [
+          0.0,
+          0.5103571088031315,
+          0.859962569821564,
+          -17.4800000007529
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "28A",
+      "source_id": "LM_calf_link__C001",
+      "link": "LM_calf_link",
+      "name_en": "LM Calf casing A",
+      "mesh": "scene_meshes/28A.stl",
+      "triangles": 7814,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -6.749554447023961,
+        174.29757045305473,
+        -34.330251306176756
+      ],
+      "exploded_center_mm": [
+        -6.735607250446037,
+        359.8026517676786,
+        -64.84850183919491
+      ],
+      "explosion_translation_mm": [
+        0.013947196577924084,
+        185.50508131462385,
+        -30.518250533018154
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          -0.00033081509409462216,
+          -0.0011534993204676365,
+          -7.542658976506149
+        ],
+        [
+          0.0011999997120000208,
+          0.2756791127528015,
+          0.9612489723232578,
+          165.628937227474
+        ],
+        [
+          0.0,
+          -0.9612496644229332,
+          0.2756793112418817,
+          8.03785656291953
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "28B",
+      "source_id": "LM_calf_link__C002",
+      "link": "LM_calf_link",
+      "name_en": "LM Calf casing B",
+      "mesh": "scene_meshes/28B.stl",
+      "triangles": 5548,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -6.737168366604866,
+        183.96829895255746,
+        -38.184742709319394
+      ],
+      "exploded_center_mm": [
+        -6.75111556318279,
+        428.46321763793355,
+        -79.66649217630123
+      ],
+      "explosion_translation_mm": [
+        -0.013947196577924084,
+        244.49491868537615,
+        -41.481749466981846
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          -0.00033081509409462216,
+          -0.0011534993204676365,
+          -7.542658976506149
+        ],
+        [
+          0.0011999997120000208,
+          0.2756791127528015,
+          0.9612489723232578,
+          165.628937227474
+        ],
+        [
+          0.0,
+          -0.9612496644229332,
+          0.2756793112418817,
+          8.03785656291953
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "28R",
+      "source_id": "LM_calf_link__remaining",
+      "link": "LM_calf_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/28R.stl",
+      "triangles": 996,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        -6.764893365023083,
+        175.042519470166,
+        -34.72086402059678
+      ],
+      "exploded_center_mm": [
+        -6.764893365023083,
+        390.042519470166,
+        -70.72086402059678
+      ],
+      "explosion_translation_mm": [
+        0.0,
+        215.0,
+        -36.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          -0.00033081509409462216,
+          -0.0011534993204676365,
+          -7.542658976506149
+        ],
+        [
+          0.0011999997120000208,
+          0.2756791127528015,
+          0.9612489723232578,
+          165.628937227474
+        ],
+        [
+          0.0,
+          -0.9612496644229332,
+          0.2756793112418817,
+          8.03785656291953
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "29",
+      "source_id": "LM_foot_tip_link",
+      "link": "LM_foot_tip_link",
+      "name_en": "LM Foot-tip pad",
+      "mesh": "scene_meshes/29.stl",
+      "triangles": 1934,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "pad",
+      "assembled_center_mm": [
+        -6.792939714557107,
+        196.7051592803141,
+        -95.99349410329299
+      ],
+      "exploded_center_mm": [
+        -6.792939714557107,
+        481.7051592803141,
+        -149.993494103293
+      ],
+      "explosion_translation_mm": [
+        0.0,
+        285.0,
+        -54.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          -0.00033081509409462216,
+          -0.0011534993204676365,
+          -6.80054363311967
+        ],
+        [
+          0.0011999997120000208,
+          0.2756791127528015,
+          0.9612489723232578,
+          204.96283051746832
+        ],
+        [
+          0.0,
+          -0.9612496644229332,
+          0.2756793112418817,
+          -106.47361590665571
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "30A",
+      "source_id": "RM_hip_link__C001",
+      "link": "RM_hip_link",
+      "name_en": "RM Hip casing A",
+      "mesh": "scene_meshes/30A.stl",
+      "triangles": 6148,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -7.87896326330531,
+        -94.67313638190865,
+        -11.00000457763672
+      ],
+      "exploded_center_mm": [
+        -7.8591139154908785,
+        -169.68313907782823,
+        18.99998718818658
+      ],
+      "explosion_translation_mm": [
+        0.019849347814430714,
+        -75.01000269591957,
+        29.9999917658233
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          0.0011999997120000208,
+          0.0,
+          -7.3239
+        ],
+        [
+          -0.0011999997120000208,
+          0.9999992800000864,
+          0.0,
+          -66.49900000000001
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "30B",
+      "source_id": "RM_hip_link__C002",
+      "link": "RM_hip_link",
+      "name_en": "RM Hip casing B",
+      "mesh": "scene_meshes/30B.stl",
+      "triangles": 6042,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -7.885102781469123,
+        -94.66943889216925,
+        -22.5744083404541
+      ],
+      "exploded_center_mm": [
+        -7.904952129283554,
+        -169.6594361962497,
+        -52.574400106277395
+      ],
+      "explosion_translation_mm": [
+        -0.019849347814430714,
+        -74.98999730408043,
+        -29.9999917658233
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          0.0011999997120000208,
+          0.0,
+          -7.3239
+        ],
+        [
+          -0.0011999997120000208,
+          0.9999992800000864,
+          0.0,
+          -66.49900000000001
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "30R",
+      "source_id": "RM_hip_link__remaining",
+      "link": "RM_hip_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/30R.stl",
+      "triangles": 978,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        -3.363275274038055,
+        -91.18387503547734,
+        -0.8876197814941413
+      ],
+      "exploded_center_mm": [
+        -3.363275274038055,
+        -166.18387503547734,
+        -0.8876197814941413
+      ],
+      "explosion_translation_mm": [
+        0.0,
+        -75.0,
+        0.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          0.0011999997120000208,
+          0.0,
+          -7.3239
+        ],
+        [
+          -0.0011999997120000208,
+          0.9999992800000864,
+          0.0,
+          -66.49900000000001
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "31A",
+      "source_id": "RM_thigh_link__C001",
+      "link": "RM_thigh_link",
+      "name_en": "RM Thigh connector A",
+      "mesh": "scene_meshes/31A.stl",
+      "triangles": 4962,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "connector",
+      "assembled_center_mm": [
+        -8.022951497166066,
+        -145.16076007017065,
+        -8.52148000141967
+      ],
+      "exploded_center_mm": [
+        -8.055170907558718,
+        -305.38661180687143,
+        -52.37051094653635
+      ],
+      "explosion_translation_mm": [
+        -0.03221941039265175,
+        -160.22585173670078,
+        -43.84903094511668
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          0.0010307279162565458,
+          0.000614491067021785,
+          -8.491255170121047
+        ],
+        [
+          -0.0011999997120000208,
+          0.858939517922582,
+          0.5120756433883704,
+          -122.6276395866173
+        ],
+        [
+          0.0,
+          -0.5120760120830549,
+          0.858940136359406,
+          -17.4800000007529
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "31B",
+      "source_id": "RM_thigh_link__C002",
+      "link": "RM_thigh_link",
+      "name_en": "RM Thigh connector B",
+      "mesh": "scene_meshes/31B.stl",
+      "triangles": 3076,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "connector",
+      "assembled_center_mm": [
+        -8.015960502092275,
+        -143.07664205726354,
+        -0.960038458337019
+      ],
+      "exploded_center_mm": [
+        -7.983741091699622,
+        -272.8507903205628,
+        6.8889924867796655
+      ],
+      "explosion_translation_mm": [
+        0.03221941039265175,
+        -129.77414826329922,
+        7.849030945116684
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          0.0010307279162565458,
+          0.000614491067021785,
+          -8.491255170121047
+        ],
+        [
+          -0.0011999997120000208,
+          0.858939517922582,
+          0.5120756433883704,
+          -122.6276395866173
+        ],
+        [
+          0.0,
+          -0.5120760120830549,
+          0.858940136359406,
+          -17.4800000007529
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "31R",
+      "source_id": "RM_thigh_link__remaining",
+      "link": "RM_thigh_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/31R.stl",
+      "triangles": 972,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        -6.319834014472471,
+        -122.62049958770149,
+        -17.4800000007529
+      ],
+      "exploded_center_mm": [
+        -6.319834014472471,
+        -267.6204995877015,
+        -35.480000000752895
+      ],
+      "explosion_translation_mm": [
+        0.0,
+        -145.0,
+        -18.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          0.0010307279162565458,
+          0.000614491067021785,
+          -8.491255170121047
+        ],
+        [
+          -0.0011999997120000208,
+          0.858939517922582,
+          0.5120756433883704,
+          -122.6276395866173
+        ],
+        [
+          0.0,
+          -0.5120760120830549,
+          0.858940136359406,
+          -17.4800000007529
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "32A",
+      "source_id": "RM_calf_link__C001",
+      "link": "RM_calf_link",
+      "name_en": "RM Calf casing A",
+      "mesh": "scene_meshes/32A.stl",
+      "triangles": 7814,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -8.154329064094917,
+        -174.15085293459146,
+        -34.260334988570285
+      ],
+      "exploded_center_mm": [
+        -8.09747040642757,
+        -359.66812293304724,
+        -64.71367845070056
+      ],
+      "explosion_translation_mm": [
+        0.05685865766734658,
+        -185.5172699984558,
+        -30.45334346213027
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          0.0003282765970619558,
+          -0.0011542243216210422,
+          -7.342792435709553
+        ],
+        [
+          -0.0011999997120000208,
+          0.2735636995743117,
+          -0.9618531396610955,
+          -165.5760554825161
+        ],
+        [
+          0.0,
+          0.9618538321957716,
+          0.27356389654029356,
+          8.123800603472713
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "32B",
+      "source_id": "RM_calf_link__C002",
+      "link": "RM_calf_link",
+      "name_en": "RM Calf casing B",
+      "mesh": "scene_meshes/32B.stl",
+      "triangles": 5548,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -8.160767062280488,
+        -183.81397704174208,
+        -38.144567894970585
+      ],
+      "exploded_center_mm": [
+        -8.217625719947836,
+        -428.2967070432863,
+        -79.69122443284031
+      ],
+      "explosion_translation_mm": [
+        -0.05685865766734658,
+        -244.4827300015442,
+        -41.54665653786973
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          0.0003282765970619558,
+          -0.0011542243216210422,
+          -7.342792435709553
+        ],
+        [
+          -0.0011999997120000208,
+          0.2735636995743117,
+          -0.9618531396610955,
+          -165.5760554825161
+        ],
+        [
+          0.0,
+          0.9618538321957716,
+          0.27356389654029356,
+          8.123800603472713
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "32R",
+      "source_id": "RM_calf_link__remaining",
+      "link": "RM_calf_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/32R.stl",
+      "triangles": 24,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        -8.162059491299203,
+        -189.81885178917454,
+        -56.17856486515328
+      ],
+      "exploded_center_mm": [
+        -8.162059491299203,
+        -404.8188517891745,
+        -92.17856486515328
+      ],
+      "explosion_translation_mm": [
+        0.0,
+        -215.0,
+        -36.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          0.0003282765970619558,
+          -0.0011542243216210422,
+          -7.342792435709553
+        ],
+        [
+          -0.0011999997120000208,
+          0.2735636995743117,
+          -0.9618531396610955,
+          -165.5760554825161
+        ],
+        [
+          0.0,
+          0.9618538321957716,
+          0.27356389654029356,
+          8.123800603472713
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "33",
+      "source_id": "RM_foot_tip_link",
+      "link": "RM_foot_tip_link",
+      "name_en": "RM Foot-tip pad",
+      "mesh": "scene_meshes/33.stl",
+      "triangles": 1934,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "pad",
+      "assembled_center_mm": [
+        -8.165771051711118,
+        -196.42342380443387,
+        -95.9905180240315
+      ],
+      "exploded_center_mm": [
+        -8.165771051711118,
+        -481.42342380443387,
+        -149.9905180240315
+      ],
+      "explosion_translation_mm": [
+        0.0,
+        -285.0,
+        -54.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.9999992800000864,
+          0.0003282765970619558,
+          -0.0011542243216210422,
+          -8.17878265130208
+        ],
+        [
+          -0.0011999997120000208,
+          0.2735636995743117,
+          -0.9618531396610955,
+          -204.65603503731376
+        ],
+        [
+          0.0,
+          0.9618538321957716,
+          0.27356389654029356,
+          -106.47392861503286
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "34A",
+      "source_id": "LR_hip_link__C001",
+      "link": "LR_hip_link",
+      "name_en": "LR Hip casing A",
+      "mesh": "scene_meshes/34A.stl",
+      "triangles": 6148,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -84.60243831722312,
+        81.24168074301997,
+        -11.00000457763672
+      ],
+      "exploded_center_mm": [
+        -137.12435435867977,
+        133.73801761788053,
+        18.99998719350617
+      ],
+      "explosion_translation_mm": [
+        -52.52191604145665,
+        52.49633687486056,
+        29.999991771142888
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8072609375594038,
+          -0.5901946955799523,
+          0.0,
+          -65.324
+        ],
+        [
+          0.5901946955799523,
+          0.8072609375594038,
+          0.0,
+          55.501000000000005
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "34B",
+      "source_id": "LR_hip_link__C002",
+      "link": "LR_hip_link",
+      "name_en": "LR Hip casing B",
+      "mesh": "scene_meshes/34B.stl",
+      "triangles": 6042,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -84.62367158203163,
+        81.21718224533771,
+        -22.5744083404541
+      ],
+      "exploded_center_mm": [
+        -137.10175554057497,
+        133.72084537047715,
+        -52.57440011159699
+      ],
+      "explosion_translation_mm": [
+        -52.47808395854335,
+        52.50366312513944,
+        -29.999991771142888
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8072609375594038,
+          -0.5901946955799523,
+          0.0,
+          -65.324
+        ],
+        [
+          0.5901946955799523,
+          0.8072609375594038,
+          0.0,
+          55.501000000000005
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "34R",
+      "source_id": "LR_hip_link__remaining",
+      "link": "LR_hip_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/34R.stl",
+      "triangles": 978,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        -83.52296230588652,
+        67.28250549822756,
+        -0.8876197814941413
+      ],
+      "exploded_center_mm": [
+        -136.02296230588652,
+        119.78250549822755,
+        -0.8876197814941413
+      ],
+      "explosion_translation_mm": [
+        -52.5,
+        52.5,
+        0.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8072609375594038,
+          -0.5901946955799523,
+          0.0,
+          -65.324
+        ],
+        [
+          0.5901946955799523,
+          0.8072609375594038,
+          0.0,
+          55.501000000000005
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "35A",
+      "source_id": "LR_thigh_link__C001",
+      "link": "LR_thigh_link",
+      "name_en": "LR Thigh connector A",
+      "mesh": "scene_meshes/35A.stl",
+      "triangles": 4962,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "connector",
+      "assembled_center_mm": [
+        -111.12923057083238,
+        119.19311253235477,
+        -8.07847700697265
+      ],
+      "exploded_center_mm": [
+        -221.8441097276974,
+        233.32075671022227,
+        -51.68372265394008
+      ],
+      "explosion_translation_mm": [
+        -110.71487915686501,
+        114.12764417786748,
+        -43.605245646967425
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8072609375594038,
+          -0.5021036879748635,
+          0.31019617214394096,
+          -97.56355693508152
+        ],
+        [
+          0.5901946955799523,
+          0.6867711569456382,
+          -0.4242824522612702,
+          101.46182972017841
+        ],
+        [
+          0.0,
+          0.5255827855909956,
+          0.8507424613185881,
+          -17.4800000007529
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "35B",
+      "source_id": "LR_thigh_link__C002",
+      "link": "LR_thigh_link",
+      "name_en": "LR Thigh connector B",
+      "mesh": "scene_meshes/35B.stl",
+      "triangles": 3076,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "connector",
+      "assembled_center_mm": [
+        -109.90818394177226,
+        117.49232316252866,
+        -0.7198138068342477
+      ],
+      "exploded_center_mm": [
+        -202.19330478490724,
+        206.3646789846612,
+        6.885431840133176
+      ],
+      "explosion_translation_mm": [
+        -92.28512084313499,
+        88.87235582213252,
+        7.605245646967425
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8072609375594038,
+          -0.5021036879748635,
+          0.31019617214394096,
+          -97.56355693508152
+        ],
+        [
+          0.5901946955799523,
+          0.6867711569456382,
+          -0.4242824522612702,
+          101.46182972017841
+        ],
+        [
+          0.0,
+          0.5255827855909956,
+          0.8507424613185881,
+          -17.4800000007529
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "35R",
+      "source_id": "LR_thigh_link__remaining",
+      "link": "LR_thigh_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/35R.stl",
+      "triangles": 972,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        -98.20936501763889,
+        100.98967595928482,
+        -17.48000576495314
+      ],
+      "exploded_center_mm": [
+        -199.7093650176389,
+        202.4896759592848,
+        -35.48000576495314
+      ],
+      "explosion_translation_mm": [
+        -101.5,
+        101.5,
+        -18.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8072609375594038,
+          -0.5021036879748635,
+          0.31019617214394096,
+          -97.56355693508152
+        ],
+        [
+          0.5901946955799523,
+          0.6867711569456382,
+          -0.4242824522612702,
+          101.46182972017841
+        ],
+        [
+          0.0,
+          0.5255827855909956,
+          0.8507424613185881,
+          -17.4800000007529
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "36A",
+      "source_id": "LR_calf_link__C001",
+      "link": "LR_calf_link",
+      "name_en": "LR Calf casing A",
+      "mesh": "scene_meshes/36A.stl",
+      "triangles": 7814,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -126.46926064909314,
+        140.70226939574695,
+        -33.70637916419555
+      ],
+      "exploded_center_mm": [
+        -259.64665675537725,
+        267.47228965772,
+        -63.63880502173548
+      ],
+      "explosion_translation_mm": [
+        -133.1773961062841,
+        126.77002026197307,
+        -29.93242585753993
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8072609375594038,
+          -0.1513832404531372,
+          -0.5704497288987174,
+          -123.63738151456067
+        ],
+        [
+          0.5901946955799523,
+          0.20706010666343802,
+          0.78025401859767,
+          135.09220958293457
+        ],
+        [
+          0.0,
+          -0.9665449946786923,
+          0.25649712135142316,
+          8.799140435829855
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "36B",
+      "source_id": "LR_calf_link__C002",
+      "link": "LR_calf_link",
+      "name_en": "LR Calf casing B",
+      "mesh": "scene_meshes/36B.stl",
+      "triangles": 5548,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -130.366134415536,
+        146.6936859039867,
+        -37.82916644277823
+      ],
+      "exploded_center_mm": [
+        -298.1887383092519,
+        320.92366564201365,
+        -79.89674058523829
+      ],
+      "explosion_translation_mm": [
+        -167.8226038937159,
+        174.22997973802694,
+        -42.06757414246007
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8072609375594038,
+          -0.1513832404531372,
+          -0.5704497288987174,
+          -123.63738151456067
+        ],
+        [
+          0.5901946955799523,
+          0.20706010666343802,
+          0.78025401859767,
+          135.09220958293457
+        ],
+        [
+          0.0,
+          -0.9665449946786923,
+          0.25649712135142316,
+          8.799140435829855
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "36R",
+      "source_id": "LR_calf_link__remaining",
+      "link": "LR_calf_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/36R.stl",
+      "triangles": 996,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        -128.3493062227945,
+        143.48274115235765,
+        -34.22022864913802
+      ],
+      "exploded_center_mm": [
+        -278.8493062227945,
+        293.9827411523577,
+        -70.22022864913802
+      ],
+      "explosion_translation_mm": [
+        -150.5,
+        150.5,
+        -36.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8072609375594038,
+          -0.1513832404531372,
+          -0.5704497288987174,
+          -123.63738151456067
+        ],
+        [
+          0.5901946955799523,
+          0.20706010666343802,
+          0.78025401859767,
+          135.09220958293457
+        ],
+        [
+          0.0,
+          -0.9665449946786923,
+          0.25649712135142316,
+          8.799140435829855
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "37",
+      "source_id": "LR_foot_tip_link",
+      "link": "LR_foot_tip_link",
+      "name_en": "LR Foot-tip pad",
+      "mesh": "scene_meshes/37.stl",
+      "triangles": 1934,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "pad",
+      "assembled_center_mm": [
+        -140.2553319649134,
+        158.8809058147173,
+        -95.96425473824524
+      ],
+      "exploded_center_mm": [
+        -339.7553319649134,
+        358.38090581471727,
+        -149.96425473824524
+      ],
+      "explosion_translation_mm": [
+        -199.5,
+        199.5,
+        -54.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8072609375594038,
+          -0.1513832404531372,
+          -0.5704497288987174,
+          -144.86488071362436
+        ],
+        [
+          0.5901946955799523,
+          0.20706010666343802,
+          0.78025401859767,
+          165.46429952044258
+        ],
+        [
+          0.0,
+          -0.9665449946786923,
+          0.25649712135142316,
+          -106.47233559642878
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "38A",
+      "source_id": "RR_hip_link__C001",
+      "link": "RR_hip_link",
+      "name_en": "RR Hip casing A",
+      "mesh": "scene_meshes/38A.stl",
+      "triangles": 6148,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -85.47389675640386,
+        -80.6056653860328,
+        -11.00000457763672
+      ],
+      "exploded_center_mm": [
+        -137.96377867037762,
+        -133.1254561634173,
+        18.99998718818658
+      ],
+      "explosion_translation_mm": [
+        -52.489881913973754,
+        -52.51979077738451,
+        29.9999917658233
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8064930025358632,
+          0.59124363578874,
+          0.0,
+          -65.32393776220461
+        ],
+        [
+          -0.59124363578874,
+          0.8064930025358632,
+          0.0,
+          -55.499103165328
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "38B",
+      "source_id": "RR_hip_link__C002",
+      "link": "RR_hip_link",
+      "name_en": "RR Hip casing B",
+      "mesh": "scene_meshes/38B.stl",
+      "triangles": 6042,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -85.43909043413703,
+        -80.6266273950679,
+        -22.5744083404541
+      ],
+      "exploded_center_mm": [
+        -137.94920852016327,
+        -133.10683661768337,
+        -52.574400106277395
+      ],
+      "explosion_translation_mm": [
+        -52.510118086026246,
+        -52.48020922261549,
+        -29.9999917658233
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8064930025358632,
+          0.59124363578874,
+          0.0,
+          -65.32393776220461
+        ],
+        [
+          -0.59124363578874,
+          0.8064930025358632,
+          0.0,
+          -55.499103165328
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "38R",
+      "source_id": "RR_hip_link__remaining",
+      "link": "RR_hip_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/38R.stl",
+      "triangles": 978,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        -68.64273657824435,
+        -78.17202617381642,
+        -0.8876197814941413
+      ],
+      "exploded_center_mm": [
+        -121.14273657824434,
+        -130.67202617381642,
+        -0.8876197814941413
+      ],
+      "explosion_translation_mm": [
+        -52.5,
+        -52.5,
+        0.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8064930025358632,
+          0.59124363578874,
+          0.0,
+          -65.32393776220461
+        ],
+        [
+          -0.59124363578874,
+          0.8064930025358632,
+          0.0,
+          -55.499103165328
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.45
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "39A",
+      "source_id": "RR_thigh_link__C001",
+      "link": "RR_thigh_link",
+      "name_en": "RR Thigh connector A",
+      "mesh": "scene_meshes/39A.stl",
+      "triangles": 4962,
+      "closed_positive_volume": false,
+      "label": true,
+      "material": "connector",
+      "assembled_center_mm": [
+        -112.18072428998327,
+        -118.40644157297822,
+        -8.039414215522685
+      ],
+      "exploded_center_mm": [
+        -222.95570222542665,
+        -232.53449536023578,
+        -51.62274945241407
+      ],
+      "explosion_translation_mm": [
+        -110.77497793544339,
+        -114.12805378725757,
+        -43.583335236891386
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8064930025358632,
+          0.5025605266877394,
+          0.31145136679107727,
+          -99.39758532433223
+        ],
+        [
+          -0.59124363578874,
+          0.6855237394372962,
+          0.4248389880969236,
+          -100.11718741095095
+        ],
+        [
+          0.0,
+          -0.5267733095775147,
+          0.8500058119311609,
+          -17.4800000007529
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "39B",
+      "source_id": "RR_thigh_link__C002",
+      "link": "RR_thigh_link",
+      "name_en": "RR Thigh connector B",
+      "mesh": "scene_meshes/39B.stl",
+      "triangles": 3076,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "connector",
+      "assembled_center_mm": [
+        -110.94164505942621,
+        -116.70292784441729,
+        -0.6987306328707508
+      ],
+      "exploded_center_mm": [
+        -203.16666712398282,
+        -205.57487405715972,
+        6.8846046040206375
+      ],
+      "explosion_translation_mm": [
+        -92.22502206455661,
+        -88.87194621274243,
+        7.583335236891386
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8064930025358632,
+          0.5025605266877394,
+          0.31145136679107727,
+          -99.39758532433223
+        ],
+        [
+          -0.59124363578874,
+          0.6855237394372962,
+          0.4248389880969236,
+          -100.11718741095095
+        ],
+        [
+          0.0,
+          -0.5267733095775147,
+          0.8500058119311609,
+          -17.4800000007529
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "39R",
+      "source_id": "RR_thigh_link__remaining",
+      "link": "RR_thigh_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/39R.stl",
+      "triangles": 972,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        -98.75239230674053,
+        -100.59018130464497,
+        -17.4800000007529
+      ],
+      "exploded_center_mm": [
+        -200.25239230674055,
+        -202.09018130464497,
+        -35.480000000752895
+      ],
+      "explosion_translation_mm": [
+        -101.5,
+        -101.5,
+        -18.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8064930025358632,
+          0.5025605266877394,
+          0.31145136679107727,
+          -99.39758532433223
+        ],
+        [
+          -0.59124363578874,
+          0.6855237394372962,
+          0.4248389880969236,
+          -100.11718741095095
+        ],
+        [
+          0.0,
+          -0.5267733095775147,
+          0.8500058119311609,
+          -17.4800000007529
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "40A",
+      "source_id": "RR_calf_link__C001",
+      "link": "RR_calf_link",
+      "name_en": "RR Calf casing A",
+      "mesh": "scene_meshes/40A.stl",
+      "triangles": 7814,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -127.65349107065344,
+        -139.6966971110008,
+        -33.657182513592744
+      ],
+      "exploded_center_mm": [
+        -260.77119926688357,
+        -266.522501717953,
+        -63.54257670942276
+      ],
+      "explosion_translation_mm": [
+        -133.1177081962301,
+        -126.8258046069522,
+        -29.885394195830024
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8064930025358632,
+          0.15073775514823623,
+          -0.5717054888957764,
+          -123.55782006050201
+        ],
+        [
+          -0.59124363578874,
+          0.20561565044643487,
+          -0.7798417579424698,
+          -135.10286674237733
+        ],
+        [
+          0.0,
+          0.9669541527209862,
+          0.25495032170138576,
+          8.85866547819927
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "40B",
+      "source_id": "RR_calf_link__C002",
+      "link": "RR_calf_link",
+      "name_en": "RR Calf casing B",
+      "mesh": "scene_meshes/40B.stl",
+      "triangles": 5548,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "shell",
+      "assembled_center_mm": [
+        -131.54199763553018,
+        -145.69020760814325,
+        -37.80147550905599
+      ],
+      "exploded_center_mm": [
+        -299.4242894393001,
+        -319.864403001191,
+        -79.91608131322596
+      ],
+      "explosion_translation_mm": [
+        -167.8822918037699,
+        -174.1741953930478,
+        -42.114605804169976
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8064930025358632,
+          0.15073775514823623,
+          -0.5717054888957764,
+          -123.55782006050201
+        ],
+        [
+          -0.59124363578874,
+          0.20561565044643487,
+          -0.7798417579424698,
+          -135.10286674237733
+        ],
+        [
+          0.0,
+          0.9669541527209862,
+          0.25495032170138576,
+          8.85866547819927
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "40R",
+      "source_id": "RR_calf_link__remaining",
+      "link": "RR_calf_link",
+      "name_en": "Internal components / actuator reference",
+      "mesh": "scene_meshes/40R.stl",
+      "triangles": 996,
+      "closed_positive_volume": false,
+      "label": false,
+      "material": "hardware",
+      "assembled_center_mm": [
+        -129.77222428612862,
+        -142.11666068531002,
+        -34.18093275499194
+      ],
+      "exploded_center_mm": [
+        -280.27222428612856,
+        -292.6166606853101,
+        -70.18093275499194
+      ],
+      "explosion_translation_mm": [
+        -150.5,
+        -150.5,
+        -36.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8064930025358632,
+          0.15073775514823623,
+          -0.5717054888957764,
+          -123.55782006050201
+        ],
+        [
+          -0.59124363578874,
+          0.20561565044643487,
+          -0.7798417579424698,
+          -135.10286674237733
+        ],
+        [
+          0.0,
+          0.9669541527209862,
+          0.25495032170138576,
+          8.85866547819927
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "41",
+      "source_id": "RR_foot_tip_link",
+      "link": "RR_foot_tip_link",
+      "name_en": "RR Foot-tip pad",
+      "mesh": "scene_meshes/41.stl",
+      "triangles": 1934,
+      "closed_positive_volume": true,
+      "label": true,
+      "material": "pad",
+      "assembled_center_mm": [
+        -141.38258489420804,
+        -157.8033258663645,
+        -95.96179497632542
+      ],
+      "exploded_center_mm": [
+        -340.88258489420804,
+        -357.3033258663645,
+        -149.96179497632542
+      ],
+      "explosion_translation_mm": [
+        -199.5,
+        -199.5,
+        -54.0
+      ],
+      "home_world_matrix_mm": [
+        [
+          0.8064930025358632,
+          0.15073775514823623,
+          -0.5717054888957764,
+          -145.9886871910246
+        ],
+        [
+          -0.59124363578874,
+          0.20561565044643487,
+          -0.7798417579424698,
+          -164.3653275699584
+        ],
+        [
+          0.0,
+          0.9669541527209862,
+          0.25495032170138576,
+          -106.47193674761499
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ]
+}

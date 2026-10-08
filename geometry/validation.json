@@ -1,0 +1,68 @@
+{
+  "source_commit": "61d065219fca767f3142c8f10aff59eae5a5a004",
+  "source_urdf_sha256": "8a7dc16b178cf1e9abc2c42d82a311d69a8229e0a06df3aa2b86274e415af926",
+  "units": {
+    "stl": "mm",
+    "assembly_glb": "m"
+  },
+  "links": 41,
+  "joints": 40,
+  "movable_joints": 22,
+  "total_urdf_mass_kg": 2.542961806789299,
+  "components": 1364,
+  "triangles": 430915,
+  "valid_closed_components": 75,
+  "trial_candidate_components": 32,
+  "fitted_circular_rims": 741,
+  "component_roles": {
+    "closed_geometry_trial_candidate_material_unverified": 32,
+    "internal_component_identity_review": 21,
+    "small_fragment_or_detail_review": 1255,
+    "purchased_module_or_housing_review": 5,
+    "repeated_actuator_or_bearing_reference_not_print": 21,
+    "open_geometry_repair_or_reconstruction_needed": 18,
+    "metal_connector_or_cover_review": 12
+  },
+  "max_export_bounds_error_mm": 6.67572021484375e-06,
+  "assembly_bounds_mm": [
+    [
+      -159.10563341847475,
+      -207.4900193769926,
+      -106.47392381406925
+    ],
+    [
+      209.4298970725373,
+      207.77527840930057,
+      71.89727523922821
+    ]
+  ],
+  "assembly_extents_mm": [
+    368.5355304910121,
+    415.26529778629316,
+    178.37119905329746
+  ],
+  "home_pose_urdf_limit_violations": [
+    {
+      "joint": "RF_J4_joint",
+      "home_rad": 0.0,
+      "lower": 0.1,
+      "upper": 1.6
+    },
+    {
+      "joint": "LM_J0_joint",
+      "home_rad": 0.0012,
+      "lower": 0.75,
+      "upper": 1.0
+    }
+  ],
+  "repairs_performed": false,
+  "slicing": "not_tested",
+  "self_intersection": "not_tested",
+  "physical_fit": "not_tested",
+  "load_capacity": "not_tested",
+  "versions": {
+    "trimesh": "5.1.1",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2"
+  }
+}

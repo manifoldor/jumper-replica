@@ -1,0 +1,11 @@
+{
+  "step_files": 46,
+  "step_hashes_verified": true,
+  "component_files": 1364,
+  "component_hashes_verified": true,
+  "all_reported_step_conversions_passed": true,
+  "max_step_bounds_error_mm": 1.0000036354540498e-07,
+  "max_step_relative_volume_error": 1.7063270852638927e-14,
+  "source_files_modified": false,
+  "physical_fit": "not_tested"
+}

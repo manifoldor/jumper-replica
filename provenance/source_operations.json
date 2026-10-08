@@ -1,0 +1,18 @@
+{
+  "upstream_repository": "https://github.com/KingKongRobotics/jumper",
+  "commit": "61d065219fca767f3142c8f10aff59eae5a5a004",
+  "snapshot_modified": false,
+  "operations": [
+    "connected-component extraction preserving triangle counts",
+    "meter-to-millimeter geometry conversion",
+    "vertex-only seam welding without holes filled or faces deleted",
+    "faceted AP214 STEP conversion with independent readback",
+    "rigid pilot-print orientation",
+    "translation-only assembly explosion",
+    "appearance styling and annotations",
+    "standalone script path adaptation and explicit project licensing"
+  ],
+  "source_geometry_license_basis": "Selected upstream repository-level Apache-2.0 declaration; upstream notices retained",
+  "new_contribution_license": "Apache-2.0",
+  "vendor_cad_binary_included": false
+}

@@ -1,0 +1,19 @@
+Jumper Replica
+
+Includes selected Jumper source materials and derived geometry.
+Jumper: Copyright 2026 KingKong Robotics. Apache License 2.0.
+Source: https://github.com/KingKongRobotics/jumper
+Pinned commit: 61d065219fca767f3142c8f10aff59eae5a5a004
+
+Changes in this project: connected-component extraction, meter-to-millimeter
+conversion, vertex-only seam welding, faceted STEP conversion, rigid print
+orientations, assembly explosion translations, annotations and documentation.
+All changed/generated files are catalogued in provenance/artifact_manifest.json.
+
+The complete upstream NOTICE is preserved in upstream_snapshot/NOTICE as a
+source record. Its training-library entries describe upstream dependencies;
+those libraries are not distributed by this mechanical-reference project.
+
+New project scripts, documentation, annotations and renders are explicitly
+licensed under Apache-2.0. This project is independent and does not imply
+manufacturer endorsement. External references retain their own terms.

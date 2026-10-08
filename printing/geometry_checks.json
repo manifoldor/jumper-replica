@@ -1,0 +1,326 @@
+{
+  "method": "Area-weighted inward surface-normal ray distance; not global minimum wall thickness.",
+  "control": "24 hollow-cube face-center rays: all 2 mm within 1e-6 mm",
+  "orientation_method": "Rank planar-face orientations by downward area / contact area plus height; tentative.",
+  "source_commit": "61d065219fca767f3142c8f10aff59eae5a5a004",
+  "parts": [
+    {
+      "part": "LF_shoulder_link__C001",
+      "orientation": "facet_571_down",
+      "bed_contact_area_mm2": 117.76979038136845,
+      "downward_area_above_0_4_mm2": 467.27699738018543,
+      "score": 4.144722752341687,
+      "extents_mm": [
+        16.342458580093446,
+        39.16452067175375,
+        35.401493514556805
+      ],
+      "transform": [
+        [
+          -0.9998476166084435,
+          -2.6951141110941152e-05,
+          -0.017456885061521654,
+          -9.299630986468097
+        ],
+        [
+          -2.742580330059066e-05,
+          0.9999999992607307,
+          2.6951141110941152e-05,
+          1.0117481846750689
+        ],
+        [
+          0.017456884322252453,
+          2.742580330059066e-05,
+          -0.9998476166084435,
+          -12.062291200181543
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_sha256": "fcdd341771250f6750e350cbdea198fd752feb2078744ac02f371c71b70a4f76",
+      "faces": 7508,
+      "source_volume_mm3": 2904.7247554459173,
+      "export_volume_relative_error": 2.417885003325182e-09,
+      "wall_sample_count": 3000,
+      "wall_hits": 3000,
+      "normal_distance_percentiles_mm": [
+        0.018998995374982963,
+        0.5588536354051927,
+        0.7843121622169666,
+        1.4997889183215896
+      ],
+      "sampled_area_fraction_under_0_8": 0.069,
+      "sampled_area_fraction_under_1_2": 0.14666666666666667,
+      "fits_220_bed_with_5_mm_margin": true
+    },
+    {
+      "part": "LF_shoulder_link__C002",
+      "orientation": "local_z_down",
+      "bed_contact_area_mm2": 144.1983004777074,
+      "downward_area_above_0_4_mm2": 755.9813326499316,
+      "score": 5.420215945785226,
+      "extents_mm": [
+        19.243736505508423,
+        39.195133209228516,
+        35.51303291320801
+      ],
+      "transform": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          7.319255709648132
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.026784896850586
+        ],
+        [
+          0.0,
+          0.0,
+          -1.0,
+          -12.100320816040039
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_sha256": "f545703a89d744af99a506c55f68b2f0ff7388381539ff31ad0ab8b5ae7fc2f1",
+      "faces": 6594,
+      "source_volume_mm3": 3521.968860659055,
+      "export_volume_relative_error": 5.015180648548778e-08,
+      "wall_sample_count": 3000,
+      "wall_hits": 3000,
+      "normal_distance_percentiles_mm": [
+        0.006036652583162927,
+        0.7486456682900782,
+        0.7991035937533795,
+        1.4941112365676639
+      ],
+      "sampled_area_fraction_under_0_8": 0.09133333333333334,
+      "sampled_area_fraction_under_1_2": 0.19966666666666666,
+      "fits_220_bed_with_5_mm_margin": true
+    },
+    {
+      "part": "LM_calf_link__C001",
+      "orientation": "facet_607_down",
+      "bed_contact_area_mm2": 12.828447862570073,
+      "downward_area_above_0_4_mm2": 4150.866421365634,
+      "score": 323.6872900212726,
+      "extents_mm": [
+        47.658729024673576,
+        118.61552383098234,
+        23.99514680728811
+      ],
+      "transform": [
+        [
+          -0.9999540609385755,
+          -0.009584755805462046,
+          -9.202500329284252e-05,
+          0.9606093598640211
+        ],
+        [
+          -0.009585197568614175,
+          0.9999081240012606,
+          0.009584755805462046,
+          -43.92752381583085
+        ],
+        [
+          1.490045533625306e-07,
+          0.009585197568614175,
+          -0.9999540609385755,
+          8.808609507510232
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_sha256": "2799463df42eff95bd7fd62beb3512f7e84455a84e6f57f927682e1b32dbaeb8",
+      "faces": 7814,
+      "source_volume_mm3": 11463.12594326242,
+      "export_volume_relative_error": 2.1188056420484713e-08,
+      "wall_sample_count": 3000,
+      "wall_hits": 3000,
+      "normal_distance_percentiles_mm": [
+        0.026745261060674,
+        0.5999979016400567,
+        0.7999966960477305,
+        1.4712337022298212
+      ],
+      "sampled_area_fraction_under_0_8": 0.11133333333333334,
+      "sampled_area_fraction_under_1_2": 0.2743333333333333,
+      "fits_220_bed_with_5_mm_margin": true
+    },
+    {
+      "part": "LM_calf_link__C002",
+      "orientation": "facet_424_down",
+      "bed_contact_area_mm2": 60.70373160138748,
+      "downward_area_above_0_4_mm2": 3351.7131217627066,
+      "score": 55.45328676994254,
+      "extents_mm": [
+        22.071415119242694,
+        130.14319680169513,
+        47.80040485789588
+      ],
+      "transform": [
+        [
+          -0.0173862017900749,
+          6.022119005307548e-05,
+          0.99984884675671,
+          -8.486384811146308
+        ],
+        [
+          0.006926862695845732,
+          0.999976007185473,
+          6.0221190053075475e-05,
+          -49.747273244679135
+        ],
+        [
+          -0.999824853942183,
+          0.006926862695845732,
+          -0.0173862017900749,
+          24.697728670087457
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_sha256": "3440b35c057acaa7a388362bb5e0dcf57c9c472512e386ebe201f47e05446bb5",
+      "faces": 5548,
+      "source_volume_mm3": 13036.280472746468,
+      "export_volume_relative_error": 8.340277690699338e-09,
+      "wall_sample_count": 3000,
+      "wall_hits": 3000,
+      "normal_distance_percentiles_mm": [
+        0.013428291250405452,
+        0.5456473467303071,
+        0.79999786954303,
+        1.4769381951712695
+      ],
+      "sampled_area_fraction_under_0_8": 0.12,
+      "sampled_area_fraction_under_1_2": 0.25366666666666665,
+      "fits_220_bed_with_5_mm_margin": true
+    },
+    {
+      "part": "LM_foot_tip_link__C001",
+      "orientation": "facet_364_down",
+      "bed_contact_area_mm2": 313.7362351432189,
+      "downward_area_above_0_4_mm2": 134.6254726536854,
+      "score": 0.5338623634065441,
+      "extents_mm": [
+        18.559343472329957,
+        35.148348868583774,
+        20.95167318568819
+      ],
+      "transform": [
+        [
+          0.009585195982207327,
+          0.009584732896846717,
+          -0.9999081242360613,
+          -4.7012512988602895
+        ],
+        [
+          -0.9999540609509763,
+          9.424939007140768e-05,
+          -0.009584732896846717,
+          -0.039872252600812175
+        ],
+        [
+          2.3736261329787567e-06,
+          0.9999540609509763,
+          0.009585195982207327,
+          20.951678972605333
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_sha256": "4ce817a4b65b9276e678b36c9cd7b03c46df462033aedb842c3afbf4bfd98f55",
+      "faces": 1934,
+      "source_volume_mm3": 6620.069829834163,
+      "export_volume_relative_error": 2.4146342703090795e-09,
+      "wall_sample_count": 3000,
+      "wall_hits": 3000,
+      "normal_distance_percentiles_mm": [
+        0.03462166324107726,
+        0.9122794024680169,
+        3.1499985947489946,
+        5.197999740712328
+      ],
+      "sampled_area_fraction_under_0_8": 0.008666666666666666,
+      "sampled_area_fraction_under_1_2": 0.015,
+      "fits_220_bed_with_5_mm_margin": true
+    },
+    {
+      "part": "upper_shell_link__C001",
+      "orientation": "facet_1391_down",
+      "bed_contact_area_mm2": 564.7544270369848,
+      "downward_area_above_0_4_mm2": 27524.344610899105,
+      "score": 49.01288388688942,
+      "extents_mm": [
+        204.39751805658983,
+        182.5025239797888,
+        55.20932235602789
+      ],
+      "transform": [
+        [
+          -0.9930812588961863,
+          -0.04688273528009657,
+          -0.10766439690920351,
+          -1.4937618871448777
+        ],
+        [
+          -0.05217584685760607,
+          0.9975368114196829,
+          0.04688273528009657,
+          0.8448095214796965
+        ],
+        [
+          0.10520120832888669,
+          0.05217584685760607,
+          -0.9930812588961863,
+          37.477581372499984
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_sha256": "658c49c96d6c42c8bff019bdb97b0102f7275ede343d06b615821fa50f6c035d",
+      "faces": 18144,
+      "source_volume_mm3": 98523.38861244626,
+      "export_volume_relative_error": 2.9843544080421225e-08,
+      "wall_sample_count": 3000,
+      "wall_hits": 3000,
+      "normal_distance_percentiles_mm": [
+        0.061818136351658205,
+        0.8483955181775413,
+        0.9999942300728112,
+        1.9517844032425107
+      ],
+      "sampled_area_fraction_under_0_8": 0.007,
+      "sampled_area_fraction_under_1_2": 0.192,
+      "fits_220_bed_with_5_mm_margin": true
+    }
+  ]
+}

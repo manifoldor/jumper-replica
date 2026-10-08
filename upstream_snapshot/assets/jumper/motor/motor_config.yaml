@@ -1,0 +1,288 @@
+# Jumper joint servo -- physical characteristics of the actuator hardware.
+#
+# A hardware specification, the counterpart of camera/camera_config.yaml.
+# tasks/jumper/common/actuator.py loads it at import; README.md gives the wiring
+# and the mjlab field each entry below maps onto.
+#
+# Two rules:
+#
+#   * Every number carries its source in a trailing comment -- datasheet section,
+#     bench run, or the file it was copied from. A number without one cannot be
+#     told apart from a guess.
+#
+#   * `null` means "not measured yet", and a consumer must fail on null rather
+#     than substitute a default. A plausible default is exactly the silent
+#     failure this file exists to prevent: a torque-speed curve invented from
+#     round numbers trains a policy that transfers worse than no curve at all,
+#     and nothing in the training logs says so.
+
+schema_version: 1
+
+motors:
+  # One entry per servo type. The 22 joints currently share a single
+  # `class="motor"` default in jumper.xml -- same armature / damping /
+  # frictionloss, every actuatorfrcrange "-2 2" -- so one entry covers the
+  # robot. If the two front arms turn out to carry a different servo from the
+  # four legs, add a second entry and split `applies_to`. Do not average them.
+  joint_servo:
+    applies_to: [".*_joint"]   # regex over joint names; mjlab's target_names_expr form
+    count_on_robot: 22
+
+    identity:
+      vendor: null
+      part_number: null
+      datasheet: null          # document id + revision, e.g. "DS14879 Rev 6"
+      firmware: null
+
+    # WHERE THESE NUMBERS ARE MEASURED.
+    #
+    # Everything under torque_speed, friction and thermal is at the OUTPUT
+    # SHAFT, after the gearbox. That is the frame MuJoCo's joint works in and
+    # the frame mjlab's actuator configs consume, so keeping the file in it
+    # means wiring is transcription rather than arithmetic.
+    #
+    # A datasheet quoting the rotor instead must be converted exactly once,
+    # here, with the raw values preserved under `datasheet_raw` below.
+    reference_frame: output_shaft
+    # Rotor revolutions per output revolution; 1.0 if direct drive. Stated by the
+    # user on 2026-09-26, when the 100:1 variant below was added: the curve in
+    # this entry is the 50:1 servo's.
+    gear_ratio: 50
+
+    electrical:
+      nominal_voltage_v: null
+      voltage_range_v: null    # [min, max] the servo tolerates
+      max_current_a: null      # phase current at the controller's limit
+      no_load_current_a: null
+      # Kt / Ke / R characterise the motor instead of the datasheet triple.
+      # Supply either these or torque_speed's stall / no-load pair -- mjlab
+      # accepts both forms (DcMotorPhysicalParams / DcMotorDatasheetParams).
+      kt_nm_per_a: null        # torque constant
+      ke_v_s_per_rad: null     # back-EMF constant
+      resistance_ohm: null     # terminal resistance
+      inductance_h: null       # winding inductance; enables current dynamics
+
+    torque_speed:
+      # MEASURED. Flat plateau to a corner speed, exponential decay above it, and
+      # a hard cut to zero at a ceiling:
+      #
+      #   tau_max(w) = plateau                                 |w| <= corner
+      #                plateau * exp(-(|w| - corner) / decay)   corner < |w| < cutoff
+      #                0                                        |w| >= cutoff
+      #
+      # This is **not** either model mjlab ships. Both of its DC-motor actuators
+      # clip to a straight line, and a line through (0, plateau) and (cutoff, 0)
+      # gives 0.87 N*m at the corner where the true limit is the full 1.75 --
+      # wrong by a factor of two exactly where the servo spends its time. The
+      # curve therefore has an actuator of its own,
+      # `tasks/jumper/common/actuator.py::ServoCurveActuator`, and
+      # `tests/test_servo_curve.py` checks the four numbers below against it.
+      model: exp_decay_with_cutoff
+
+      # Whether the torque axis is the servo's own report or a torque sensor on
+      # the shaft. Not recorded when this curve was handed over (cabe444). It is
+      # not a detail: on the 100:1 servo below the shaft sees only 0.61-0.65 of
+      # the reported torque, so compare the two entries only once this is known.
+      # Nothing reads it; the loader of the servo the joints run predates it.
+      torque_basis: null
+
+      plateau_torque_nm: 1.7464   # available from standstill to the corner speed
+      corner_speed_rpm: 293.5     # 30.7352 rad/s
+      decay_speed_rpm: 240.5      # 25.1851 rad/s; e-folding speed of the decay
+      cutoff_speed_rpm: 611.0     # 63.9838 rad/s; zero torque at and above this
+
+      # The discontinuity is real and is kept rather than smoothed: the
+      # exponential still stands at 0.4664 N*m -- 26.7% of the plateau -- when
+      # the cutoff drops it to zero. Two consequences, neither yet investigated:
+      # a joint hovering at the ceiling can chatter between full and no torque,
+      # and above it nothing brakes the joint but damping and frictionloss,
+      # together well under 0.1 N*m, whereas a real servo brakes hardest at
+      # overspeed.
+      cutoff_is_discontinuous: true
+      torque_just_below_cutoff_nm: 0.4664  # derived; recorded to make the jump visible
+
+      # The curve is applied symmetrically -- the same bound on driving and on
+      # braking torque -- because what was measured is a magnitude. mjlab's
+      # `dc_motor_clip` is asymmetric and allows more braking than driving at a
+      # given speed, which is what a real motor does. Open question; see
+      # `servo_torque_limit`'s docstring for where it would change.
+      symmetric_in_torque_sign: true
+
+      # 2.0 N*m was assumed here until this measurement arrived, with no recorded
+      # provenance -- it appeared in constants.py, in the MJCF's actuatorfrcrange
+      # and in the exported contract, and no file said whether it was continuous,
+      # peak, or inherited from the Isaac config. It was 12.7% too generous.
+      superseded_effort_limit_nm: 2.0
+
+      # THE PLATEAU IS A PEAK RATING. It may be held for 300 ms from cold;
+      # after that the ceiling becomes the continuous rating below, or the
+      # curve's value at the current speed, **whichever is smaller** -- above
+      # the corner speed the curve already allows less than 1.2 N*m and goes on
+      # being the binding constraint.
+      #
+      # Both are enforced. `ServoCurveActuator` carries a per-joint normalised
+      # winding temperature, integrates it from the torque actually produced,
+      # and derates when it reaches the trip point.
+      peak_duration_s: 0.3
+      thermal_continuous_torque_nm: 1.2
+
+      # The winding time constant is **derived from those two, not measured**,
+      # and is deliberately not written here -- a third number would be a third
+      # thing to drift. `ServoCurve.thermal_time_constant` computes it:
+      #
+      #   1 - exp(-peak_duration / tau_th) = (continuous / plateau)^2
+      #   -> tau_th = 0.4695 s for 300 ms, 1.2 and 1.7464
+      #
+      # Modelling the winding as a first-order thermal mass is what makes
+      # cooling free: the same constant governs it, so these two numbers fully
+      # specify the behaviour including partial duty cycles. What that assumes,
+      # and what a bench measurement would have to confirm: that the servo is
+      # first-order thermal, that an episode starts cold, and that its
+      # controller derates by clamping rather than on a schedule of its own.
+
+      points_file: torque_speed_curve.csv  # raw bench samples; header-only until supplied
+
+    friction:
+      # ⚠ THE SIMULATION AND THE MEASUREMENT DISAGREE, AND THE SIMULATION WINS
+      # TODAY. The `in_mjcf_*` values are what actually runs: they are compiled
+      # from jumper.xml's `class="motor"` default, and armature is set a second
+      # time from constants.py. The `measured_*` values are the hardware.
+      #
+      # Nothing has been changed to match. Unlike the torque-speed curve, these
+      # were supplied as data to record, and applying them is a separate decision
+      # with a large effect -- frictionloss is off by 7.7x, which is not a
+      # refinement but a different robot. mjlab's ActuatorCfg takes all three
+      # (`armature`, `frictionloss`, `viscous_damping`) and would override the
+      # MJCF, so wiring them is a three-line change to `make_actuator_cfg`
+      # followed by a retrain.
+      #
+      #   quantity        in MJCF    measured    ratio
+      #   armature        0.0015     6.325e-4    MJCF 2.4x higher
+      #   frictionloss    0.011      0.08474     measured 7.7x higher
+      #   viscous damping 0.017      0.00639     MJCF 2.7x higher
+      #
+      # Note the directions differ: the model currently has too much rotor
+      # inertia and too much viscous damping, but far too little dry friction.
+      in_mjcf_armature_kg_m2: 0.0015             # jumper.xml class="motor"; ARMATURE in constants.py
+      in_mjcf_frictionloss_nm: 0.011             # jumper.xml class="motor"
+      in_mjcf_viscous_damping_nm_s_per_rad: 0.017  # jumper.xml class="motor" joint damping
+
+      measured_armature_kg_m2: 6.325e-4          # reflected rotor inertia at the output shaft
+      measured_frictionloss_nm: 0.08474          # dynamic (Coulomb) friction
+      measured_viscous_damping_nm_s_per_rad: 0.00639
+
+      backlash_rad: null              # output-shaft lost motion
+      stiction_breakaway_nm: null     # torque to start motion from rest; the measured
+                                      # frictionloss above is the dynamic value
+
+    thermal:
+      # Torque a hexapod can hold indefinitely is set by heat, not by the
+      # controller's current limit, and DESIGN.md's action_scale argument already
+      # leans on this ("on hardware, derating from temperature rise lowers the
+      # usable torque"). Without these fields that sentence is an assumption.
+      # `torque_speed.peak_duration_s` = 0.3 is the one number known here: the
+      # plateau is holdable for 300 ms. Everything below is what turns that
+      # single figure into a model -- what it derates to, how fast, and how fast
+      # it recovers. A 300 ms budget with no recovery time constant cannot be
+      # simulated: the budget would be spent once and never returned.
+      continuous_torque_at_ambient_nm: null   # sustainable indefinitely at T_ambient
+      recovery_time_constant_s: null          # how quickly the budget is earned back
+      ambient_temp_c: null
+      max_winding_temp_c: null
+      thermal_time_constant_s: null           # winding tau
+      thermal_resistance_c_per_w: null
+      thermal_capacitance_j_per_c: null
+      resistance_temp_coeff_per_c: null       # alpha in R(T) = R * (1 + alpha * (T - T0))
+      duty_cycle_note: null                   # e.g. "2.0 N*m for 30 s, 1.2 N*m continuous"
+
+    control:
+      # What the servo does with a command, and what the simulation assumes it
+      # does. `mode` names the hardware's interface; the simulation currently
+      # models it as a MuJoCo position actuator with the gains below.
+      mode: null                    # e.g. "MIT" (position + velocity + feedforward torque)
+      sim_stiffness_nm_per_rad: 10.0  # STIFFNESS in constants.py; kp
+      sim_damping_nm_s_per_rad: 0.5   # DAMPING in constants.py; kd
+      hardware_kp_range: null       # [min, max] the servo accepts, if MIT mode
+      hardware_kd_range: null
+      command_rate_hz: null         # bus update rate on hardware
+      command_latency_ms: null      # policy output to torque; maps to delay_min_lag / delay_max_lag
+      encoder_resolution_bits: null
+      position_deadband_rad: null
+
+    # The datasheet's own numbers, in the datasheet's own units, copied without
+    # arithmetic. Servo datasheets quote torque in kgf*cm and speed as seconds
+    # per 60 degrees, and a conversion done in someone's head is the single
+    # likeliest error in this file -- keeping the raw values makes it checkable.
+    #
+    #   kgf*cm -> N*m       : multiply by 0.0980665
+    #   s/60deg -> rad/s    : divide (pi / 3) = 1.047198 by the time
+    #   rpm -> rad/s        : multiply by (2*pi / 60) = 0.104720
+    datasheet_raw:
+      stall_torque_kgfcm: null
+      speed_s_per_60deg: null
+      speed_rpm: null
+      voltage_v: null
+      notes: null
+
+  # The 100:1 variant of the joint servo. DEFINED, NOT WIRED: `applies_to` is
+  # empty, nothing builds an actuator from this entry, and every joint still
+  # runs `joint_servo` above. `tasks/jumper/common/actuator.py` reads it with
+  # `load_linear_decay_curve` and evaluates it with `linear_decay_torque_limit`;
+  # `tests/test_servo_curve_100.py` pins it to the samples it was fitted to.
+  # What wiring it to the robot would take is in README.md.
+  #
+  # Only the torque-speed curve is transcribed. The same report has friction
+  # tables for this servo that are not copied here, and nothing is known about
+  # its identity, electrical constants or thermal behaviour.
+  joint_servo_100:
+    applies_to: []             # no joint carries it yet
+    count_on_robot: 0
+    reference_frame: output_shaft
+    gear_ratio: 100            # the report's section title, "24V100速比"
+
+    torque_speed:
+      # MEASURED, then fitted. Source: bench measurements at 24 V,
+      # speed against reported and true torque, every unit pooled into one
+      # (band P10..P90). Digitised
+      # on 2026-09-26 from the 1812x775 original, following each curve by its
+      # colour against the axis ticks, to about +-0.02 N*m and +-0.2 rpm. The
+      # samples, one row per rpm from 52 to 189, are `points_file` below.
+      #
+      # Flat to a corner speed, then a straight line down to zero torque:
+      #
+      #   tau_max(w) = plateau                                   |w| <= corner
+      #                plateau * (zero - |w|) / (zero - corner)  corner < |w| < zero
+      #                0                                         |w| >= zero
+      #
+      # The exponential `joint_servo` uses does not fit these samples. Its best
+      # fit is rms 0.188 N*m (0.49 at worst), under-reading the middle and
+      # over-reading the top, and since it never reaches zero it would also need
+      # a cutoff that drops ~0.8 N*m at once. This line is rms 0.077 N*m, 0.237
+      # at worst (97 rpm), and continuous. It is also the shape a DC motor takes
+      # behind a current-limited driver: the plateau is the current limit, the
+      # line is back-EMF eating into the supply.
+      model: linear_decay
+
+      # WHAT THE TORQUE AXIS IS: the servo's own reported torque, not a torque
+      # sensor -- asked for that way on 2026-09-26. The shaft sees less. The same
+      # chart's right-hand panel gives true / reported, median 0.651 in the
+      # positive direction and 0.614 in the negative between 80 and 150 rpm, and
+      # lower at both ends (0.3-0.4 at 52 rpm, near 0 at 189). The ratio is in
+      # the samples file as kt_ratio_pos / kt_ratio_neg.
+      torque_basis: servo_reported
+      supply_voltage_v: 24       # the section measured; the report's 48 V section has no curve
+
+      # A least-squares fit to the mean of the two directions, every rpm from 52
+      # to 189 weighted equally. The directions differ by up to 0.30 N*m (0.11 on
+      # average); a magnitude is what joint_servo applies too.
+      plateau_torque_nm: 4.712       # the data start at 52 rpm; standstill is assumed
+      corner_speed_rpm: 67.3         # 7.0476 rad/s
+      zero_torque_speed_rpm: 200.8   # 21.0277 rad/s; extrapolated, the data end at 189
+
+      # Not measured. The 50:1 servo's 300 ms / 1.2 N*m budget is deliberately
+      # not borrowed: a different gearbox on the same motor is a different
+      # thermal load, and a copied number would read as a measured one.
+      peak_duration_s: null
+      thermal_continuous_torque_nm: null
+
+      points_file: torque_speed_100_24v_reported.csv  # digitised samples, see README.md

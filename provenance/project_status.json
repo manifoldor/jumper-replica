@@ -1,0 +1,23 @@
+{
+  "as_of": "2026-10-08 Asia/Shanghai",
+  "source_commit": "61d065219fca767f3142c8f10aff59eae5a5a004",
+  "links": 41,
+  "joints": 40,
+  "movable_joints": 22,
+  "source_triangles": 430915,
+  "connected_components": 1364,
+  "closed_original_components": 75,
+  "closed_trial_candidate_instances": 32,
+  "seam_recovered_solids": 13,
+  "validated_faceted_step_files": 46,
+  "pilot_reference_slices_passed": 6,
+  "annotated_render_groups": 66,
+  "render_objects": 88,
+  "physical_printing": "not_performed",
+  "physical_fit": "not_tested",
+  "load_and_motion": "not_tested",
+  "hardware_integration": "not_verified",
+  "complete_manufacturing_bom": "not_available",
+  "public_remote": "not_created",
+  "third_party_vendor_cad_binary": "excluded_pending_redistribution_permission"
+}

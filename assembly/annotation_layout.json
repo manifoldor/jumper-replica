@@ -1,0 +1,926 @@
+[
+  {
+    "id": "03",
+    "source_id": "display_module_link",
+    "label": "\u663e\u793a\u6a21\u5757\u53c2\u8003",
+    "bank": "left",
+    "anchor": [
+      2414.0356063842773,
+      880.6760787963867
+    ],
+    "label_top_left": [
+      140,
+      852.6760787963867
+    ]
+  },
+  {
+    "id": "02",
+    "source_id": "upper_shell_link",
+    "label": "\u4e0a\u58f3",
+    "bank": "left",
+    "anchor": [
+      2219.315278530121,
+      971.3567733764648
+    ],
+    "label_top_left": [
+      140,
+      940
+    ]
+  },
+  {
+    "id": "36B",
+    "source_id": "LR_calf_link__C002",
+    "label": "\u5de6\u540e \u00b7 \u5c0f\u817f\u58f3\u4f53 B",
+    "bank": "left",
+    "anchor": [
+      2795.292842388153,
+      1170.1095581054688
+    ],
+    "label_top_left": [
+      140,
+      1020
+    ]
+  },
+  {
+    "id": "37",
+    "source_id": "LR_foot_tip_link",
+    "label": "\u5de6\u540e \u00b7 \u8db3\u7aef\u57ab",
+    "bank": "left",
+    "anchor": [
+      2766.5021181106567,
+      1214.6451950073242
+    ],
+    "label_top_left": [
+      140,
+      1100
+    ]
+  },
+  {
+    "id": "36A",
+    "source_id": "LR_calf_link__C001",
+    "label": "\u5de6\u540e \u00b7 \u5c0f\u817f\u58f3\u4f53 A",
+    "bank": "left",
+    "anchor": [
+      2790.0962233543396,
+      1258.6681365966797
+    ],
+    "label_top_left": [
+      140,
+      1180
+    ]
+  },
+  {
+    "id": "35B",
+    "source_id": "LR_thigh_link__C002",
+    "label": "\u5de6\u540e \u00b7 \u5927\u817f\u8fde\u63a5\u7ed3\u6784 B",
+    "bank": "left",
+    "anchor": [
+      2813.988482952118,
+      1266.1262512207031
+    ],
+    "label_top_left": [
+      140,
+      1260
+    ]
+  },
+  {
+    "id": "35A",
+    "source_id": "LR_thigh_link__C001",
+    "label": "\u5de6\u540e \u00b7 \u5927\u817f\u8fde\u63a5\u7ed3\u6784 A",
+    "bank": "left",
+    "anchor": [
+      2816.1330699920654,
+      1326.8674850463867
+    ],
+    "label_top_left": [
+      140,
+      1340
+    ]
+  },
+  {
+    "id": "34A",
+    "source_id": "LR_hip_link__C001",
+    "label": "\u5de6\u540e \u00b7 \u9acb\u90e8\u58f3\u4f53 A",
+    "bank": "left",
+    "anchor": [
+      2835.222351551056,
+      1421.7424392700195
+    ],
+    "label_top_left": [
+      140,
+      1420
+    ]
+  },
+  {
+    "id": "01C",
+    "source_id": "base_link__C003",
+    "label": "\u5185\u90e8\u6258\u67b6\uff08\u529f\u80fd\u5f85\u786e\u8ba4\uff09",
+    "bank": "left",
+    "anchor": [
+      2986.0981106758118,
+      1554.909324645996
+    ],
+    "label_top_left": [
+      140,
+      1500
+    ]
+  },
+  {
+    "id": "34B",
+    "source_id": "LR_hip_link__C002",
+    "label": "\u5de6\u540e \u00b7 \u9acb\u90e8\u58f3\u4f53 B",
+    "bank": "left",
+    "anchor": [
+      2835.2434873580933,
+      1571.9100952148438
+    ],
+    "label_top_left": [
+      140,
+      1580
+    ]
+  },
+  {
+    "id": "01B",
+    "source_id": "base_link__C002",
+    "label": "\u5185\u90e8\u627f\u8f7d\u5b89\u88c5\u677f",
+    "bank": "left",
+    "anchor": [
+      2888.2039189338684,
+      1632.098388671875
+    ],
+    "label_top_left": [
+      140,
+      1660
+    ]
+  },
+  {
+    "id": "01R",
+    "source_id": "base_link__remaining",
+    "label": "\u5176\u4ed6\u5185\u90e8\u7ec4\u4ef6\u53c2\u8003",
+    "bank": "left",
+    "anchor": [
+      2876.8458366394043,
+      1675.1089096069336
+    ],
+    "label_top_left": [
+      140,
+      1740
+    ]
+  },
+  {
+    "id": "01A",
+    "source_id": "base_link__C001",
+    "label": "\u4e0b\u58f3 / \u5468\u5411\u6846\u67b6",
+    "bank": "left",
+    "anchor": [
+      2892.944025993347,
+      1759.706687927246
+    ],
+    "label_top_left": [
+      140,
+      1820
+    ]
+  },
+  {
+    "id": "38A",
+    "source_id": "RR_hip_link__C001",
+    "label": "\u53f3\u540e \u00b7 \u9acb\u90e8\u58f3\u4f53 A",
+    "bank": "left",
+    "anchor": [
+      2378.698682785034,
+      1815.5208587646484
+    ],
+    "label_top_left": [
+      140,
+      1900
+    ]
+  },
+  {
+    "id": "39B",
+    "source_id": "RR_thigh_link__C002",
+    "label": "\u53f3\u540e \u00b7 \u5927\u817f\u8fde\u63a5\u7ed3\u6784 B",
+    "bank": "left",
+    "anchor": [
+      2110.0012063980103,
+      1874.3423461914062
+    ],
+    "label_top_left": [
+      140,
+      1980
+    ]
+  },
+  {
+    "id": "38B",
+    "source_id": "RR_hip_link__C002",
+    "label": "\u53f3\u540e \u00b7 \u9acb\u90e8\u58f3\u4f53 B",
+    "bank": "left",
+    "anchor": [
+      2378.7628412246704,
+      1965.6265258789062
+    ],
+    "label_top_left": [
+      140,
+      2060
+    ]
+  },
+  {
+    "id": "39A",
+    "source_id": "RR_thigh_link__C001",
+    "label": "\u53f3\u540e \u00b7 \u5927\u817f\u8fde\u63a5\u7ed3\u6784 A",
+    "bank": "left",
+    "anchor": [
+      2019.982087612152,
+      2014.5463943481445
+    ],
+    "label_top_left": [
+      140,
+      2140
+    ]
+  },
+  {
+    "id": "30A",
+    "source_id": "RM_hip_link__C001",
+    "label": "\u53f3\u4e2d \u00b7 \u9acb\u90e8\u58f3\u4f53 A",
+    "bank": "left",
+    "anchor": [
+      2606.2767148017883,
+      2016.756820678711
+    ],
+    "label_top_left": [
+      140,
+      2220
+    ]
+  },
+  {
+    "id": "40A",
+    "source_id": "RR_calf_link__C001",
+    "label": "\u53f3\u540e \u00b7 \u5c0f\u817f\u58f3\u4f53 A",
+    "bank": "left",
+    "anchor": [
+      1877.8275847434998,
+      2047.0460891723633
+    ],
+    "label_top_left": [
+      140,
+      2300
+    ]
+  },
+  {
+    "id": "40B",
+    "source_id": "RR_calf_link__C002",
+    "label": "\u53f3\u540e \u00b7 \u5c0f\u817f\u58f3\u4f53 B",
+    "bank": "left",
+    "anchor": [
+      1700.8338689804077,
+      2116.566562652588
+    ],
+    "label_top_left": [
+      140,
+      2380
+    ]
+  },
+  {
+    "id": "16B",
+    "source_id": "RF_shoulder_link__C002",
+    "label": "\u53f3\u524d \u00b7 \u80a9\u90e8\u58f3\u4f53 B",
+    "bank": "left",
+    "anchor": [
+      2851.543700695038,
+      2133.5927963256836
+    ],
+    "label_top_left": [
+      140,
+      2460
+    ]
+  },
+  {
+    "id": "16A",
+    "source_id": "RF_shoulder_link__C001",
+    "label": "\u53f3\u524d \u00b7 \u80a9\u90e8\u58f3\u4f53 A",
+    "bank": "left",
+    "anchor": [
+      3054.9140453338623,
+      2148.3291625976562
+    ],
+    "label_top_left": [
+      140,
+      2540
+    ]
+  },
+  {
+    "id": "30B",
+    "source_id": "RM_hip_link__C002",
+    "label": "\u53f3\u4e2d \u00b7 \u9acb\u90e8\u58f3\u4f53 B",
+    "bank": "left",
+    "anchor": [
+      2606.214916706085,
+      2166.7866706848145
+    ],
+    "label_top_left": [
+      140,
+      2620
+    ]
+  },
+  {
+    "id": "31B",
+    "source_id": "RM_thigh_link__C002",
+    "label": "\u53f3\u4e2d \u00b7 \u5927\u817f\u8fde\u63a5\u7ed3\u6784 B",
+    "bank": "left",
+    "anchor": [
+      2430.2329301834106,
+      2194.6160316467285
+    ],
+    "label_top_left": [
+      140,
+      2700
+    ]
+  },
+  {
+    "id": "41",
+    "source_id": "RR_foot_tip_link",
+    "label": "\u53f3\u540e \u00b7 \u8db3\u7aef\u57ab",
+    "bank": "left",
+    "anchor": [
+      1544.684162735939,
+      2271.9606399536133
+    ],
+    "label_top_left": [
+      140,
+      2780
+    ]
+  },
+  {
+    "id": "17A",
+    "source_id": "RF_upper_arm_link__C001",
+    "label": "\u53f3\u524d \u00b7 \u4e0a\u81c2\u58f3\u4f53 A",
+    "bank": "left",
+    "anchor": [
+      2880.7051062583923,
+      2347.669792175293
+    ],
+    "label_top_left": [
+      140,
+      2860
+    ]
+  },
+  {
+    "id": "31A",
+    "source_id": "RM_thigh_link__C001",
+    "label": "\u53f3\u4e2d \u00b7 \u5927\u817f\u8fde\u63a5\u7ed3\u6784 A",
+    "bank": "left",
+    "anchor": [
+      2374.642753601074,
+      2366.9483184814453
+    ],
+    "label_top_left": [
+      140,
+      2940
+    ]
+  },
+  {
+    "id": "17B",
+    "source_id": "RF_upper_arm_link__C002",
+    "label": "\u53f3\u524d \u00b7 \u4e0a\u81c2\u58f3\u4f53 B",
+    "bank": "left",
+    "anchor": [
+      3046.7195749282837,
+      2430.7397842407227
+    ],
+    "label_top_left": [
+      140,
+      3020
+    ]
+  },
+  {
+    "id": "32A",
+    "source_id": "RM_calf_link__C001",
+    "label": "\u53f3\u4e2d \u00b7 \u5c0f\u817f\u58f3\u4f53 A",
+    "bank": "left",
+    "anchor": [
+      2282.069420814514,
+      2473.0782508850098
+    ],
+    "label_top_left": [
+      140,
+      3100
+    ]
+  },
+  {
+    "id": "32B",
+    "source_id": "RM_calf_link__C002",
+    "label": "\u53f3\u4e2d \u00b7 \u5c0f\u817f\u58f3\u4f53 B",
+    "bank": "left",
+    "anchor": [
+      2164.8797392845154,
+      2605.8667182922363
+    ],
+    "label_top_left": [
+      140,
+      3180
+    ]
+  },
+  {
+    "id": "18B",
+    "source_id": "RF_forearm_link__C002",
+    "label": "\u53f3\u524d \u00b7 \u524d\u81c2\u8fde\u63a5\u7ed3\u6784 B",
+    "bank": "left",
+    "anchor": [
+      2927.5753140449524,
+      2620.4358100891113
+    ],
+    "label_top_left": [
+      140,
+      3260
+    ]
+  },
+  {
+    "id": "18A",
+    "source_id": "RF_forearm_link__C001",
+    "label": "\u53f3\u524d \u00b7 \u524d\u81c2\u8fde\u63a5\u7ed3\u6784 A",
+    "bank": "left",
+    "anchor": [
+      3081.294536590576,
+      2637.2891426086426
+    ],
+    "label_top_left": [
+      140,
+      3340
+    ]
+  },
+  {
+    "id": "33",
+    "source_id": "RM_foot_tip_link",
+    "label": "\u53f3\u4e2d \u00b7 \u8db3\u7aef\u57ab",
+    "bank": "left",
+    "anchor": [
+      2074.4835019111633,
+      2831.9496154785156
+    ],
+    "label_top_left": [
+      140,
+      3420
+    ]
+  },
+  {
+    "id": "28B",
+    "source_id": "LM_calf_link__C002",
+    "label": "\u5de6\u4e2d \u00b7 \u5c0f\u817f\u58f3\u4f53 B",
+    "bank": "right",
+    "anchor": [
+      3627.8032064437866,
+      1340.2074813842773
+    ],
+    "label_top_left": [
+      4990,
+      860
+    ]
+  },
+  {
+    "id": "27B",
+    "source_id": "LM_thigh_link__C002",
+    "label": "\u5de6\u4e2d \u00b7 \u5927\u817f\u8fde\u63a5\u7ed3\u6784 B",
+    "bank": "right",
+    "anchor": [
+      3362.7018213272095,
+      1388.6449813842773
+    ],
+    "label_top_left": [
+      4990,
+      940
+    ]
+  },
+  {
+    "id": "29",
+    "source_id": "LM_foot_tip_link",
+    "label": "\u5de6\u4e2d \u00b7 \u8db3\u7aef\u57ab",
+    "bank": "right",
+    "anchor": [
+      3718.4178829193115,
+      1408.9086532592773
+    ],
+    "label_top_left": [
+      4990,
+      1020
+    ]
+  },
+  {
+    "id": "28A",
+    "source_id": "LM_calf_link__C001",
+    "label": "\u5de6\u4e2d \u00b7 \u5c0f\u817f\u58f3\u4f53 A",
+    "bank": "right",
+    "anchor": [
+      3510.861039161682,
+      1410.7049942016602
+    ],
+    "label_top_left": [
+      4990,
+      1100
+    ]
+  },
+  {
+    "id": "27A",
+    "source_id": "LM_thigh_link__C001",
+    "label": "\u5de6\u4e2d \u00b7 \u5927\u817f\u8fde\u63a5\u7ed3\u6784 A",
+    "bank": "right",
+    "anchor": [
+      3417.918848991394,
+      1465.1575088500977
+    ],
+    "label_top_left": [
+      4990,
+      1180
+    ]
+  },
+  {
+    "id": "26A",
+    "source_id": "LM_hip_link__C001",
+    "label": "\u5de6\u4e2d \u00b7 \u9acb\u90e8\u58f3\u4f53 A",
+    "bank": "right",
+    "anchor": [
+      3186.587977409363,
+      1515.8611297607422
+    ],
+    "label_top_left": [
+      4990,
+      1260
+    ]
+  },
+  {
+    "id": "26B",
+    "source_id": "LM_hip_link__C002",
+    "label": "\u5de6\u4e2d \u00b7 \u9acb\u90e8\u58f3\u4f53 B",
+    "bank": "right",
+    "anchor": [
+      3186.6562128067017,
+      1666.0686492919922
+    ],
+    "label_top_left": [
+      4990,
+      1340
+    ]
+  },
+  {
+    "id": "07A",
+    "source_id": "LF_upper_arm_link__C001",
+    "label": "\u5de6\u524d \u00b7 \u4e0a\u81c2\u58f3\u4f53 A",
+    "bank": "right",
+    "anchor": [
+      3613.1388187408447,
+      1711.4921569824219
+    ],
+    "label_top_left": [
+      4990,
+      1420
+    ]
+  },
+  {
+    "id": "04",
+    "source_id": "tof_sensor_link",
+    "label": "ToF \u4f20\u611f\u6a21\u5757\u53c2\u8003",
+    "bank": "right",
+    "anchor": [
+      3472.798776626587,
+      1721.6798782348633
+    ],
+    "label_top_left": [
+      4990,
+      1500
+    ]
+  },
+  {
+    "id": "08B",
+    "source_id": "LF_forearm_link__C002",
+    "label": "\u5de6\u524d \u00b7 \u524d\u81c2\u8fde\u63a5\u7ed3\u6784 B",
+    "bank": "right",
+    "anchor": [
+      3945.418167114258,
+      1735.75439453125
+    ],
+    "label_top_left": [
+      4990,
+      1580
+    ]
+  },
+  {
+    "id": "06A",
+    "source_id": "LF_shoulder_link__C001",
+    "label": "\u5de6\u524d \u00b7 \u80a9\u90e8\u58f3\u4f53 A",
+    "bank": "right",
+    "anchor": [
+      3300.7599592208862,
+      1738.6322021484375
+    ],
+    "label_top_left": [
+      4990,
+      1660
+    ]
+  },
+  {
+    "id": "06B",
+    "source_id": "LF_shoulder_link__C002",
+    "label": "\u5de6\u524d \u00b7 \u80a9\u90e8\u58f3\u4f53 B",
+    "bank": "right",
+    "anchor": [
+      3375.0983476638794,
+      1865.6421661376953
+    ],
+    "label_top_left": [
+      4990,
+      1740
+    ]
+  },
+  {
+    "id": "07B",
+    "source_id": "LF_upper_arm_link__C002",
+    "label": "\u5de6\u524d \u00b7 \u4e0a\u81c2\u58f3\u4f53 B",
+    "bank": "right",
+    "anchor": [
+      3675.0332593917847,
+      1885.0751876831055
+    ],
+    "label_top_left": [
+      4990,
+      1820
+    ]
+  },
+  {
+    "id": "05",
+    "source_id": "camera_link",
+    "label": "\u6444\u50cf\u5934\u6a21\u5757\u53c2\u8003",
+    "bank": "right",
+    "anchor": [
+      3267.005753517151,
+      1895.6872940063477
+    ],
+    "label_top_left": [
+      4990,
+      1900
+    ]
+  },
+  {
+    "id": "08A",
+    "source_id": "LF_forearm_link__C001",
+    "label": "\u5de6\u524d \u00b7 \u524d\u81c2\u8fde\u63a5\u7ed3\u6784 A",
+    "bank": "right",
+    "anchor": [
+      3918.875026702881,
+      1909.4810485839844
+    ],
+    "label_top_left": [
+      4990,
+      1980
+    ]
+  },
+  {
+    "id": "12A",
+    "source_id": "LF_finger_link__C001",
+    "label": "\u5de6\u524d \u00b7 \u6d3b\u52a8\u6307\u7ed3\u6784 A",
+    "bank": "right",
+    "anchor": [
+      4182.161521911621,
+      1975.8600234985352
+    ],
+    "label_top_left": [
+      4990,
+      2060
+    ]
+  },
+  {
+    "id": "09B",
+    "source_id": "LF_palm_link__C002",
+    "label": "\u5de6\u524d \u00b7 \u638c\u90e8\u58f3\u4f53 B",
+    "bank": "right",
+    "anchor": [
+      4293.325567245483,
+      2007.740592956543
+    ],
+    "label_top_left": [
+      4990,
+      2140
+    ]
+  },
+  {
+    "id": "09A",
+    "source_id": "LF_palm_link__C001",
+    "label": "\u5de6\u524d \u00b7 \u638c\u90e8\u58f3\u4f53 A",
+    "bank": "right",
+    "anchor": [
+      4116.006875038147,
+      2009.1596603393555
+    ],
+    "label_top_left": [
+      4990,
+      2220
+    ]
+  },
+  {
+    "id": "10",
+    "source_id": "LF_palm_pad_f_link",
+    "label": "\u5de6\u524d \u00b7 \u638c\u90e8\u57ab\u5757 f",
+    "bank": "right",
+    "anchor": [
+      4441.210985183716,
+      2106.513214111328
+    ],
+    "label_top_left": [
+      4990,
+      2300
+    ]
+  },
+  {
+    "id": "12B",
+    "source_id": "LF_finger_link__C002",
+    "label": "\u5de6\u524d \u00b7 \u6d3b\u52a8\u6307\u7ed3\u6784 B",
+    "bank": "right",
+    "anchor": [
+      4156.148171424866,
+      2174.067974090576
+    ],
+    "label_top_left": [
+      4990,
+      2380
+    ]
+  },
+  {
+    "id": "11",
+    "source_id": "LF_palm_pad_b_link",
+    "label": "\u5de6\u524d \u00b7 \u638c\u90e8\u57ab\u5757 b",
+    "bank": "right",
+    "anchor": [
+      4427.06995010376,
+      2187.40177154541
+    ],
+    "label_top_left": [
+      4990,
+      2460
+    ]
+  },
+  {
+    "id": "15",
+    "source_id": "LF_palm_grip_insert_link",
+    "label": "\u5de6\u524d \u00b7 \u638c\u90e8\u5939\u6301\u5d4c\u4ef6",
+    "bank": "right",
+    "anchor": [
+      4409.397196769714,
+      2278.133964538574
+    ],
+    "label_top_left": [
+      4990,
+      2540
+    ]
+  },
+  {
+    "id": "14",
+    "source_id": "LF_finger_grip_insert_link",
+    "label": "\u5de6\u524d \u00b7 \u6d3b\u52a8\u6307\u5939\u6301\u5d4c\u4ef6",
+    "bank": "right",
+    "anchor": [
+      4370.418691635132,
+      2384.1992378234863
+    ],
+    "label_top_left": [
+      4990,
+      2620
+    ]
+  },
+  {
+    "id": "13",
+    "source_id": "LF_finger_tip_link",
+    "label": "\u5de6\u524d \u00b7 \u6307\u5c16",
+    "bank": "right",
+    "anchor": [
+      4362.352967262268,
+      2552.616596221924
+    ],
+    "label_top_left": [
+      4990,
+      2700
+    ]
+  },
+  {
+    "id": "19A",
+    "source_id": "RF_palm_link__C001",
+    "label": "\u53f3\u524d \u00b7 \u638c\u90e8\u58f3\u4f53 A",
+    "bank": "right",
+    "anchor": [
+      3182.28120803833,
+      2809.1222763061523
+    ],
+    "label_top_left": [
+      4990,
+      2780
+    ]
+  },
+  {
+    "id": "23A",
+    "source_id": "RF_finger_link__C001",
+    "label": "\u53f3\u524d \u00b7 \u6d3b\u52a8\u6307\u7ed3\u6784 A",
+    "bank": "right",
+    "anchor": [
+      3153.5197734832764,
+      2863.0990982055664
+    ],
+    "label_top_left": [
+      4990,
+      2860
+    ]
+  },
+  {
+    "id": "23B",
+    "source_id": "RF_finger_link__C002",
+    "label": "\u53f3\u524d \u00b7 \u6d3b\u52a8\u6307\u7ed3\u6784 B",
+    "bank": "right",
+    "anchor": [
+      3335.344362258911,
+      2871.086549758911
+    ],
+    "label_top_left": [
+      4990,
+      2940
+    ]
+  },
+  {
+    "id": "19B",
+    "source_id": "RF_palm_link__C002",
+    "label": "\u53f3\u524d \u00b7 \u638c\u90e8\u58f3\u4f53 B",
+    "bank": "right",
+    "anchor": [
+      3211.7046117782593,
+      2944.7429180145264
+    ],
+    "label_top_left": [
+      4990,
+      3020
+    ]
+  },
+  {
+    "id": "20",
+    "source_id": "RF_palm_pad_f_link",
+    "label": "\u53f3\u524d \u00b7 \u638c\u90e8\u57ab\u5757 f",
+    "bank": "right",
+    "anchor": [
+      3371.250557899475,
+      3024.569797515869
+    ],
+    "label_top_left": [
+      4990,
+      3100
+    ]
+  },
+  {
+    "id": "21",
+    "source_id": "RF_palm_pad_b_link",
+    "label": "\u53f3\u524d \u00b7 \u638c\u90e8\u57ab\u5757 b",
+    "bank": "right",
+    "anchor": [
+      3333.5367679595947,
+      3125.8687496185303
+    ],
+    "label_top_left": [
+      4990,
+      3180
+    ]
+  },
+  {
+    "id": "22",
+    "source_id": "RF_palm_grip_insert_link",
+    "label": "\u53f3\u524d \u00b7 \u638c\u90e8\u5939\u6301\u5d4c\u4ef6",
+    "bank": "right",
+    "anchor": [
+      3316.571259498596,
+      3217.2364711761475
+    ],
+    "label_top_left": [
+      4990,
+      3260
+    ]
+  },
+  {
+    "id": "24",
+    "source_id": "RF_finger_grip_insert_link",
+    "label": "\u53f3\u524d \u00b7 \u6d3b\u52a8\u6307\u5939\u6301\u5d4c\u4ef6",
+    "bank": "right",
+    "anchor": [
+      3306.081461906433,
+      3298.1584072113037
+    ],
+    "label_top_left": [
+      4990,
+      3340
+    ]
+  },
+  {
+    "id": "25",
+    "source_id": "RF_finger_tip_link",
+    "label": "\u53f3\u524d \u00b7 \u6307\u5c16",
+    "bank": "right",
+    "anchor": [
+      3390.0019884109497,
+      3381.3239574432373
+    ],
+    "label_top_left": [
+      4990,
+      3420
+    ]
+  }
+]

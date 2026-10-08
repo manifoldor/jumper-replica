@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.stl -text -diff
+*.step -text -diff
+*.glb -text -diff
+*.blend -text -diff
+*.3mf -text -diff
+*.png -text -diff
+*.svg text eol=lf
+upstream_snapshot/** -text

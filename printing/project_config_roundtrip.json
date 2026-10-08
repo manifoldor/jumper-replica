@@ -1,0 +1,62 @@
+[
+  {
+    "part": "LF_shoulder_link__C001",
+    "roundtrip_checked_options": [
+      "bed_shape = 0x0,220x0,220x220,0x220",
+      "fill_density = 15%",
+      "layer_height = 0.2",
+      "nozzle_diameter = 0.4",
+      "support_material = 1"
+    ]
+  },
+  {
+    "part": "LF_shoulder_link__C002",
+    "roundtrip_checked_options": [
+      "bed_shape = 0x0,220x0,220x220,0x220",
+      "fill_density = 15%",
+      "layer_height = 0.2",
+      "nozzle_diameter = 0.4",
+      "support_material = 1"
+    ]
+  },
+  {
+    "part": "LM_calf_link__C001",
+    "roundtrip_checked_options": [
+      "bed_shape = 0x0,220x0,220x220,0x220",
+      "fill_density = 15%",
+      "layer_height = 0.2",
+      "nozzle_diameter = 0.4",
+      "support_material = 1"
+    ]
+  },
+  {
+    "part": "LM_calf_link__C002",
+    "roundtrip_checked_options": [
+      "bed_shape = 0x0,220x0,220x220,0x220",
+      "fill_density = 15%",
+      "layer_height = 0.2",
+      "nozzle_diameter = 0.4",
+      "support_material = 1"
+    ]
+  },
+  {
+    "part": "LM_foot_tip_link__C001",
+    "roundtrip_checked_options": [
+      "bed_shape = 0x0,220x0,220x220,0x220",
+      "fill_density = 15%",
+      "layer_height = 0.2",
+      "nozzle_diameter = 0.4",
+      "support_material = 1"
+    ]
+  },
+  {
+    "part": "upper_shell_link__C001",
+    "roundtrip_checked_options": [
+      "bed_shape = 0x0,220x0,220x220,0x220",
+      "fill_density = 15%",
+      "layer_height = 0.2",
+      "nozzle_diameter = 0.4",
+      "support_material = 1"
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+Jumper
+Copyright 2026 KingKong Robotics.
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This repository includes the third-party material below, each part under its
+own licence. The full texts are in the files named.
+
+rl/mjlab/
+    mjlab 1.6.0 (https://github.com/mujocolab/mjlab)
+    Copyright 2025, The mjlab Developers
+    Apache License 2.0 -- rl/mjlab/LICENSE
+    Modified: five files, each marked "[mjrl]" with the reason for the change
+    (listed in docs/VENDOR.md).
+
+rl/mjlab/utils/lab_api/
+    Derived from Isaac Lab (https://github.com/isaac-sim/IsaacLab)
+    Copyright (c) 2022-2025, The Isaac Lab Project Developers
+    BSD 3-Clause License -- licenses/IsaacLab.txt
+
+rl/mjlab/asset_zoo/robots/unitree_go1/
+rl/mjlab/asset_zoo/robots/unitree_g1/
+    From MuJoCo Menagerie (https://github.com/google-deepmind/mujoco_menagerie)
+    Copyright (c) 2016-2022 (Go1), 2016-2023 (G1)
+    HangZhou YuShu TECHNOLOGY CO.,LTD. ("Unitree Robotics")
+    BSD 3-Clause License -- licenses/mujoco_menagerie-unitree_go1.txt,
+                            licenses/mujoco_menagerie-unitree_g1.txt
+
+rl/mjlab/asset_zoo/robots/i2rt_yam/
+    From MuJoCo Menagerie, apart from xmls/assets/d405.stl, which is not in
+    Menagerie and comes with mjlab
+    Copyright (c) 2025 i2rt robotics
+    MIT License -- licenses/mujoco_menagerie-i2rt_yam.txt
+
+rl/rsl_rl/
+    rsl_rl 5.4.2 (https://github.com/leggedrobotics/rsl_rl)
+    Copyright (c) 2026, ETH Zurich
+    Copyright (c) 2026, NVIDIA CORPORATION & AFFILIATES
+    BSD 3-Clause License -- rl/rsl_rl/LICENSE
+
+rl/rsl_rl/modules/normalization.py
+    Contains code from pfrl (https://github.com/pfnet/pfrl)
+    Copyright (c) 2020 Preferred Networks, Inc.
+    MIT License -- licenses/pfrl.txt
+
+Not included in this repository
+
+deploy/fsm/vendor/rknpu2/
+    Filled by fetch.sh with Rockchip's rknn_api.h and librknnrt.so, which are
+    under Rockchip's RKNN SDK License and are not covered by this repository's
+    licence. See deploy/fsm/vendor/rknpu2/README.md.

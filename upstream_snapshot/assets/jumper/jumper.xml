@@ -1,0 +1,351 @@
+<mujoco model="jumper">
+  <compiler angle="radian" meshdir="./"/>
+
+  <option timestep="0.001" integrator="implicitfast"/>
+
+  <visual>
+    <global azimuth="120" elevation="-20" offwidth="1280" offheight="960"/>
+    <rgba haze="0.15 0.25 0.35 1"/>
+  </visual>
+
+  <default>
+    <default class="robot">
+      <default class="motor">
+        <joint armature="0.0015" damping="0.017" frictionloss="0.011"/>
+      </default>
+      <default class="visual">
+        <geom contype="0" conaffinity="0" group="2"/>
+      </default>
+      <default class="collision">
+        <geom group="1" priority="1" friction="1 0.01 0.01" solref="0.008" solimp="0.99 0.999 1e-05"/>
+      </default>
+    </default>
+  </default>
+
+  <asset>
+    <mesh name="base_link" file="urdf/jumper/meshes/visual/base_link.stl"/>
+    <mesh name="upper_shell_link" file="urdf/jumper/meshes/visual/upper_shell_link.stl"/>
+    <mesh name="display_module_link" file="urdf/jumper/meshes/visual/display_module_link.stl"/>
+    <mesh name="tof_sensor_link" file="urdf/jumper/meshes/visual/tof_sensor_link.stl"/>
+    <mesh name="camera_link" file="urdf/jumper/meshes/visual/camera_link.stl"/>
+    <mesh name="LF_shoulder_link" file="urdf/jumper/meshes/visual/LF_shoulder_link.stl"/>
+    <mesh name="LF_upper_arm_link" file="urdf/jumper/meshes/visual/LF_upper_arm_link.stl"/>
+    <mesh name="LF_forearm_link" file="urdf/jumper/meshes/visual/LF_forearm_link.stl"/>
+    <mesh name="LF_palm_link" file="urdf/jumper/meshes/visual/LF_palm_link.stl"/>
+    <mesh name="LF_palm_pad_f_link" file="urdf/jumper/meshes/visual/LF_palm_pad_f_link.stl"/>
+    <mesh name="LF_palm_pad_b_link" file="urdf/jumper/meshes/visual/LF_palm_pad_b_link.stl"/>
+    <mesh name="LF_finger_link" file="urdf/jumper/meshes/visual/LF_finger_link.stl"/>
+    <mesh name="LF_finger_tip_link" file="urdf/jumper/meshes/visual/LF_finger_tip_link.stl"/>
+    <mesh name="LF_finger_grip_insert_link" file="urdf/jumper/meshes/visual/LF_finger_grip_insert_link.stl"/>
+    <mesh name="LF_palm_grip_insert_link" file="urdf/jumper/meshes/visual/LF_palm_grip_insert_link.stl"/>
+    <mesh name="RF_shoulder_link" file="urdf/jumper/meshes/visual/RF_shoulder_link.stl"/>
+    <mesh name="RF_upper_arm_link" file="urdf/jumper/meshes/visual/RF_upper_arm_link.stl"/>
+    <mesh name="RF_forearm_link" file="urdf/jumper/meshes/visual/RF_forearm_link.stl"/>
+    <mesh name="RF_palm_link" file="urdf/jumper/meshes/visual/RF_palm_link.stl"/>
+    <mesh name="RF_palm_pad_f_link" file="urdf/jumper/meshes/visual/RF_palm_pad_f_link.stl"/>
+    <mesh name="RF_palm_pad_b_link" file="urdf/jumper/meshes/visual/RF_palm_pad_b_link.stl"/>
+    <mesh name="RF_palm_grip_insert_link" file="urdf/jumper/meshes/visual/RF_palm_grip_insert_link.stl"/>
+    <mesh name="RF_finger_link" file="urdf/jumper/meshes/visual/RF_finger_link.stl"/>
+    <mesh name="RF_finger_grip_insert_link" file="urdf/jumper/meshes/visual/RF_finger_grip_insert_link.stl"/>
+    <mesh name="RF_finger_tip_link" file="urdf/jumper/meshes/visual/RF_finger_tip_link.stl"/>
+    <mesh name="LM_hip_link" file="urdf/jumper/meshes/visual/LM_hip_link.stl"/>
+    <mesh name="LM_thigh_link" file="urdf/jumper/meshes/visual/LM_thigh_link.stl"/>
+    <mesh name="LM_calf_link" file="urdf/jumper/meshes/visual/LM_calf_link.stl"/>
+    <mesh name="LM_foot_tip_link" file="urdf/jumper/meshes/visual/LM_foot_tip_link.stl"/>
+    <mesh name="RM_hip_link" file="urdf/jumper/meshes/visual/RM_hip_link.stl"/>
+    <mesh name="RM_thigh_link" file="urdf/jumper/meshes/visual/RM_thigh_link.stl"/>
+    <mesh name="RM_calf_link" file="urdf/jumper/meshes/visual/RM_calf_link.stl"/>
+    <mesh name="RM_foot_tip_link" file="urdf/jumper/meshes/visual/RM_foot_tip_link.stl"/>
+    <mesh name="LR_hip_link" file="urdf/jumper/meshes/visual/LR_hip_link.stl"/>
+    <mesh name="LR_thigh_link" file="urdf/jumper/meshes/visual/LR_thigh_link.stl"/>
+    <mesh name="LR_calf_link" file="urdf/jumper/meshes/visual/LR_calf_link.stl"/>
+    <mesh name="LR_foot_tip_link" file="urdf/jumper/meshes/visual/LR_foot_tip_link.stl"/>
+    <mesh name="RR_hip_link" file="urdf/jumper/meshes/visual/RR_hip_link.stl"/>
+    <mesh name="RR_thigh_link" file="urdf/jumper/meshes/visual/RR_thigh_link.stl"/>
+    <mesh name="RR_calf_link" file="urdf/jumper/meshes/visual/RR_calf_link.stl"/>
+    <mesh name="RR_foot_tip_link" file="urdf/jumper/meshes/visual/RR_foot_tip_link.stl"/>
+    <mesh name="base_link_col" file="meshes/base_link_col.STL"/>
+    <mesh name="upper_shell_link_col" file="meshes/upper_shell_link_col.STL"/>
+    <mesh name="display_module_link_col" file="meshes/display_module_link_col.STL"/>
+    <mesh name="tof_sensor_link_col" file="meshes/tof_sensor_link_col.STL"/>
+    <mesh name="camera_link_col" file="meshes/camera_link_col.STL"/>
+    <mesh name="LF_shoulder_link_col" file="meshes/LF_shoulder_link_col.STL"/>
+    <mesh name="LF_upper_arm_link_col" file="meshes/LF_upper_arm_link_col.STL"/>
+    <mesh name="LF_forearm_link_col" file="meshes/LF_forearm_link_col.STL"/>
+    <mesh name="LF_palm_link_col" file="meshes/LF_palm_link_col.STL"/>
+    <mesh name="LF_palm_pad_f_link_col" file="meshes/LF_palm_pad_f_link_col.STL"/>
+    <mesh name="LF_finger_link_col" file="meshes/LF_finger_link_col.STL"/>
+    <mesh name="LF_finger_tip_link_col" file="meshes/LF_finger_tip_link_col.STL"/>
+    <mesh name="LF_finger_grip_insert_link_col" file="meshes/LF_finger_grip_insert_link_col.STL"/>
+    <mesh name="LF_palm_grip_insert_link_col" file="meshes/LF_palm_grip_insert_link_col.STL"/>
+    <mesh name="RF_shoulder_link_col" file="meshes/RF_shoulder_link_col.STL"/>
+    <mesh name="RF_upper_arm_link_col" file="meshes/RF_upper_arm_link_col.STL"/>
+    <mesh name="RF_forearm_link_col" file="meshes/RF_forearm_link_col.STL"/>
+    <mesh name="RF_palm_link_col" file="meshes/RF_palm_link_col.STL"/>
+    <mesh name="RF_palm_pad_f_link_col" file="meshes/RF_palm_pad_f_link_col.STL"/>
+    <mesh name="RF_palm_grip_insert_link_col" file="meshes/RF_palm_grip_insert_link_col.STL"/>
+    <mesh name="RF_finger_link_col" file="meshes/RF_finger_link_col.STL"/>
+    <mesh name="RF_finger_grip_insert_link_col" file="meshes/RF_finger_grip_insert_link_col.STL"/>
+    <mesh name="RF_finger_tip_link_col" file="meshes/RF_finger_tip_link_col.STL"/>
+    <mesh name="LM_hip_link_col" file="meshes/LM_hip_link_col.STL"/>
+    <mesh name="LM_thigh_link_col" file="meshes/LM_thigh_link_col.STL"/>
+    <mesh name="LM_calf_link_col" file="meshes/LM_calf_link_col.STL"/>
+    <mesh name="RM_hip_link_col" file="meshes/RM_hip_link_col.STL"/>
+    <mesh name="RM_thigh_link_col" file="meshes/RM_thigh_link_col.STL"/>
+    <mesh name="RM_calf_link_col" file="meshes/RM_calf_link_col.STL"/>
+    <mesh name="LR_hip_link_col" file="meshes/LR_hip_link_col.STL"/>
+    <mesh name="LR_thigh_link_col" file="meshes/LR_thigh_link_col.STL"/>
+    <mesh name="LR_calf_link_col" file="meshes/LR_calf_link_col.STL"/>
+    <mesh name="RR_hip_link_col" file="meshes/RR_hip_link_col.STL"/>
+    <mesh name="RR_thigh_link_col" file="meshes/RR_thigh_link_col.STL"/>
+    <mesh name="RR_calf_link_col" file="meshes/RR_calf_link_col.STL"/>
+  </asset>
+
+  <worldbody>
+    <body name="base_link" childclass="robot">
+      <inertial pos="-0.00399074 -9.06807e-06 0.0184114" quat="-0.000325926 0.713535 0.000373919 0.700619" mass="0.886006" diaginertia="0.00413005 0.00241859 0.00200253"/>
+      <joint name="floating_base" type="free"/>
+      <geom name="base_link_visual" class="visual" type="mesh" density="0" rgba="0 0 0 1" mesh="base_link"/>
+      <geom name="base_link_meshcol" class="collision" type="mesh" rgba="0 0 0 1" mesh="base_link_col"/>
+      <site name="imu" pos="0 0 0" size="0.006" group="4"/>
+      <body name="upper_shell_link" pos="-0.0073137 0 0.0315">
+        <inertial pos="0.000312223 2.09867e-05 0.0238148" quat="0.0189931 0.70686 0.0196873 0.706824" mass="0.102437" diaginertia="0.000622967 0.000344737 0.000303832"/>
+        <geom name="upper_shell_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="upper_shell_link"/>
+        <geom name="upper_shell_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="upper_shell_link_col"/>
+      </body>
+      <body name="display_module_link" pos="0.0802718 1.01591e-05 0.0495238">
+        <inertial pos="-0.00193883 4.1371e-06 -0.000785399" quat="0.674714 0.674709 -0.211542 0.21161" mass="0.0228873" diaginertia="2.0216e-05 1.78123e-05 2.44316e-06"/>
+        <geom name="display_module_link_visual" class="visual" type="mesh" density="0" rgba="0 0 0 1" mesh="display_module_link"/>
+        <geom name="display_module_link_meshcol" class="collision" type="mesh" rgba="0 0 0 1" mesh="display_module_link_col"/>
+      </body>
+      <body name="tof_sensor_link" pos="0.090678 0 0.0168455">
+        <inertial pos="-0.00120005 -0.00420569 -2.19897e-05" quat="0.499886 0.500376 0.499776 0.499961" mass="0.00148539" diaginertia="1.011e-07 7.94682e-08 3.19891e-08"/>
+        <geom name="tof_sensor_link_visual" class="visual" type="mesh" density="0" rgba="0 0 0 1" mesh="tof_sensor_link"/>
+        <geom name="tof_sensor_link_meshcol" class="collision" type="mesh" rgba="0 0 0 1" mesh="tof_sensor_link_col"/>
+        <camera name="tof" pos="0.004 0 0" quat="0.5 0.5 -0.5 -0.5" resolution="54 42" sensorsize="1.04113 0.767728" focal="1 1"/>
+      </body>
+      <body name="camera_link" pos="0.091678 0.0141809 0.0168476">
+        <inertial pos="-0.00567172 -0.00646057 4.81171e-06" quat="0.501623 0.501533 0.498407 0.498427" mass="0.00201956" diaginertia="6.67378e-07 6.2039e-07 5.16838e-08"/>
+        <geom name="camera_link_visual" class="visual" type="mesh" density="0" rgba="0 0 0 1" mesh="camera_link"/>
+        <geom name="camera_link_meshcol" class="collision" type="mesh" rgba="0 0 0 1" mesh="camera_link_col"/>
+        <camera name="onboard" pos="0.007 0 0" quat="0.5 0.5 -0.5 -0.5" resolution="1920 1440" fovy="95.7"/>
+      </body>
+      <body name="LF_shoulder_link" pos="0.0506761 0.0610009 0.0107">
+        <inertial pos="4.66902e-05 0.000392846 -0.0058668" quat="0.713309 -0.0173564 -0.0131114 0.700512" mass="0.047816" diaginertia="1.37161e-05 1.34775e-05 4.0358e-06"/>
+        <joint name="LF_J0_joint" class="motor" pos="0 0 0" axis="0 0 1" range="-2.75 0.7" actuatorfrcrange="-2 2"/>
+        <geom name="LF_shoulder_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="LF_shoulder_link"/>
+        <geom name="LF_shoulder_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="LF_shoulder_link_col"/>
+        <body name="LF_upper_arm_link" pos="0 0.0064 -0.03116">
+          <inertial pos="-0.000856777 0.0130423 -0.00051674" quat="-0.0229767 0.719268 0.0326251 0.693586" mass="0.0602596" diaginertia="3.07315e-05 2.76404e-05 8.11503e-06"/>
+          <joint name="LF_J1_joint" class="motor" pos="0 0 0" axis="0 1 0" range="-4.75 1.4" actuatorfrcrange="-2 2"/>
+          <geom name="LF_upper_arm_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="LF_upper_arm_link"/>
+          <geom name="LF_upper_arm_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="LF_upper_arm_link_col"/>
+          <body name="LF_forearm_link" pos="0.0009 0.04787 0.00011132">
+            <inertial pos="-0.000656869 0.00954327 0.000506352" quat="0.00258455 0.696006 -0.00212379 0.718028" mass="0.0585194" diaginertia="2.44035e-05 2.29615e-05 6.75132e-06"/>
+            <joint name="LF_J2_joint" class="motor" pos="0 0 0" axis="1 0 0" range="-2.2 1.65" actuatorfrcrange="-2 2"/>
+            <geom name="LF_forearm_link_visual" class="visual" type="mesh" density="0" rgba="0.68 0.7 0.72 1" mesh="LF_forearm_link"/>
+            <geom name="LF_forearm_link_meshcol" class="collision" type="mesh" rgba="0.68 0.7 0.72 1" mesh="LF_forearm_link_col"/>
+            <body name="LF_palm_link" pos="-0.0012 0.05 0">
+              <inertial pos="0.000790839 0.0273722 0.00325025" quat="0.0033395 0.659236 0.00524711 0.75191" mass="0.0941372" diaginertia="0.00014227 0.00013571 2.52586e-05"/>
+              <joint name="LF_J3_joint" class="motor" pos="0 0 0" axis="1 0 0" range="-2.1 1.65" actuatorfrcrange="-2 2"/>
+              <geom name="LF_palm_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="LF_palm_link"/>
+              <geom name="LF_palm_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="LF_palm_link_col"/>
+              <body name="LF_palm_pad_f_link" pos="0.00880304 0.141546 -0.000588324">
+                <inertial pos="0.00757886 -0.0305592 0.0111586" quat="0.406636 0.5189 0.600574 0.452439" mass="0.00192627" diaginertia="4.4243e-07 4.33622e-07 1.77643e-08"/>
+                <geom name="LF_palm_pad_f_link_visual" class="visual" type="mesh" density="0" rgba="0.816 0.82 0.804 1" mesh="LF_palm_pad_f_link"/>
+                <geom name="LF_palm_pad_f_link_meshcol" class="collision" type="mesh" rgba="0.816 0.82 0.804 1" mesh="LF_palm_pad_f_link_col"/>
+              </body>
+              <body name="LF_palm_pad_b_link" pos="-0.00740201 0.141546 -0.00058817">
+                <inertial pos="-0.00758235 -0.030584 0.0111664" quat="0.452833 0.599914 0.51939 0.406547" mass="0.00192395" diaginertia="4.43431e-07 4.34621e-07 1.77951e-08"/>
+                <geom name="LF_palm_pad_b_link_visual" class="visual" type="mesh" density="0" rgba="0.816 0.82 0.804 1" mesh="LF_palm_pad_b_link"/>
+                <geom name="LF_palm_pad_b_link_meshcol" class="collision" type="mesh" rgba="0.816 0.82 0.804 1" mesh="LF_palm_pad_b_link"/>
+                <site name="LF" pos="-0.00647599 -0.0281137 0.0102591" group="4"/>
+              </body>
+              <body name="LF_finger_link" pos="0.0021 0.037275 -0.011472">
+                <inertial pos="-0.00104532 0.0113224 -0.0027866" quat="8.60503e-05 0.763399 0.00385032 0.645915" mass="0.0588541" diaginertia="4.16827e-05 3.91086e-05 7.31905e-06"/>
+                <joint name="LF_J4_joint" class="motor" pos="0 0 0" axis="1 0 0" range="-1.6 0.1" actuatorfrcrange="-2 2"/>
+                <geom name="LF_finger_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="LF_finger_link"/>
+                <geom name="LF_finger_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="LF_finger_link_col"/>
+                <body name="LF_finger_tip_link" pos="-0.0022 0.106219 -0.00327707">
+                  <inertial pos="0.000951722 -0.00918768 -0.00400129" quat="0.347778 0.348024 -0.615448 0.615754" mass="0.00203299" diaginertia="1.09501e-07 6.85971e-08 5.52002e-08"/>
+                  <geom name="LF_finger_tip_link_visual" class="visual" type="mesh" density="0" rgba="0.816 0.82 0.804 1" mesh="LF_finger_tip_link"/>
+                  <geom name="LF_finger_tip_link_meshcol" class="collision" type="mesh" rgba="0.816 0.82 0.804 1" mesh="LF_finger_tip_link_col"/>
+                </body>
+                <body name="LF_finger_grip_insert_link" pos="-0.00175893 0.0667493 -0.00277963">
+                  <inertial pos="-2.78592e-05 -0.00454102 -0.000899847" quat="0.00173625 0.666815 -0.00175866 0.745219" mass="0.0116013" diaginertia="5.7719e-06 5.33112e-06 5.812e-07"/>
+                  <geom name="LF_finger_grip_insert_link_visual" class="visual" type="mesh" density="0" rgba="0.816 0.82 0.804 1" mesh="LF_finger_grip_insert_link"/>
+                  <geom name="LF_finger_grip_insert_link_meshcol" class="collision" type="mesh" rgba="0.816 0.82 0.804 1" mesh="LF_finger_grip_insert_link_col"/>
+                </body>
+              </body>
+              <body name="LF_palm_grip_insert_link" pos="0.00040632 0.10443 0.0026781">
+                <inertial pos="2.67493e-05 -0.0041126 0.00119505" quat="-0.000252506 0.766524 -0.00036821 0.642216" mass="0.0114241" diaginertia="5.95648e-06 5.54058e-06 5.90072e-07"/>
+                <geom name="LF_palm_grip_insert_link_visual" class="visual" type="mesh" density="0" rgba="0.816 0.82 0.804 1" mesh="LF_palm_grip_insert_link"/>
+                <geom name="LF_palm_grip_insert_link_meshcol" class="collision" type="mesh" rgba="0.816 0.82 0.804 1" mesh="LF_palm_grip_insert_link_col"/>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="RF_shoulder_link" pos="0.050676 -0.060999 0.0107">
+        <inertial pos="-4.66903e-05 -0.000392846 -0.0058668" quat="0.713309 0.0173564 0.0131114 0.700512" mass="0.047816" diaginertia="1.37161e-05 1.34775e-05 4.0358e-06"/>
+        <joint name="RF_J0_joint" class="motor" pos="0 0 0" axis="0 0 1" range="-0.7 2.75" actuatorfrcrange="-2 2"/>
+        <geom name="RF_shoulder_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="RF_shoulder_link"/>
+        <geom name="RF_shoulder_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="RF_shoulder_link_col"/>
+        <body name="RF_upper_arm_link" pos="0 -0.0064 -0.03116">
+          <inertial pos="0.000758384 -0.0130423 -0.000516742" quat="-0.0329564 0.693597 0.0226509 0.719253" mass="0.0604939" diaginertia="3.07875e-05 2.76511e-05 8.16111e-06"/>
+          <joint name="RF_J1_joint" class="motor" pos="0 0 0" axis="0 1 0" range="-4.75 1.4" actuatorfrcrange="-2 2"/>
+          <geom name="RF_upper_arm_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="RF_upper_arm_link"/>
+          <geom name="RF_upper_arm_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="RF_upper_arm_link_col"/>
+          <body name="RF_forearm_link" pos="-0.0009 -0.04787 0.000111324">
+            <inertial pos="0.000656869 -0.00954327 0.000506352" quat="0.00212379 0.718028 -0.00258455 0.696006" mass="0.0585194" diaginertia="2.44035e-05 2.29615e-05 6.75132e-06"/>
+            <joint name="RF_J2_joint" class="motor" pos="0 0 0" axis="1 0 0" range="-1.65 2.2" actuatorfrcrange="-2 2"/>
+            <geom name="RF_forearm_link_visual" class="visual" type="mesh" density="0" rgba="0.68 0.7 0.72 1" mesh="RF_forearm_link"/>
+            <geom name="RF_forearm_link_meshcol" class="collision" type="mesh" rgba="0.68 0.7 0.72 1" mesh="RF_forearm_link_col"/>
+            <body name="RF_palm_link" pos="0.0012 -0.05 0">
+              <inertial pos="-0.000790841 -0.0273721 0.00325025" quat="-0.00524711 0.75191 -0.0033395 0.659236" mass="0.0941372" diaginertia="0.00014227 0.00013571 2.52586e-05"/>
+              <joint name="RF_J3_joint" class="motor" pos="0 0 0" axis="1 0 0" range="-1.65 2.1" actuatorfrcrange="-2 2"/>
+              <geom name="RF_palm_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="RF_palm_link"/>
+              <geom name="RF_palm_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="RF_palm_link_col"/>
+              <body name="RF_palm_pad_f_link" pos="0.00740201 -0.141546 -0.00058817">
+                <inertial pos="0.00758235 0.030584 0.0111664" quat="0.599914 0.452833 0.406547 0.51939" mass="0.00192395" diaginertia="4.43431e-07 4.34621e-07 1.77951e-08"/>
+                <geom name="RF_palm_pad_f_link_visual" class="visual" type="mesh" density="0" rgba="0.816 0.82 0.804 1" mesh="RF_palm_pad_f_link"/>
+                <geom name="RF_palm_pad_f_link_meshcol" class="collision" type="mesh" rgba="0.816 0.82 0.804 1" mesh="RF_palm_pad_f_link_col"/>
+              </body>
+              <body name="RF_palm_pad_b_link" pos="-0.00880304 -0.141546 -0.000588324">
+                <inertial pos="-0.00757886 0.0305592 0.0111586" quat="0.5189 0.406636 0.452439 0.600574" mass="0.00192627" diaginertia="4.4243e-07 4.33622e-07 1.77643e-08"/>
+                <geom name="RF_palm_pad_b_link_visual" class="visual" type="mesh" density="0" rgba="0.816 0.82 0.804 1" mesh="RF_palm_pad_b_link"/>
+                <geom name="RF_palm_pad_b_link_meshcol" class="collision" type="mesh" rgba="0.816 0.82 0.804 1" mesh="RF_palm_pad_b_link"/>
+                <site name="RF" pos="-0.00647574 0.0281134 0.0102581" group="4"/>
+              </body>
+              <body name="RF_palm_grip_insert_link" pos="-0.000406317 -0.104427 0.0026781">
+                <inertial pos="-2.67497e-05 0.00411267 0.00119507" quat="0.00036821 0.642216 0.000252506 0.766524" mass="0.0114241" diaginertia="5.95648e-06 5.54058e-06 5.90072e-07"/>
+                <geom name="RF_palm_grip_insert_link_visual" class="visual" type="mesh" density="0" rgba="0.816 0.82 0.804 1" mesh="RF_palm_grip_insert_link"/>
+                <geom name="RF_palm_grip_insert_link_meshcol" class="collision" type="mesh" rgba="0.816 0.82 0.804 1" mesh="RF_palm_grip_insert_link_col"/>
+              </body>
+              <body name="RF_finger_link" pos="-0.0021 -0.0372747 -0.0114718">
+                <inertial pos="0.00104532 -0.0113224 -0.0027866" quat="-0.00385032 0.645915 -8.60503e-05 0.763399" mass="0.0588541" diaginertia="4.16827e-05 3.91086e-05 7.31905e-06"/>
+                <joint name="RF_J4_joint" class="motor" pos="0 0 0" axis="1 0 0" range="-0.1 1.6" actuatorfrcrange="-2 2"/>
+                <geom name="RF_finger_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="RF_finger_link"/>
+                <geom name="RF_finger_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="RF_finger_link_col"/>
+                <body name="RF_finger_grip_insert_link" pos="0.00175893 -0.0667493 -0.00277963">
+                  <inertial pos="2.78592e-05 0.00454102 -0.000899847" quat="0.00175866 0.745219 -0.00173625 0.666815" mass="0.0116013" diaginertia="5.7719e-06 5.33112e-06 5.812e-07"/>
+                  <geom name="RF_finger_grip_insert_link_visual" class="visual" type="mesh" density="0" rgba="0.816 0.82 0.804 1" mesh="RF_finger_grip_insert_link"/>
+                  <geom name="RF_finger_grip_insert_link_meshcol" class="collision" type="mesh" rgba="0.816 0.82 0.804 1" mesh="RF_finger_grip_insert_link_col"/>
+                </body>
+                <body name="RF_finger_tip_link" pos="0.0014 -0.106219 -0.00327701">
+                  <inertial pos="-0.000151722 0.00918768 -0.00400135" quat="0.615448 0.615754 -0.347778 0.348024" mass="0.00203299" diaginertia="1.09501e-07 6.85971e-08 5.52002e-08"/>
+                  <geom name="RF_finger_tip_link_visual" class="visual" type="mesh" density="0" rgba="0.816 0.82 0.804 1" mesh="RF_finger_tip_link"/>
+                  <geom name="RF_finger_tip_link_meshcol" class="collision" type="mesh" rgba="0.816 0.82 0.804 1" mesh="RF_finger_tip_link_col"/>
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="LM_hip_link" pos="-0.0073239 0.066501 0.00745">
+        <inertial pos="0.000150772 0.0123573 -0.0100179" quat="0.338767 0.617298 0.631115 0.325383" mass="0.0651491" diaginertia="3.97203e-05 3.91587e-05 1.31776e-05"/>
+        <joint name="LM_J0_joint" class="motor" pos="0 0 0" axis="0 0 1" range="-0.75 1" actuatorfrcrange="-2 2"/>
+        <geom name="LM_hip_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="LM_hip_link"/>
+        <geom name="LM_hip_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="LM_hip_link_col"/>
+        <body name="LM_thigh_link" pos="0.0011001 0.05613 -0.02493">
+          <inertial pos="-0.000656851 0.00954327 0.000506352" quat="0.00258521 0.696006 -0.00212443 0.718028" mass="0.0585194" diaginertia="2.44035e-05 2.29615e-05 6.75132e-06"/>
+          <joint name="LM_J1_joint" class="motor" pos="0 0 0" axis="1 0 0" range="-2.4 1.5" actuatorfrcrange="-2 2"/>
+          <geom name="LM_thigh_link_visual" class="visual" type="mesh" density="0" rgba="0.68 0.7 0.72 1" mesh="LM_thigh_link"/>
+          <geom name="LM_thigh_link_meshcol" class="collision" type="mesh" rgba="0.68 0.7 0.72 1" mesh="LM_thigh_link_col"/>
+          <body name="LM_calf_link" pos="-0.00119991 0.05 0">
+            <inertial pos="0.00039746 0.023317 0.00254939" quat="-0.00416545 0.684264 0.0012723 0.729222" mass="0.0776801" diaginertia="9.57753e-05 8.841e-05 1.38422e-05"/>
+            <joint name="LM_J2_joint" class="motor" pos="0 0 0" axis="1 0 0" range="-2.4 1.8" actuatorfrcrange="-2 2"/>
+            <geom name="LM_calf_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="LM_calf_link"/>
+            <geom name="LM_calf_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="LM_calf_link_col"/>
+            <body name="LM_foot_tip_link" pos="0.000789315 0.120917 0.00624036">
+              <inertial pos="9.55492e-07 -0.0124584 -0.00405412" quat="0.337543 0.337542 -0.621297 0.621386" mass="0.00637705" diaginertia="6.01734e-07 5.293e-07 3.01174e-07"/>
+              <geom name="LM_foot_tip_link_visual" class="visual" type="mesh" density="0" rgba="0.816 0.82 0.804 1" mesh="LM_foot_tip_link"/>
+              <geom name="LM_foot_tip_link_meshcol" class="collision" type="mesh" rgba="0.816 0.82 0.804 1" mesh="LM_foot_tip_link"/>
+              <site name="LM" pos="-2.74046e-06 -0.0104901 -0.00482261" group="4"/>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="RM_hip_link" pos="-0.0073239 -0.066499 0.00745">
+        <inertial pos="-0.000150731 -0.0123573 -0.0100179" quat="0.617298 0.338767 0.325383 0.631115" mass="0.0651491" diaginertia="3.97203e-05 3.91587e-05 1.31776e-05"/>
+        <joint name="RM_J0_joint" class="motor" pos="0 0 0" axis="0 0 1" range="-1 0.75" actuatorfrcrange="-2 2"/>
+        <geom name="RM_hip_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="RM_hip_link"/>
+        <geom name="RM_hip_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="RM_hip_link_col"/>
+        <body name="RM_thigh_link" pos="-0.0011 -0.05613 -0.02493">
+          <inertial pos="0.000656869 -0.00954327 0.000506352" quat="0.00212379 0.718028 -0.00258455 0.696006" mass="0.0585194" diaginertia="2.44035e-05 2.29615e-05 6.75132e-06"/>
+          <joint name="RM_J1_joint" class="motor" pos="0 0 0" axis="1 0 0" range="-1.5 2.4" actuatorfrcrange="-2 2"/>
+          <geom name="RM_thigh_link_visual" class="visual" type="mesh" density="0" rgba="0.68 0.7 0.72 1" mesh="RM_thigh_link"/>
+          <geom name="RM_thigh_link_meshcol" class="collision" type="mesh" rgba="0.68 0.7 0.72 1" mesh="RM_thigh_link_col"/>
+          <body name="RM_calf_link" pos="0.0012 -0.05 0">
+            <inertial pos="-0.000397416 -0.023317 0.00254939" quat="-0.00127293 0.729222 0.00416612 0.684264" mass="0.0776801" diaginertia="9.57753e-05 8.841e-05 1.38422e-05"/>
+            <joint name="RM_J2_joint" class="motor" pos="0 0 0" axis="1 0 0" range="-1.8 2.4" actuatorfrcrange="-2 2"/>
+            <geom name="RM_calf_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="RM_calf_link"/>
+            <geom name="RM_calf_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="RM_calf_link_col"/>
+            <body name="RM_foot_tip_link" pos="-0.000789094 -0.120917 0.00624036">
+              <inertial pos="-9.78347e-07 0.0124584 -0.00405412" quat="0.621297 0.621386 -0.337542 0.337543" mass="0.00637705" diaginertia="6.01734e-07 5.293e-07 3.01174e-07"/>
+              <geom name="RM_foot_tip_link_visual" class="visual" type="mesh" density="0" rgba="0.816 0.82 0.804 1" mesh="RM_foot_tip_link"/>
+              <geom name="RM_foot_tip_link_meshcol" class="collision" type="mesh" rgba="0.816 0.82 0.804 1" mesh="RM_foot_tip_link"/>
+              <site name="RM" pos="2.7099e-06 0.0104901 -0.00482261" group="4"/>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="LR_hip_link" pos="-0.065324 0.055501 0.00745">
+        <inertial pos="0.000150754 0.0123573 -0.0100179" quat="0.338767 0.617298 0.631115 0.325383" mass="0.0651491" diaginertia="3.97203e-05 3.91587e-05 1.31776e-05"/>
+        <joint name="LR_J0_joint" class="motor" pos="0 0 0" axis="0 0 1" range="-0.6 2.75" actuatorfrcrange="-2 2"/>
+        <geom name="LR_hip_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="LR_hip_link"/>
+        <geom name="LR_hip_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="LR_hip_link_col"/>
+        <body name="LR_thigh_link" pos="0.0011001 0.05613 -0.02493">
+          <inertial pos="-0.000656851 0.00954327 0.000506352" quat="0.00258521 0.696006 -0.00212443 0.718028" mass="0.0585194" diaginertia="2.44035e-05 2.29615e-05 6.75132e-06"/>
+          <joint name="LR_J1_joint" class="motor" pos="0 0 0" axis="1 0 0" range="-2.4 1.6" actuatorfrcrange="-2 2"/>
+          <geom name="LR_thigh_link_visual" class="visual" type="mesh" density="0" rgba="0.68 0.7 0.72 1" mesh="LR_thigh_link"/>
+          <geom name="LR_thigh_link_meshcol" class="collision" type="mesh" rgba="0.68 0.7 0.72 1" mesh="LR_thigh_link_col"/>
+          <body name="LR_calf_link" pos="-0.00119991 0.05 0">
+            <inertial pos="0.00039746 0.023317 0.00254939" quat="-0.00416545 0.684264 0.0012723 0.729222" mass="0.0776801" diaginertia="9.57753e-05 8.841e-05 1.38422e-05"/>
+            <joint name="LR_J2_joint" class="motor" pos="0 0 0" axis="1 0 0" range="-2.4 1.8" actuatorfrcrange="-2 2"/>
+            <geom name="LR_calf_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="LR_calf_link"/>
+            <geom name="LR_calf_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="LR_calf_link_col"/>
+            <body name="LR_foot_tip_link" pos="0.000789315 0.120917 0.00624036">
+              <inertial pos="9.54663e-07 -0.0124584 -0.00405412" quat="0.337543 0.337542 -0.621297 0.621386" mass="0.00637705" diaginertia="6.01734e-07 5.293e-07 3.01174e-07"/>
+              <geom name="LR_foot_tip_link_visual" class="visual" type="mesh" density="0" rgba="0.816 0.82 0.804 1" mesh="LR_foot_tip_link"/>
+              <geom name="LR_foot_tip_link_meshcol" class="collision" type="mesh" rgba="0.816 0.82 0.804 1" mesh="LR_foot_tip_link"/>
+              <site name="LR" pos="-2.74046e-06 -0.0104901 -0.00482261" group="4"/>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="RR_hip_link" pos="-0.0653239 -0.0554991 0.00745">
+        <inertial pos="-0.000150729 -0.0123573 -0.0100179" quat="0.617298 0.338767 0.325383 0.631115" mass="0.0651491" diaginertia="3.97203e-05 3.91587e-05 1.31776e-05"/>
+        <joint name="RR_J0_joint" class="motor" pos="0 0 0" axis="0 0 1" range="-2.75 0.6" actuatorfrcrange="-2 2"/>
+        <geom name="RR_hip_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="RR_hip_link"/>
+        <geom name="RR_hip_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="RR_hip_link_col"/>
+        <body name="RR_thigh_link" pos="-0.0011 -0.05613 -0.02493">
+          <inertial pos="0.000656869 -0.00954327 0.000506352" quat="0.00212379 0.718028 -0.00258455 0.696006" mass="0.0585194" diaginertia="2.44035e-05 2.29615e-05 6.75132e-06"/>
+          <joint name="RR_J1_joint" class="motor" pos="0 0 0" axis="1 0 0" range="-1.6 2.4" actuatorfrcrange="-2 2"/>
+          <geom name="RR_thigh_link_visual" class="visual" type="mesh" density="0" rgba="0.68 0.7 0.72 1" mesh="RR_thigh_link"/>
+          <geom name="RR_thigh_link_meshcol" class="collision" type="mesh" rgba="0.68 0.7 0.72 1" mesh="RR_thigh_link_col"/>
+          <body name="RR_calf_link" pos="0.0012 -0.05 0">
+            <inertial pos="-0.000397417 -0.023317 0.00254939" quat="-0.00127293 0.729222 0.00416612 0.684264" mass="0.0776801" diaginertia="9.57753e-05 8.841e-05 1.38422e-05"/>
+            <joint name="RR_J2_joint" class="motor" pos="0 0 0" axis="1 0 0" range="-1.8 2.4" actuatorfrcrange="-2 2"/>
+            <geom name="RR_calf_link_visual" class="visual" type="mesh" density="0" rgba="0.85 0.08 0.05 1" mesh="RR_calf_link"/>
+            <geom name="RR_calf_link_meshcol" class="collision" type="mesh" rgba="0.85 0.08 0.05 1" mesh="RR_calf_link_col"/>
+            <body name="RR_foot_tip_link" pos="-0.000789094 -0.120917 0.00624036">
+              <inertial pos="-9.78347e-07 0.0124584 -0.00405412" quat="0.621297 0.621386 -0.337542 0.337543" mass="0.00637705" diaginertia="6.01734e-07 5.293e-07 3.01174e-07"/>
+              <geom name="RR_foot_tip_link_visual" class="visual" type="mesh" density="0" rgba="0.816 0.82 0.804 1" mesh="RR_foot_tip_link"/>
+              <geom name="RR_foot_tip_link_meshcol" class="collision" type="mesh" rgba="0.816 0.82 0.804 1" mesh="RR_foot_tip_link"/>
+              <site name="RR" pos="2.7099e-06 0.0104901 -0.00482261" group="4"/>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+
+  <sensor>
+    <gyro site="imu" name="imu_ang_vel"/>
+    <velocimeter site="imu" name="imu_lin_vel"/>
+    <accelerometer site="imu" name="imu_lin_acc"/>
+    <framezaxis objtype="body" objname="world" reftype="site" refname="imu" name="imu_upvector"/>
+    <subtreeangmom body="base_link" name="root_angmom"/>
+  </sensor>
+</mujoco>

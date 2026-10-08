@@ -1,0 +1,92 @@
+[
+  {
+    "part": "LF_shoulder_link__C002",
+    "faces": 6594,
+    "bbox_error_mm": 9.228514841197466e-09,
+    "volume_relative_error": 2.070604665505016e-08,
+    "slicer_mesh_repair_statistics": [
+      {
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ]
+  },
+  {
+    "part": "LF_shoulder_link__C001",
+    "faces": 7508,
+    "bbox_error_mm": 6.367187666000973e-08,
+    "volume_relative_error": 4.1039416309729404e-10,
+    "slicer_mesh_repair_statistics": [
+      {
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ]
+  },
+  {
+    "part": "LM_calf_link__C001",
+    "faces": 7814,
+    "bbox_error_mm": 9.199219164202077e-08,
+    "volume_relative_error": 5.823506121771516e-10,
+    "slicer_mesh_repair_statistics": [
+      {
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ]
+  },
+  {
+    "part": "LM_calf_link__C002",
+    "faces": 5548,
+    "bbox_error_mm": 6.464844659603841e-08,
+    "volume_relative_error": 1.1493204166157511e-09,
+    "slicer_mesh_repair_statistics": [
+      {
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ]
+  },
+  {
+    "part": "LM_foot_tip_link__C001",
+    "faces": 1934,
+    "bbox_error_mm": 3.803710768579549e-08,
+    "volume_relative_error": 3.0540558970670872e-09,
+    "slicer_mesh_repair_statistics": [
+      {
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ]
+  },
+  {
+    "part": "upper_shell_link__C001",
+    "faces": 18144,
+    "bbox_error_mm": 9.980468007597665e-08,
+    "volume_relative_error": 1.2099713675439716e-08,
+    "slicer_mesh_repair_statistics": [
+      {
+        "edges_fixed": "0",
+        "degenerate_facets": "0",
+        "facets_removed": "0",
+        "facets_reversed": "0",
+        "backwards_edges": "0"
+      }
+    ]
+  }
+]

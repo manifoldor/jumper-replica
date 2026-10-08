@@ -1,0 +1,8 @@
+{
+  "extraction_from_bundled_snapshot_passed": true,
+  "original_checkout_access_not_required": true,
+  "source_commit": "61d065219fca767f3142c8f10aff59eae5a5a004",
+  "matched_components": 1364,
+  "matched_triangle_count": 430915,
+  "all_component_binary_hashes_matched": true
+}

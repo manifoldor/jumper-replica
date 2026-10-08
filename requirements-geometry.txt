@@ -1,0 +1,7 @@
+numpy==2.5.3
+scipy==1.18.1
+trimesh==5.1.1
+matplotlib==3.11.2
+pillow==12.3.0
+numba==0.68.0
+cadquery-ocp==8.0.1.1.0

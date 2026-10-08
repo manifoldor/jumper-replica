@@ -1,0 +1,192 @@
+{
+  "method": "Absolute E tracking, G92 handling and retract debt; travel excluded. Includes brim in model volume.",
+  "results": [
+    {
+      "part": "LF_shoulder_link__C001",
+      "extruding_path_bounds_mm": [
+        [
+          98.329,
+          89.839,
+          0.2
+        ],
+        [
+          120.172,
+          132.992,
+          35.4
+        ]
+      ],
+      "feature_move_counts": {
+        "Skirt/Brim": 931,
+        "Support material": 11848,
+        "Perimeter": 16192,
+        "External perimeter": 13818,
+        "Solid infill": 1626,
+        "Support material interface": 7896,
+        "Overhang perimeter": 307,
+        "Bridge infill": 83,
+        "Top solid infill": 204
+      },
+      "deposited_volume_mm3": {
+        "model_and_brim": 2984.383913724087,
+        "support": 2640.81696235282
+      },
+      "project_crc_and_embedded_config_valid": true
+    },
+    {
+      "part": "LF_shoulder_link__C002",
+      "extruding_path_bounds_mm": [
+        [
+          96.508,
+          89.803,
+          0.2
+        ],
+        [
+          124.508,
+          132.562,
+          35.6
+        ]
+      ],
+      "feature_move_counts": {
+        "Skirt/Brim": 729,
+        "Support material": 12873,
+        "Perimeter": 18637,
+        "External perimeter": 13580,
+        "Solid infill": 3102,
+        "Support material interface": 12409,
+        "Top solid infill": 692,
+        "Overhang perimeter": 467,
+        "Bridge infill": 268
+      },
+      "deposited_volume_mm3": {
+        "model_and_brim": 3678.328708836292,
+        "support": 3758.5893811485525
+      },
+      "project_crc_and_embedded_config_valid": true
+    },
+    {
+      "part": "LM_calf_link__C001",
+      "extruding_path_bounds_mm": [
+        [
+          82.739,
+          47.771,
+          0.2
+        ],
+        [
+          137.128,
+          172.256,
+          24.0
+        ]
+      ],
+      "feature_move_counts": {
+        "Skirt/Brim": 551,
+        "Support material": 39261,
+        "Perimeter": 45362,
+        "External perimeter": 35419,
+        "Support material interface": 39983,
+        "Overhang perimeter": 3931,
+        "Solid infill": 18880,
+        "Bridge infill": 3063,
+        "Top solid infill": 3316
+      },
+      "deposited_volume_mm3": {
+        "model_and_brim": 12002.624410459019,
+        "support": 13162.58434286687
+      },
+      "project_crc_and_embedded_config_valid": true
+    },
+    {
+      "part": "LM_calf_link__C002",
+      "extruding_path_bounds_mm": [
+        [
+          96.166,
+          41.07,
+          0.2
+        ],
+        [
+          122.176,
+          174.068,
+          47.8
+        ]
+      ],
+      "feature_move_counts": {
+        "Skirt/Brim": 374,
+        "Support material interface": 42380,
+        "Support material": 50848,
+        "Perimeter": 40236,
+        "External perimeter": 24362,
+        "Overhang perimeter": 2122,
+        "Bridge infill": 1430,
+        "Solid infill": 12963,
+        "Top solid infill": 3576
+      },
+      "deposited_volume_mm3": {
+        "model_and_brim": 13476.717787770356,
+        "support": 13979.29693775906
+      },
+      "project_crc_and_embedded_config_valid": true
+    },
+    {
+      "part": "LM_foot_tip_link__C001",
+      "extruding_path_bounds_mm": [
+        [
+          97.234,
+          89.527,
+          0.2
+        ],
+        [
+          122.194,
+          130.475,
+          21.0
+        ]
+      ],
+      "feature_move_counts": {
+        "Skirt/Brim": 625,
+        "Support material": 421,
+        "Perimeter": 21520,
+        "External perimeter": 9125,
+        "Solid infill": 8834,
+        "Support material interface": 505,
+        "Overhang perimeter": 115,
+        "Bridge infill": 318,
+        "Internal infill": 11826
+      },
+      "deposited_volume_mm3": {
+        "model_and_brim": 4629.00665275122,
+        "support": 56.82057506315373
+      },
+      "project_crc_and_embedded_config_valid": true
+    },
+    {
+      "part": "upper_shell_link__C001",
+      "extruding_path_bounds_mm": [
+        [
+          6.849,
+          18.967,
+          0.2
+        ],
+        [
+          214.174,
+          201.024,
+          55.0
+        ]
+      ],
+      "feature_move_counts": {
+        "Skirt/Brim": 394,
+        "Support material interface": 108929,
+        "Support material": 98792,
+        "Perimeter": 214517,
+        "External perimeter": 140374,
+        "Solid infill": 144104,
+        "Overhang perimeter": 8736,
+        "Bridge infill": 19236,
+        "Internal infill": 2724,
+        "Top solid infill": 40912
+      },
+      "deposited_volume_mm3": {
+        "model_and_brim": 102395.91443856571,
+        "support": 51617.74964588089
+      },
+      "project_crc_and_embedded_config_valid": true
+    }
+  ]
+}
